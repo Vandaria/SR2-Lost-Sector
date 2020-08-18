@@ -108,6 +108,7 @@ void init() {
 			}
 
 //AI dif cheats		
+//Normal
 			if(settings.difficulty == 1) {
 				const Trait@ trait;
 				uint checked = 0;
@@ -130,7 +131,32 @@ void init() {
 					error("Error: could not find NormalAIBuff trait to add to AI "+emp.name);
 				}
 
-				emp.cheatLevel += 1;
+				
+			}		
+//Hard
+			if(settings.difficulty == 2) {
+				const Trait@ trait;
+				uint checked = 0;
+				for(uint j = 0, jcnt = getTraitCount(); j < jcnt; ++j) {
+					auto@ chk = getTrait(j);
+					if(chk.category is null || chk.category.ident != "HardAIBuff")
+						continue;
+					if(chk.hasConflicts(settings.traits))
+						continue;
+
+					checked += 1;
+					if(randomd() < 1.0 / double(checked))
+						@trait = chk;
+				}
+
+				if(trait !is null) {
+					emp.addTrait(trait.id);
+				}
+				else {
+					error("Error: could not find HardAIBuff trait to add to AI "+emp.name);
+				}
+
+				
 			}	
 //empire  cheat passive
 			
