@@ -16,7 +16,7 @@ Subsystem: FlagshipHull
 
 	Hex.LaborCost := 0.1 * ShipSize
 	Hex.BuildCost := 1.1 * ShipSize
-	Hex.MaintainCost := 4 * ShipSize^0.5
+	Hex.MaintainCost := (((ShipSize)/(ShipSize^0.5))*(3*(ShipSize/750)))
 
 	Hex.Mass := 0
 	AddPostModifier: AddMass(ShipSize * (1.0 - min(max((ShipTotalHexes - Ship.ExternalHexes) / Sum.HexLimit, 0.0), 1.0)))

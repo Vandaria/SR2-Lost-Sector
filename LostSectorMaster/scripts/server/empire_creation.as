@@ -106,12 +106,34 @@ void init() {
 
 				emp.cheatLevel += settings.cheatAbundance;
 			}
+
+//AI dif cheats		
+			if(settings.difficulty == 1) {
+				const Trait@ trait;
+				uint checked = 0;
+				for(uint j = 0, jcnt = getTraitCount(); j < jcnt; ++j) {
+					auto@ chk = getTrait(j);
+					if(chk.category is null || chk.category.ident != "NormalAIBuff")
+						continue;
+					if(chk.hasConflicts(settings.traits))
+						continue;
+
+					checked += 1;
+					if(randomd() < 1.0 / double(checked))
+						@trait = chk;
+				}
+
+				if(trait !is null) {
+					emp.addTrait(trait.id);
+				}
+				else {
+					error("Error: could not find NormalAIBuff trait to add to AI "+emp.name);
+				}
+
+				emp.cheatLevel += 1;
+			}	
 //empire  cheat passive
-			if(settings.cheatlabourgenericbuff >= 0) {
-				double factor = 3.0 + (settings.cheatlabourgenericbuff);
-				emp.LaborGenerationFactor *= factor;
-				emp.modTotalBudget(100 * factor);
-		   }
+			
 			if(settings.cheatStrength > 0) {
 				double factor = 1.0 + double(settings.cheatStrength) * 0.5;
 				factor = sqrt(factor);

@@ -1,0 +1,9 @@
+LSTRAITS_AI_NORMALBUFF: Normal AI Buff
+LSTRAITS_AI_NORMALBUFF_DESC: <<
+	+25% flagship repair Rate
+	-25%labour flagship
+	+25% Pop Growth
+	+2 research income
+	+25% flagship health
+	-25% flagship maint
+>>

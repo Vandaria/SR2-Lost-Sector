@@ -5,7 +5,7 @@ from designs import getDesignMesh;
 from civilians import getCivilianName;
 
 //Base acceleration of a colony ship
-const double COLONYSHIP_BASE_ACCEL = 8.5;//5.5
+const double COLONYSHIP_BASE_ACCEL = 8.5; //55
 
 const double shipVolumePower = 2.5;
 const double stationRadiusFactor = 1.3;

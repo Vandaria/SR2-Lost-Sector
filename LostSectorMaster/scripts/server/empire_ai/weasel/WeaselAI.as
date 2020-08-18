@@ -167,7 +167,7 @@ final class AIBehavior {
 	double focusColonizeHighTierWeight = 1.0;
 
 	//How many potential designs are evaluated before choosing the best one
-	uint designEvaluateCount = 100;
+	uint designEvaluateCount = 10;
 	//How long a fleet has to be fully idle before it returns to its stationed system
 	double fleetIdleReturnStationedTime = 60.0;
 	//How long we try to have a fleet be capable of firing before running out of supplies
@@ -191,7 +191,7 @@ final class AIBehavior {
 	double estSizeSupportLabor = 0.25;
 
 	//Maximum combat fleets we can have in service at once (counts starting fleet(s))
-	uint maxActiveFleets = 999;
+	uint maxActiveFleets = UINT_MAX;
 	//How much flagship size we try to make per available money
 	double shipSizePerMoney = 1.0 / 3.5;
 	//How much flagship size we try to make per available labor
