@@ -14,19 +14,16 @@ Subsystem: TorpedoLauncher
 	Size := HexSize * Hexes
 	Range := (Size/3)  + 5000
 	Damage := Size * 50
-	Reload := 90
+	Reload := 120
 	Speed := max(40, Range / 30)
 	Tracking := 1.5
 	Radius := 13.0 + (log(Size) / log(2) * 10.0)
-	SupplyCost := Size * 2.0
+	SupplyCost := Size * 4.0
 	Hex.Mass := HexSize
 
 	Hex.HP := 18 * HexSize
 	Hex.Resistance := 0.2
-	AddShipModifier: <<
-		
-			AddShipModifier: ThrustFactor(1 - (Hexes/85))
-	>>
+	AddShipModifier: AddShipModifier: ThrustFactor(1 - (Hexes/85))
 
 	Modifier: AoERadiusFactor(Factor)
 		Radius := Radius * Factor

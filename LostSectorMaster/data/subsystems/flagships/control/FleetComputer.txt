@@ -11,7 +11,7 @@ Subsystem: FleetComputer
 
 	Size := HexSize * Hexes
 
-	Repair := 1 + (Size/3)
+	Repair := 1 + (Size/10)
 	RepairSupplyCost := 1.0 + Repair
 	out SupplyDrain := RepairSupplyCost
 

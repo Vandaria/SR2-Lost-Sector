@@ -216,14 +216,14 @@ class Battle {
 				anyArrived = true;
 
 				bool shouldRetreat = false;
-				if(miss.fleet.supplies < 0.05) {
+				if(miss.fleet.supplies < 0.15) {
 					if(isCapturingAny && eliminate is null)
 						shouldRetreat = true;
 					else if(ourStrength < enemyStrength * 0.75)
 						shouldRetreat = true;
 				}
-				if(miss.fleet.fleetHealth < 0.25) {
-					if(ourStrength < enemyStrength * 0.5)
+				if(miss.fleet.fleetHealth < 0.65) {
+					if(ourStrength < enemyStrength * 0.7)
 						shouldRetreat = true;
 				}
 				if(shouldRetreat) {

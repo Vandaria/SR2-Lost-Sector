@@ -13,18 +13,18 @@ Subsystem: FlakBattery
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes
-	Range := Size + 1800
+	Range := Size + 2000
 
-	Damage := Size * 2.0
-	Reload := 0.9
+	Damage := Size * 1.0
+	Reload := 0.05
 
 	Speed := Range
-	Spread := 0
+	Spread := 0.4
 
 	Tracking := 0.6
 
 	Pierce := 0.2
-	SupplyCost := Size * 0.5
+	SupplyCost := Size * 0.1
 
 	PowerUse := 3 * Size
 

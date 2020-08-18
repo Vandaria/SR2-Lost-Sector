@@ -15,7 +15,7 @@ Subsystem: Disruptor
 	BeamDPS := 2.5 * Size
 	Duration := 10
 	Cooldown := 30
-	Range := (Size/3) + 1000
+	Range := (Size/3) + 1200
 	Tracking := 0.5
 	SupplyCost := Size * 0.75
 	FireArc := 0.25 * pi

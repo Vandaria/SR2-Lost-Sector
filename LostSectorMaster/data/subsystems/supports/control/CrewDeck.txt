@@ -16,7 +16,7 @@ Subsystem: CrewDeck
 	Crew := floor(40 * Size)
 	Command := Hexes * 4
 
-	Repair := 1 + (Size/3)
+	Repair := 1 + (Size/4)
 	RepairSupplyCost := 0.5 * Repair
 	out SupplyDrain := RepairSupplyCost
 

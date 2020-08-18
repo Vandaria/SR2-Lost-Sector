@@ -12,7 +12,7 @@ Subsystem: VerdantSinew
 	HexLimit := Sum.HexLimit * -0.2
 	Ship.ExternalHexes := Hexes
 
-	Repair := 10 + HexSize
+	Repair := 5 + HexSize
 
 	Hex.Resistance := 0.2
 	Hex.HP := 40 * HexSize

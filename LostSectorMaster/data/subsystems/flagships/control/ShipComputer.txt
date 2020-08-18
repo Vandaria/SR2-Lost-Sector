@@ -13,7 +13,7 @@ Subsystem: ShipComputer
 
 	Size := HexSize * Hexes
 	Command := Hexes * 8
-	Repair := 1 + (Size/3)
+	Repair := 1 + (Size/10)
 	PowerUse := 40 * Size
 
 	SupplyRate := 30 * HexSize * (Hexes-1)

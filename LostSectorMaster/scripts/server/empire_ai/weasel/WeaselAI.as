@@ -167,7 +167,7 @@ final class AIBehavior {
 	double focusColonizeHighTierWeight = 1.0;
 
 	//How many potential designs are evaluated before choosing the best one
-	uint designEvaluateCount = 10;
+	uint designEvaluateCount = 100;
 	//How long a fleet has to be fully idle before it returns to its stationed system
 	double fleetIdleReturnStationedTime = 60.0;
 	//How long we try to have a fleet be capable of firing before running out of supplies

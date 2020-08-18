@@ -12,7 +12,7 @@ Subsystem: RailgunBattery
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes
-	Range := (Size/3) + 1200
+	Range := (Size/3) + 1500
 	Damage := Size * 0.85
 	Reload := 0.2
 	Speed := max(110, Range / 3)
