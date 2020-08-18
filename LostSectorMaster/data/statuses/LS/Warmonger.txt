@@ -1,0 +1,5 @@
+Status: WarmongerSTS
+	Visible To: Nobody
+	ModLoyalty(5)
+	AddLaborFactor(1)
+	ModResourceEfficiencyBonus(-0.5)

@@ -1,0 +1,58 @@
+LS_ABL_ORB_REP: Repair Drone Array
+LS_ABL_SUB_WMRA: Repair Drones
+LS_ABL_SUB_WMRA_DESC: <<
+	[b] Hotkey - R[/b]
+	Repair the targeted friendly ship. Disables it's weapons however.
+>>
+LS_ABL_SUB_WMOD_DESC: <<
+	[b]Hotkey - O[/b]
+	[b]For 30 seconds[/b]: +200% Fleet effectiveness, +4 Acceleration, +10000 shields or auotmatic 25% Max shield regen
+	[b]For 45 seconds afer that[/b]: All systems non functional
+>>
+LS_ABL_MERC_TL: [b]Recruit - [/b]Tyrant Lance
+LS_ABL_MERC_IF: [b]Recruit - [/b]Idria's Flame
+LS_ABL_MERC_FB: [b]Recruit - [/b]Fallen Branch
+LS_ABL_MERC_WR: [b]Recruit -[/b] Wild Rapid
+LS_ABL_MERC_CO: [b]Recruit - [/b]Converter
+LS_ABL_MERC_FL: [b]Recruit - [/b]Flayer
+LS_ABL_MERC_FL_DESC: <<
+	Hire the Flayer, a good all round ship capable of fighting any threat. Lasts for 240 seconds.
+	[b]Costs[/b]
+	$5Million Budget
+	250FTL
+	1000 Energy.
+>>
+LS_ABL_MERC_WR_DESC: <<
+	Wild Rapid - While ot the best flagship killer it will wreck havoc upon enemy formations and support fleets for 240 seconds.
+	[b]Costs[/b]
+	$5Million Budget
+	250FTL
+	1000 Energy.
+>>
+LS_ABL_MERC_CO_DESC: <<
+	While it does not have any direct combat potential itself. They are masters of psionic warfare, taking over enemy support ship crew minds. Dimminishing the enemy forces rapidly. Lasts for 240 seconds.
+	[b]Costs[/b]
+	$5Million Budget
+	250FTL
+	1000 Energy.
+>>
+LS_ABL_MERC_TL_DESC: <<
+	Recruit a specialised Anti-Flagship ship. Extremely strong against non-shielded ships for 240 seconds.
+	[b]Costs[/b]
+	$5Million Budget
+	250FTL
+	1000 Energy.
+>>
+LS_ABL_MERC_IF_DESC: <<
+	Recruit a titan built around breaking through enemy support fleets. Lasts for 240 seconds
+	[b]Costs[/b]
+	$5Million Budget
+	250FTL
+	1000 Energy.
+>>
+LS_ABL_WM_QS: Quantum Weapon Activate
+LS_ABL_WM_QS_DESC: <<
+	Activates the quantum weapon system  - Good Luck
+	[b]Hotkey - Q[/b]
+>>
+LS_ABL_ORB_REP_DESC: Automatically repair allied ships

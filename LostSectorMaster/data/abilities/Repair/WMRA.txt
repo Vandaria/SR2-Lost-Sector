@@ -1,0 +1,16 @@
+Ability: ABLWMRA
+	Name: #LS_ABL_SUB_WMRA
+	Target: targ = Object
+	Cooldown: 120
+	Range: 1000
+	Hotkey: R
+	Description: #LS_ABL_SUB_WMRA_DESC
+	Icon: techMaterialScience2*#07f41f
+	Repair(Percent = 0.01)
+	ApplyTargetStatusEffect(targ, STSWMRAOTHR)
+	PersistentBeamEffect(targ, #07f41f, Tractor)
+	IsToggleTarget(targ, Range Margin = 1, Channels = False)
+	TargetFilterNotSelf(targ)
+	TargetFilterAllied(targ)
+	TargetFilterFlagship(targ)
+	TargetFilterSameRegion(targ)

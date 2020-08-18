@@ -1,0 +1,8 @@
+Module: MERCPOINT_TL
+	Health: 1000000000
+	Model: Outpost
+	Material: GenericPBR_Outpost
+	Size: 1
+	RequireNever()
+	TriggerPeriodic(Destroy(), Interval = 2, Max Triggers = 1)
+	TriggerPeriodic(SpawnShip(Tyrant's Lance, Design From = Creeps, , Add Status = 240Sec), Interval = 1, Max Triggers = 1)

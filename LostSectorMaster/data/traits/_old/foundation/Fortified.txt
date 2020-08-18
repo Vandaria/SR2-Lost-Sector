@@ -1,0 +1,12 @@
+Trait: Fortified
+	Name: #TRAIT_FORTIFIED
+	Description: #TRAIT_FORTIFIED_DESC
+	Category: Foundation
+
+	Color: #aaffaa
+	Icon: Fortified
+
+	Costs Points: 1
+	Available: False
+
+	OnHomeworld(AddPlanetResource(Pekelm))

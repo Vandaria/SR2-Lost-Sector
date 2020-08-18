@@ -1,0 +1,3 @@
+Status: AS_STS_SD
+	Visible To: Nobody
+	TriggerPeriodic(Destroy(), Interval = 5, Max Triggers = 1)

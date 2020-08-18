@@ -1,0 +1,21 @@
+Resource: Neutronium
+	Name: #NEUTRONIUM
+	Description: #NEUTRONIUM_DESC
+	Native Biome: Mountains
+
+	Icon: ResourceIcons::36
+	Small Icon: ResourceIconsSmall::36
+
+	Level: 2
+	Affinity: Labor
+
+	Pressure: 2 Influence
+	Pressure: 2 Research
+	Pressure: 16 Labor
+	Pressure: 8 Money
+	Pressure: 4 Energy
+	Exportable: False
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

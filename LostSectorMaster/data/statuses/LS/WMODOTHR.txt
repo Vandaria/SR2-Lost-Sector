@@ -1,0 +1,11 @@
+Status: STSWMODSELF2
+	Visible To: Nobody
+	InterdictMovement()
+	DelayFTL()
+	ForceHoldFire()
+Status: STSWMODSELF1
+	Visible To: Nobody
+	TriggerPeriodic(AddStatus(STSWMODSELF2, Duration = 90), Interval = 45, Max Triggers = 1)
+	AddFleetEffectiveness(2)
+	AddBonusShield(Amount = 10000, Percentage = 0.25)
+	AddAccelerationBonus(4)

@@ -1,0 +1,16 @@
+Status: TorpFail
+	Visible To: Nobody
+	AddTurret(Torpedo, Range=8000, Damage=20, Reload=0.1, Speed=200, Tracking=6, Radius=30)
+Status: RailGunSuperStrongNoHit
+	Visible To: Nobody
+	AddTurret(Railgun, Range=2000, Damage=1000, Reload=0.5, Speed=300, Spread=100, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+	AddTurret(Railgun, Range=2000, Damage=1000, Reload=0.5, Speed=300, Spread=100, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+	AddTurret(Railgun, Range=2000, Damage=1000, Reload=0.5, Speed=300, Spread=100, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+Status: MissileFail
+	Visible To: Global
+	AddTurret(Missile, Range=2000, Damage=20, Reload=0.2, Speed=10, Tracking=6)
+Status: PowerDown2
+	Visible To: Nobody
+	AddShipEffectiveness(-0.3)
+Status: PowerDown1
+	AddShipEffectiveness(-0.15)

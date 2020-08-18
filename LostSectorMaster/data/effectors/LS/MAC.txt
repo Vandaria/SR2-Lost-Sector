@@ -1,0 +1,43 @@
+Effector: LS_MAC
+	Value: Range
+	Value: Damage
+	Value: Reload
+	Value: Speed
+	Value: Tracking = 0.8
+	Value: CapOnTarget = 1
+	Value: Spread = 0.3
+	Value: FireArc = 0.5 * pi
+	Value: TargetTolerance = 0
+	Value: FireTolerance = 0
+	Value: Pierce = 0.5
+	Value: SupplyCost = 0
+	Value: IgnoreDR = 0
+	Range: Range
+	Speed: Speed
+	Tracking: Tracking
+	Lifetime: Range / Speed
+	Spread: Spread
+	CapTarget: CapOnTarget
+	FireArc: FireArc
+	TargetTolerance: TargetTolerance
+	FireTolerance: FireTolerance
+	TargetAlgorithm: SingleTarget
+	CanTarget: isEnemy && isDamageable
+	AutoTarget: isEnemy && (isShip || (isOrbital || isColonyShip || isCivilian || isFreighter) * 0.5)
+	Activation: Reload
+	OnTrigger: combat::WeaponFire(SupplyCost)
+	EfficiencyMode: Reload Only
+	PhysicalType: Projectile
+	GfxType: Line
+	GfxSize: 4.5
+	FireSfx: railgun_fire
+	FireSfx: muon_fire
+	Material: RailgunEmit
+	Trail: RailTrail
+	TrailCol: 5e666a, 94a1a7
+	ImpactGfx: ImpactFlareRailBlue
+	Value: PodSize = 1
+	Effect: ProjImpact
+		IgnoreDR = IgnoreDR
+		Pierce = Pierce
+		Damage = Damage

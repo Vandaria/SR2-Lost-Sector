@@ -1,0 +1,20 @@
+Module: MercStation
+	Name: #LS_ORB_MERC_MERC
+	Health: 1000000
+	Armor: 1000000
+	Combat Repair: False
+	Maintenance: 1500
+	Build Cost: 1500
+	Labor Cost: 300
+	Material: GenericPBR_Outpost
+	Model: Outpost
+	Size: 50
+	Description: #LS_ORB_MERC_MERC_DESC
+	Icon Size: 0.015
+	RequireNever()
+	RequireNotTrait(LS_TRAIT_CIV)
+	GrantAbility(Mercrecruit_Flayer)
+	GrantAbility(Mercrecruit_TyrantLance)
+	GrantAbility(Mercrecruit_IdriasFlame)
+	GrantAbility(Mercrecruit_Converter)
+	GrantAbility(Mercrecruit_Wild Rapid)

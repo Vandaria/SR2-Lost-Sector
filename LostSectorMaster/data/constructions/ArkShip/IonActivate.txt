@@ -1,0 +1,11 @@
+Construction: AS_CONS_IONACT
+	Name: #AS_CONS_IONACT
+	Description: #AS_CONS_IONACT_DESC
+	Target: targ = Object
+	Category: Equipment
+	Time Cost: 120
+	RequireStatus(AS_STS_ASTS)
+	TargetFilterOwned(targ)
+	TargetFilterFlagship(targ, Allow Stations = False)
+	ConsumeResearch(1000)
+	GrantAbility(AS_AB_ION)

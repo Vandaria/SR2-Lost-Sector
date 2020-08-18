@@ -1,0 +1,8 @@
+AS_SUB_HULL_ARKHULL: Ark Ship Hull
+AR_SUB_POP1: Ark Habitat Section - Damaged
+AR_SUB_POP1_DESC: A Damaged Arkship habitation sectiong. Barely functional
+AS_SUB_POP1: Ark Habitat Section - Damaged
+AS_SUB_POP1_DESC: A Damaged Arkship habitation sectiong. Barely functional
+AR_SUB_SS: Ark Superstructure
+AS_SUB_CRUSTARM: Rock Armour
+AS_SUB_CRUSTARM: Literally just chunks of asteroids embedded into the hull

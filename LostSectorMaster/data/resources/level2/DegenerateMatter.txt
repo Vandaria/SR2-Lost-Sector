@@ -1,0 +1,21 @@
+Resource: DegenerateMatter
+	Name: #DEGENERATE_MATTER
+	Description: #DEGENERATE_MATTER_DESC
+	Native Biome: Oceanic
+
+	Icon: ResourceIcons::42
+	Small Icon: ResourceIconsSmall::42
+
+	Level: 2
+	Affinity: Research
+
+	Pressure: 4 Influence
+	Pressure: 8 Research
+	Pressure: 2 Labor
+	Pressure: 8 Money
+	Pressure: 10 Energy
+	Exportable: False
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

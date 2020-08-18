@@ -1,0 +1,8 @@
+Module: MERCPOINT_CO
+	Health: 1000000000
+	Model: Outpost
+	Material: GenericPBR_Outpost
+	Size: 1
+	RequireNever()
+	TriggerPeriodic(Destroy(), Interval = 2, Max Triggers = 1)
+	TriggerPeriodic(SpawnShip(Converter, Design From = Creeps, , Add Status = 240Sec), Interval = 0.5, Max Triggers = 1)

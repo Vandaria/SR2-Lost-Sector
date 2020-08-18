@@ -1,0 +1,12 @@
+Subsystem: LS_SUB_SS
+	Name: #LS_SUB_SS
+	Tags: BaseCost, Category:Defense,  NoCore, NonContiguous, IsArmor, BaseCost, PassExterior, RaceSpecial
+	Hull: Flagship, Station, Support
+	Size := HexSize * Hexes
+	Hex.HP := 15 * HexSize
+	Hex.Mass := 0
+	Elevation: 1
+	BaseColor: #677689
+	Ship.ExternalHexes := Ship.ExternalHexes + ExteriorHexes
+	Module: Default
+		Sprite: NanoMesh*#677689

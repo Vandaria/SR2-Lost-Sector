@@ -1,0 +1,37 @@
+Resource: Homeworld
+	Class: Homeworld
+	Exportable: False
+	Artificial: True
+	Rarity: Unique
+	Distribution: 0
+	Frequency: 0
+	Can Be Terraformed: False
+	Small Icon: LeaderIcon
+	Icon: LeaderIcon
+	Native Biome: Artificial
+	Name: #LS_RES_HW_HW
+	Description: #LS_RES_HW_HW_DESC
+	Pressure: 30 Money
+	Pressure: 30 Influence
+	Pressure: 30 Energy
+	Pressure: 30 Labor
+	Pressure: 5 Research
+	Level: 1
+	TriggerPeriodic(RemoveStatus(Lvl4), Interval = 3000, Max Triggers = 1)
+	TriggerPeriodic(RemoveStatus(Lvl3), Interval = 2200, Max Triggers = 1)
+	TriggerPeriodic(RemoveStatus(Lvl2), Interval = 1500, Max Triggers = 1)
+	TriggerPeriodic(RemoveStatus(Lvl1), Interval = 900, Max Triggers = 1)
+	TriggerPeriodic(AddStatus(Lvl5), Interval = 3000, Max Triggers = 1)
+	TriggerPeriodic(AddStatus(Lvl4), Interval = 2200, Max Triggers = 1)
+	TriggerPeriodic(AddStatus(Lvl3), Interval = 1500, Max Triggers = 1)
+	TriggerPeriodic(AddStatus(Lvl2), Interval = 900, Max Triggers = 1)
+	AddStatus(Lvl1)
+	ModTileDevelopRate(0.5)
+	RepeatPlanetLevel(AddLaborIncome(10))
+	IfLevel(5, AddRaidRange(-10000000))
+	IfLevel(5, AllowFreeRaiding())
+	IfLevel(4, ModSupportBuildSpeed(0.5))
+	IfLevel(2, ModTileDevelopRate(2))
+	IfLevel(3, AddFTLIncome(3))
+	IfLevel(3, AddFTLStorage(1500))
+	SetOrbitSpin(120)

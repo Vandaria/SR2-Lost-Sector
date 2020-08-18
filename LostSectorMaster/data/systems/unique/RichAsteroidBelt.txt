@@ -1,0 +1,7 @@
+System: RichAsteroidBelt
+	Frequency: 0.0
+	Unique: Galaxy
+
+
+	
+	MakePlanet(RandomLevel:2, Radius = 500)

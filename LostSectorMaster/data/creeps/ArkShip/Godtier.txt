@@ -1,0 +1,3 @@
+Camp: AS_CRP_CMP_GOD
+	Frequency: 0
+	Target Strength: 5000000000

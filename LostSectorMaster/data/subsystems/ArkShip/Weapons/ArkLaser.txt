@@ -1,0 +1,53 @@
+Subsystem: AS_SUB_ARKSWEEP
+	Name: #AS_SUB_ARKSWEEP
+	Description: #AS_SUB_ARKSWEEP_DESC
+	BaseColor: #3fce18
+	TypeColor: #3fce18
+	Elevation: 2
+
+	Tags: BaseCost
+	Tags: WeaponBase, MissileBase, Category:Weapons, Rotatable
+	Tags: ExteriorCore, Weapon, HasInternals, MainDPS
+	Hull: Flagship, Station
+
+	Size := HexSize * Hexes
+	Range := (Size/3) + 1500
+	Damage := Size * 7
+	Reload := 3 * min(1.0 + Size/512, 2.0)
+	Speed := max(65, Range / 12)
+	Spread := 0.9 / max(Range / 200, 1)
+	Tracking := 0.14
+	FireArc := 0.2
+	SupplyCost := Size * 2.0
+
+	Hex.HP := 18 * HexSize
+	Hex.Resistance := 0.2
+	Hex.Mass := HexSize
+
+	PowerUse := Size * 3
+	Requires:
+		Command = 1
+
+	Module: Default
+
+	Module: Core
+		Hex.HP := Hex.HP * 3
+		Hex.BuildCost := 5.0 * Hex.BuildCost
+		Hex.Mass := 5.0 * Hex.Mass
+
+		Sprite: Laser::1
+		DrawMode: 1
+
+		Hex.DamageResist := ShipSize / 64.0
+		Effect: DamageResist
+			Resist = Hex.DamageResist
+
+	Effector: LaserShotgun
+		Range = Range
+		Damage = Damage
+		FireDelay = 0.5
+		PodSize = 3
+		Reload = Reload
+		Speed = Speed
+		Tracking = Tracking
+		SupplyCost = SupplyCost * (Reload / 3)

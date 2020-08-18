@@ -1,0 +1,24 @@
+Subsystem: RepairArm
+	Name: #LS_SUB_WM_RA
+	Description: #LS_SUB_WM_RA_DESC
+	Tags: Category:Equipment, HighMaint, HasInternals, Ability:ABLWMRA
+	Hull: Flagship
+	EvaluationOrder:
+	Elevation: 3
+	Size := HexSize * Hexes
+	Hex.BuildCost := 2 * HexSize
+	Hex.LaborCost := 5 * HexSize
+	Hex.HP := 5 * HexSize
+	Hex.Resistance := 0.2
+	Hex.Mass := HexSize * 4
+	Hex.MaintainCost := HexSize *0.8
+	Assert: Size / ShipSize > 0.33
+		Message: #ERROR_TOO_SMALL
+	Module: Core
+		Hex.HP := Hex.HP * 0.9
+		Hex.Mass := Hex.Mass * 5
+		Hex.BuildCost := Hex.BuildCost * 10
+		DrawMode:
+		Sprite: ComputerCore * #22ff00
+	Assert: ShipSize >= 1500
+		Message: #ERROR_MIN_SIZE

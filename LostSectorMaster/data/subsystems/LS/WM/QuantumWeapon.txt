@@ -1,0 +1,18 @@
+Subsystem: QuantumWeapon
+	Name: #LS_SUB_WM_QW
+	Description: #LS_SUB_WM_QW_DESC
+	Hex.Resistance := 0.2
+	Hex.HP := 5 * HexSize
+	PowerUse := 2.5 * Size
+	Tags: BaseCost, SpecialWeapon, Category:Weapons, Rotatable, ExteriorCore, Weapon, HasInternals, Ability:QuantumWeaponABL
+	Hull: Flagship, Station
+	Elevation: 2
+	Size := HexSize * Hexes
+	Hex.Mass := HexSize
+	Assert: Size / ShipSize > 0.25
+		Message: #ERROR_TOO_SMALL
+	Assert: ShipSize >= 1500
+		Message: #ERROR_MIN_SIZE
+	Module: Core
+		Sprite: HyperdenseLaser::0
+		DrawMode: 1

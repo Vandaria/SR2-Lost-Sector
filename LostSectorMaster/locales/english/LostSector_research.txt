@@ -1,0 +1,20 @@
+LS_RES_TSC: World Shaker Cannon
+LS_RES_TSC_DESC: A massive artillery installation on a planets surface capable of immense damage at extreme range.
+R_IMP_PLANET_SUPPORT_DESC: <<
+	[i][color=#aaa]More focused and effective command of orbital defense vessels.[/color][/i]
+
+	Increases the maximum support capacity of all owned [b][img=GuiOrbitalIcons::0;20/] Outpost[/b] orbitals by $1.
+
+	Increase Sentinel defense platform health, armour and damage
+
+	Also increases the [img=Plus;20/] Health and the rate of local defense ship production of [b][img=GuiOrbitalIcons::0;20/] Outpost[/b] orbitals.
+>>
+LS_CIV_RES_FACTORIUMM: Enhanced Combat Designs
+LS_CIV_RES_FACTORIUML: Flagship Construction
+LS_CIV_RES_AltDes: Enhanced Warships
+LS_CIV_RES_AltDes-DESC: Unlocks more combat focused designs
+LS_CIV_RES_FACTORIUMM_DESC: Unlock the ability to construct and upgrade to Medium Size Ships
+LS_CIV_RES_FACTORIUML_Desc: Unlock the ability to Cosntruct and upgrade to Large Ships
+LS_CIV_RES_AltDes_DESC: Unlocks Alternate Designs
+LS_CIV_RES_AltDes_desc: Unlocks alternate designs
+

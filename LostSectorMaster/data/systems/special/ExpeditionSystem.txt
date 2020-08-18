@@ -1,0 +1,25 @@
+System: ExpeditionSystem
+	Inherit: BaseSystem
+	Frequency: 0
+
+
+
+	
+	MakeStar(Temperature = 1000:9500, Radius = 1)
+	MakePlanet(RandomLevel:3, Radius = 500)
+			SetupOrbit(Radius = 0, Orbit Pct = 0.4)
+	ExpandSystem(10000)
+			
+		MakePlanet(RandomLevel:2, Radius = 150, Conditions = False, Moons = False)
+			SetupOrbit(Radius = 6000, Orbit Pct = 0.4)
+			ForceUsefulSurface(0.8, Moon)
+			
+		MakePlanet(RandomLevel:2, Radius = 150, Conditions = False, Moons = False)
+			SetupOrbit(Radius = 4000, Orbit Pct = 0.8)
+			ForceUsefulSurface(0.8, Moon)
+
+	Repeat(3:6)
+		SpawnRandomRemnants(50, 0.3:0.6, 4)
+
+	AddRegionStatus(RemnantBlockedColonization)
+

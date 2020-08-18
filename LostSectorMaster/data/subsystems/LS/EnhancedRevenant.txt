@@ -1,0 +1,40 @@
+Subsystem: MacroCannon
+	Name: #LS_SUB_EHR_MC
+	Tags: BaseCost, Category:Weapons, ExteriorCore, Weapon, IsProjWeapon, IsRailgun, HasInternals, MainDPS, WeaponBase, Rotatable, HexLimitArc, Disabled
+	Hull: Flagship
+	Elevation: 2
+	BaseColor: #575757
+	TypeColor: #575757
+	Size := HexSize * Hexes
+	Damage := Size * 1.0
+	Range := Size + 300
+	Reload := 0.2
+	Speed := max(110, Range / 10)
+	Spread := 0.035 / max(Range / 600, 1)
+	Tracking := 0.4
+	FireArc := 1.5
+	Pierce := 0.6
+	SupplyCost := Size * 1.5
+	PowerUse := 2.5 * Size
+	Hex.HP := 18 * Size
+	Hex.Resistance := 0.2
+	Hex.Mass := HexSize
+	IgnoreDR := 3 * Size
+	Module: Core
+		Sprite: Railgun::0
+		DrawMode: 1
+	Effector: LS_MAC
+		Range = Range
+		Damage = Damage
+		Reload = Reload
+		Speed = Speed
+		Tracking = Tracking
+		Spread = Spread
+		FireArc = FireArc
+		TargetTolerance = max(pi,FireArc + pi/4)
+		FireTolerance = Spread * 3
+		Pierce = Pierce
+		SupplyCost = SupplyCost * Reload
+		IgnoreDR = IgnoreDR
+		CapOnTarget = 24
+		PodSize = 18

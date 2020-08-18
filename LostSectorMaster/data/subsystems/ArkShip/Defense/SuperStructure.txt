@@ -1,0 +1,24 @@
+Subsystem: AR_SUB_SS
+	Tags: BaseCost, Category:Defense,  NoCore, NonContiguous, IsArmor, BaseCost, PassExterior, RaceSpecial, ExternalSpace
+	Hull: Flagship
+	Name: #AR_SUB_SS
+	Description: #AR_SUB_SS_DESC
+	Size := HexSize * Hexes
+	Hex.HP := 0.1 * ShipSize
+	Hex.Resistance := 0.2
+	Elevation: 1
+	Ship.ExternalHexes := Ship.ExternalHexes + ExteriorHexes
+	Module: Default
+		Sprite: NanoMesh * #666f71
+Subsystem: AS_SUB_CRUSTARM
+	Name: #AS_SUB_CRUSTARM
+	Description: #AS_SUB_CRUSTARM
+	Size := HexSize * Hexes
+	Hex.Resistance := 0.6
+	Hex.HP := 0.2 * ShipSize
+	Hex.Mass := 0.02 * Size
+	Tags: BaseCost, Category:Defense,  NoCore, NonContiguous, IsArmor, BaseCost, PassExterior, RaceSpeciall, ExternalSpace
+	Hull: Flagship
+	Ship.ExternalHexes := Ship.ExternalHexes + ExteriorHexes
+	Module: Default
+		Sprite: Sinew * #b05306

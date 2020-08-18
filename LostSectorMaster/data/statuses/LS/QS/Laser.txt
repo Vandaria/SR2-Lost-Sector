@@ -1,0 +1,15 @@
+Status: QSLaserMk1
+	Visible To: Nobody
+	AddTurret(Laser, Range=800, DPS=400, Duration=2, Cooldown=2, Tracking=0.4)
+Status: QSLaserMk2
+	Visible To: Nobody
+	AddTurret(Laser, Range=800, DPS=800, Duration=2, Cooldown=2, Tracking=0.4)
+Status: QSLaserMk3
+	Visible To: Nobody
+	AddTurret(Laser, Range=800, DPS=1000, Duration=2, Cooldown=0, Tracking=0.4)
+Status: QSLaserMk4
+	Visible To: Nobody
+	AddTurret(Laser, Range=800, DPS=1500, Duration=2, Cooldown=0, Tracking=0.4)
+Status: QSLaserGG
+	Visible To: Nobody
+	AddTurret(Laser, Range=800, DPS=5000, Duration=2, Cooldown=0, Tracking=0.4)

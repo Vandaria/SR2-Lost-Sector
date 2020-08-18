@@ -1,0 +1,20 @@
+Module: OrbitalHanger
+	Health: 1000000
+	Armor: 1000000
+	Size: 50
+	Mass: 10000000
+	Build Cost: 5000
+	Labor Cost: 700
+	Model: DefenseStation
+	Material: VolkurGenericPBR
+	Icon: GuiOrbitalIcons::0
+	Distant Icon: GuiOrbitalIcons::0
+	Name: #LS_ORB_DEF_OH
+	Description: #LS_ORB_DEF_OH_DESC
+	Icon Size: 0.015
+	LimitOncePerSystem(LSDEFOH)
+	RequireTrait(Defensive)
+	AddLocalDefense(50)
+	AllowFreeRaiding()
+	AddRaidRange(30000)
+	AddFleetCommand(10000)

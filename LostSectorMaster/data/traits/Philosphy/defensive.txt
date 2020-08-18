@@ -1,0 +1,14 @@
+Trait: Defensive
+	Category: Philosphy
+	Unique: Philosphy
+	Name: #LS_TRAIT_PH_DEF
+	Description: #LS_TRAIT_PH_DEF_DESC
+	Icon: CrystalArmor
+	Color: #03cb67
+	Available: False
+	AddStatusOwnedPlanets(DefensiveSTS)
+	ReplaceTechnologyNodeAt((16, -4), RES_TSC)
+	AddModifier(tag/Weapon::DamageFactor(0.6))
+	AddModifier(ShieldRegenFactor(4))
+	AddModifier(tag/IsArmor::HpFactor(3.5))
+	AddModifier(tag/GivesThrust::ThrustFactor(0.3))

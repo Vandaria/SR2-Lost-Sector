@@ -1,0 +1,65 @@
+Effector: ShrikeMissiles
+	Value: Range
+	Value: Damage
+	Value: Reload
+	Value: Speed
+	Value: FireDelay
+	Value: PodSize = 1
+	Value: Tracking = 0.3
+	Value: CapOnTarget = 1
+	Value: Spread = 0.1
+	Value: FireArc = 0.25* pi
+	Value: TargetTolerance = 0
+	Value: FireTolerance = 0
+	Value: SupplyCost = 0
+
+	Range: Range
+	Speed: Speed
+	Tracking: Tracking
+	Lifetime: Range / Speed
+	CapTarget: CapOnTarget
+	Spread: Spread
+	FireArc: FireArc
+	FireTolerance: FireTolerance
+	TargetTolerance: TargetTolerance
+
+	TargetAlgorithm: SingleTarget
+	CanTarget: isEnemy && isDamageable
+	AutoTarget: isEnemy && (isShip || (isOrbital || isColonyShip || isCivilian || isFreighter) * 0.5)
+
+	EfficiencyMode: Reload Partial
+	Activation: Magazine(FireDelay, PodSize, Reload)
+	OnTrigger: combat::WeaponFire(SupplyCost)
+
+	Effect: ExplDamage
+		Amount = Damage
+
+
+	PhysicalType: Projectile
+	GfxType: Sprite
+	GfxSize: 0.7
+	FireSfx: rocket
+	ImpactSfx: rocket_impact
+	ImpactSfx: rocket_impact_2
+	ImpactSfx: rocket_impact_3
+	Trail: RailTrail
+	TrailCol: 8888ffff, 00000000
+	Material: Missile
+	ImpactGfx: ImpactFlareRocket
+
+
+	Skin: Skin1
+		ImpactGfx: ImpactFlareRailRed
+		TrailCol: ff8888ff, 00000000
+
+	Skin: Skin2
+		ImpactGfx: ImpactFlareRailYellow
+		TrailCol: ff88ffff, 00000000
+
+	Skin: Skin3
+		ImpactGfx: ImpactFlareRailTurquise
+		TrailCol: 88ffffff, 00000000
+
+	Skin: Muon
+		ImpactGfx: ImpactFlareRailTurquise
+		TrailCol: 88ffffff, ff00ff80

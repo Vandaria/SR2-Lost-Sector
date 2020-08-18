@@ -1,0 +1,5 @@
+System: CoreBlackhole
+	MakeBlackhole(Radius = 500.0)
+	ExpandSystem(13000)
+	
+	MakeAsteroidBelt(6)

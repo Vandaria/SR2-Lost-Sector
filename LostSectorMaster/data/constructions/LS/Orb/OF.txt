@@ -1,0 +1,46 @@
+Construction: OFHealth
+	Category: Orbital Fort
+	Build Cost: 500
+	Time Cost: 60
+	Name: #LS_CONS_ORBOF_H
+	Description: #LS_CONS_ORBOF_H_DESC
+	AddBuildCostAttribute(OFHealthUpgradeCost, Multiply = 500)
+	ModAttribute(OFHealthUpgrades, Add, 1)
+	OnCancel(ModAttribute(OFHealthUpgradeCost, Add, -1))
+	OnStart(ModAttribute(OFHealthUpgradeCost, Add, 1))
+	RequireOnOrbital(OrbitalFort)
+Construction: OFFlakCannon
+	Category: Orbital Fort
+	Name: #LS_CONS_ORBOF_FC
+	Description: #LS_CONS_ORBOF_FC_DESC
+	AddStatus(OFRLTURSTS)
+	AddStatus(OFRLTURSTS)
+	AddStatus(OFRLTURSTS)
+	ConsumeCargo(Ore, 1000)
+	AddBuildCostAttribute(OFFlakUpgradeCost, Multiply = 500)
+	OnStart(ModAttribute(OFFlakUpgradeCost, Add, 1))
+	OnCancel(ModAttribute(OFFlakUpgradeCost, Add, -1))
+	RequireOnOrbital(OrbitalFort)
+Construction: OFWarhead
+	Category: Orbital Fort
+	Build Cost: 2500
+	Name: #LS_CONS_ORBOF_WH
+	Description: #LS_CONS_ORBOF_WH_DESC
+	AddStatus(OFWHTURSTS)
+	ConsumeCargo(Ore, 5000)
+	AddBuildCostAttribute(OFWHUpgradeCost, Multiply = 2500)
+	OnCancel(ModAttribute(OFWHUpgradeCost, Add, -1))
+	OnStart(ModAttribute(OFWHUpgradeCost, Add, 1))
+	RequireOnOrbital(OrbitalFort)
+Construction: OFMissile
+	Category: Orbital Fort
+	Name: #LS_CONS_ORBOF_MSLE
+	Description: #LS_CONS_ORBOF_MSLE_DESC
+	AddStatus(OFMSLETURSTS)
+	AddStatus(OFMSLETURSTS)
+	AddStatus(OFMSLETURSTS)
+	RequireOnOrbital(OrbitalFort)
+	ConsumeCargo(Ore, 1000)
+	OnStart(ModAttribute(OFMSLEUpgradeCost, Add, 1))
+	OnCancel(ModAttribute(OFMSLEUpgradeCost, Add, -1))
+	AddBuildCostAttribute(OFMSLEUpgradeCost, Multiply = 1000)

@@ -1,0 +1,22 @@
+Resource: Medicines
+	Name: #MEDICINES
+	Description: #MEDICINES_DESC
+	Native Biome: Forest
+
+	Icon: ResourceIcons::15
+	Small Icon: ResourceIconsSmall::6
+
+	Level: 2
+	Affinity: Money
+
+	Pressure: 2 Influence
+	Pressure: 5 Research
+	Pressure: 8 Labor
+	Pressure: 24 Money
+	Pressure: 4 Energy
+	Exportable: False
+
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

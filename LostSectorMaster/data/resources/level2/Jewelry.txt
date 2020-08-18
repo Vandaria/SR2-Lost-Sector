@@ -1,0 +1,21 @@
+Resource: Jewelry
+	Name: #JEWELRY
+	Description: #JEWELRY_DESC
+	Native Biome: Crystallic
+
+	Icon: ResourceIcons::18
+	Small Icon: ResourceIconsSmall::1
+
+	Level: 2
+	Affinity: Money + Influence
+
+	Pressure: 10 Influence
+	Pressure: 2 Research
+	Pressure: 2 Labor
+	Pressure: 24 Money
+	Pressure: 4 Energy
+	Exportable: False
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

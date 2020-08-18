@@ -1,0 +1,17 @@
+Module: LS_ORB_SWARMDEFAUTO
+	Name: #LS_ORB_SWARMDEF
+	Description: #LS_ORB_SWARMDEF_DESC
+	Build Cost: 2500
+	Labor Cost: 100
+	Icon: GuiOrbitalIcons::19
+	Strategic Icon: OrbitalIcons::19
+	Model: FTLStorage
+	Material: GenericPBR_FTLStorage
+	Health: 5000
+	Armor: 5000
+	Can Fling: False
+	Size: 20
+	Icon Size: 0.015
+
+	RequireNever()
+	AddTurret(Missile, Range=5000, Damage=200, Reload=8, Speed=150, Tracking=6)

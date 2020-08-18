@@ -1,0 +1,29 @@
+System: HomeSystem
+	RepeatHomeworlds()
+
+	    MakeStar(Temperature = 1000:9500, Radius = 1)
+		MakePlanet(Homeworld, Radius = 1000, Conditions = False, Moons = False)
+			SetupOrbit(Radius = 0, Orbit Pct = 0.9)
+			OnPlanet( AddIncome(300) )
+			SpawnBuilding(Factory, (4, 3), Develop = True)
+			AddPopulation(18.0)
+			ForceUsefulSurface(0.8, Crystallic)
+	ExpandSystem(13000)
+	
+		MakePlanet(RandomLevel:2, Radius = 250, Conditions = False, Moons = False)
+			SetupOrbit(Radius = 6000, Orbit Pct = 0.9)
+			ForceUsefulSurface(0.8, Moon)
+			
+		MakePlanet(RandomLevel:2, Radius = 250, Conditions = False, Moons = False)
+			SetupOrbit(Radius = 10000, Orbit Pct = 0.4)
+			ForceUsefulSurface(0.8, Moon)
+		
+		
+
+
+
+
+	AddAdjacentArtifacts(2)
+	MakeAdjacentCreepCamp(SmallCamp, Place Far = True)
+
+	

@@ -1,0 +1,18 @@
+Status: LS_CIV_PLANET
+	Visible To: Nobody
+	ChangeNativeResourceTo(LS_CivPlanetResource)
+	TriggerPeriodic(RandomTrigger(0.1, AddStatus(LS_CIV_POPG)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.05, AddStatus(LS_CIV_POPM)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.01, AddStatus(LS_CIV_RES3)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.03, AddStatus(LS_CIV_RES2)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.1, AddStatus(LS_CIV_RES1)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.01, AddStatus(LS_CIV_ENG3)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.03, AddStatus(LS_CIV_ENG2)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.1, AddStatus(LS_CIV_ENG1)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.01, AddStatus(LS_CIV_MON3)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.05, AddStatus(LS_CIV_MON2)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.1, AddStatus(LS_CIV_MON1)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.3, DevelopTiles(25)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.1, AddStatus(LS_CIV_LAB1)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.05, AddStatus(LS_CIV_LAB2)), Interval = 90)
+	TriggerPeriodic(RandomTrigger(0.01, AddStatus(LS_CIV_LAB3)), Interval = 90)

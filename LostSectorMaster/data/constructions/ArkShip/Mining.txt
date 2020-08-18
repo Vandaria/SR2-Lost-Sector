@@ -1,0 +1,13 @@
+Construction: AS_CONS_MINE_V1
+	Target: targ = Object
+	Name: #AS_CONS_MINE
+	Description: #AS_CONS_MINE_DESC
+	Category: Equipment
+	Build Cost: 300
+	Maintenance Cost: 100
+	Time Cost: 60
+	RequireStatus(AS_STS_ASTS)
+	RequireNotStatus(AS_STS_MININGV1)
+	GrantAbility(AS_ABL_ASTEROID_MINE_V1)
+	TargetFilterOwned(targ)
+	TargetFilterFlagship(targ, Allow Stations = False)

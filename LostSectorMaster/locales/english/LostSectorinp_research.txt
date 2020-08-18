@@ -1,0 +1,4 @@
+LS_RES_WRMA: Repair Drone
+LS_RES_WRMA_DESC: Unlock the repair drone system capable of repairing other ships in combat
+LS_RES_WROD: Overdrive System
+RES_WROD_DESC: Temporarily boost your ships systems combat abilities dramatically. Afterwards however there will be a period whereby the ship can not function.

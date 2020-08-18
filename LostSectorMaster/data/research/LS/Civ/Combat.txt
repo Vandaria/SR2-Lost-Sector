@@ -1,0 +1,25 @@
+Technology: ResFactoriumM
+	Name: #LS_CIV_RES_FACTORIUMM
+	Class: Unlock
+	Point Cost: 700
+	Time Cost: 120
+	Icon: BuildingSprites::12
+	Description: #LS_CIV_RES_FACTORIUMM_DESC
+	UnlockTag(FactoriumM)
+Technology: ResFactoriumL
+	Name: #LS_CIV_RES_FACTORIUML
+	Class: Unlock
+	Point Cost: 1500
+	Time Cost: 120
+	Icon: BuildingSprites::12
+	Color: #41ff0c
+	Description: #LS_CIV_RES_FACTORIUML_Desc
+	UnlockTag(FactoriumL)
+Technology: AlternateDesigns
+	Name: #LS_CIV_RES_AltDes
+	Class: Unlock
+	Point Cost: 500
+	Time Cost: 120
+	Icon: BuildingSprites::12
+	Description: #LS_CIV_RES_AltDes_desc
+	UnlockTag(CivAltDes)

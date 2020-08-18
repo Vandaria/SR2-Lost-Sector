@@ -1,0 +1,17 @@
+Status: OFWHTURSTS
+	Icon: PoliticalStrengthIcon
+	Visible To: Nobody
+	RecordBonusDPS(2100)
+	AddTurret(Torpedo, Range=8000, Damage=5000, Reload=7, Speed=200, Tracking=6, Radius=100)
+Status: OFRLTURSTS
+	Icon: SupportYeaIcon
+	Visible To: Nobody
+	RecordBonusDPS(600)
+	AddTurret(Railgun, Range=1000, Damage=30, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+	AddTurret(Railgun, Range=1000, Damage=30, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+Status: OFMSLETURSTS
+	Icon: SupportNayIcon
+	Name: #LS_CONS_ORBOF_MSLE
+	Description: #LS_CONS_ORBOF_MSLE_DESC
+	RecordBonusDPS(334)
+	AddTurret(Missile, Range=5000, Damage=1000, Reload=3, Speed=150, Tracking=6)

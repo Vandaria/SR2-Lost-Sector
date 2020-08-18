@@ -1,0 +1,21 @@
+Resource: Hypervolatiles
+	Name: #R_HYPERVOLATILES
+	Native Biome: Crystallic
+	DLC: Heralds
+
+	Small Icon: ResourceIconsSmall::45
+
+	Level: 2
+
+	Affinity: Money
+
+	Pressure: 2 Influence
+	Pressure: 4 Research
+	Pressure: 4 Labor
+	Pressure: 16 Money
+	Pressure: 8 Energy
+	Exportable: False
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

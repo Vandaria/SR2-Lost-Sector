@@ -1,0 +1,22 @@
+Resource: Antimatter
+	Name: #ANTIMATTER
+	Description: #ANTIMATTER_DESC
+	Native Biome: Crystallic
+
+	Icon: ResourceIcons::17
+	Small Icon: ResourceIconsSmall::0
+
+	Level: 3
+	Affinity: Energy
+
+	Pressure: 32 Energy
+	Pressure: 16 Labor
+	Pressure: 4 Money
+	Pressure: 4 Influence
+	Exportable: False
+	Pressure: 12 Research
+
+	ModTileDevelopRate(0.5)
+	AddStatus(Lvl3)
+	AddFleetCommand(+2048)
+	AddFleetEffectiveness(+3.0)

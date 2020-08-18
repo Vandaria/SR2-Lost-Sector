@@ -1,0 +1,49 @@
+LS_CONS_ORBOF_H: Structural Reinforcements
+LS_CONS_ORBOF_H_DESC: Improves the Orbital Frotress's health.
+LS_CONS_ORBOF_FC: Rail Batteries
+LS_CONS_ORBOF_FC_DESC: <<
+	Install 6 Rail batteries with 300 dps each.
+
+
+>>
+LS_CONS_ORBOF_MSLE: Missile Deck
+LS_CONS_ORBOF_MSLE_DESC: Install a Missile deck with 3 missiles. 1000 DPS split between the three
+LS_CONS_ORBOF_WH: Torpedo Bay
+LS_CONS_ORBOF_WH_DESC: Install a torpedo bay with 714 DPS
+AS_CONS_TELE: Observatory activation
+AS_CONS_TELE_DESC: Bring online the observatory sysem for this Arkship
+AS_CONS_SUPPORTEN: Hanger System Repair
+AS_CONS_SUPPORTEN_DESC: Repairs the Arkships hanger system to base Working capacity
+AS_CONS_REPAIR: Focused Repair
+AS_CONS_REPAIR_DESC: <<
+	Deactivates the Ark ship to enable repairs.
+	Lasts for 60 seconds.
+	Repairs 30% of total health
+>>
+AS_CONS_ASTCAP: Asteroid Capture Drone
+AS_CONS_ASTCAP_DESC: Captures an asteroid within the local area placing it into a stable orbit.
+AS_CONS_MINE: Mining Platform
+AS_CONS_MINE_DESC: Allows mining of Asteroids for Ore
+AS_CONS_LOCSCAN: Local Graviton Scanner
+AS_CONS_LOCSCAN_DESC: Provides vision over all nearby systems
+AS_CONS_WEAKREMSCA: Weak Remnant Scan
+AS_CONS_WEAKREMSCA_DESC: Attempts to detect the lost signal of a remnant fleet
+AS_CONS_SHIELDACT: Install Shield Generator
+AS_CONS_TIER2A: Jolt Retrofit
+AS_CONS_TIER2A_DESC: <<
+	Retrofits the current Ark into a Jolt class Arkship.
+	Offensively focused layout
+>>
+AS_CONS_TIER2B: The Wall Refit
+AS_CONS_TIER2B_DESC: <<
+	Refit into Wall Class Ark ship.
+	Defensively Focused
+>>
+AS_CONS_SUPPORTUPV1: Hanger Expansion
+AS_CONS_SUPPORTUPV1_DESC: Improve Support Capacity by 500
+AS_CONS_SHIELDUP_V1: Upgrade Shields
+AS_CONS_FR: Repair Drone Array
+AS_CONS_FR_DESC: Capable of repairing anyone you deem to be an ally.
+AS_CONS_IONACT: Ion Pulse Cannon
+AS_CONS_IONACT_DESC: Reactivate the Ion cannon system.
+AS_CONS_RMSCAN_WEAK: Scan for Remnants - Low Level

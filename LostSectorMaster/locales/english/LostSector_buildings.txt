@@ -1,0 +1,65 @@
+BLD_FTLSTORE_DESC: <<
+	A large storage chamber built inside a subspace isolation field to store FTL crystals.
+
+	Stores 500 FTL Energy.
+	Storage doubled when placed on a planet with native FTL crystals.
+>>
+BLD_DEFENSE_GRID_DESC: <<
+	A massive field of missile silos located on the surface of the planet, capable of firing at nearby enemy fleets.
+
+	The grid is composed of 10 missile launchers totaling 1000 DPS with 5000 range.
+
+	[i]If there are enemy fleets in orbit and you do not have any remaining support ships to protect the satellite guidance system, the missile silos are disabled.[/i]
+>>
+BLD_ANCIENT_CORE_DESC: <<
+	Produces up to 50% of the pressure that the planet's native resource gives. Pressure starts at 10% and increases by 10% every 7 minutes
+	
+
+	Prevents the planet's native resource from being exported.
+
+	Pressure from asteroids imported at this planet is automatically produced.
+
+	Produces 30 Base Materials a minute
+	Prodcues 100 Ore per minute
+
+	[bbloc=#TIP_CONTROL_HUB/]
+>>
+BLD_ANCIENT_COMPRESSOR_DESC: <<
+	All your ships have 1% less Mass.
+
+	[bbloc=#TIP_CONSUME_BASE_MATERIAL:10/]
+>>
+LS_BLD_DEF_TSC: World Shaker Cannon
+LS_BLD_DEF_TSC_DESC: A Massive Planetary emplacement designed to bring ruin onto any enemy ship
+LS_BLD_DEF_CONT: Defensive Co-ordinator
+LS_BLD_DEF_CONT_DESC: <<
+	Helps to control defensive operations in orbit of the planet.
+
+	[b]300 more support capacity[/b]
+	[b]Can produce defense satellites[/b]
+>>
+BLD_ANCIENT_COREEXPORE: Core Expansion - Ore
+BLD_ANCIENT_COREEXPORE_DESC: Focues on Ore production at the expense of Base Materials and resource pressure
+LS_BLD_DEF_SENT: Sentinel Launch Platform
+LS_BLD_DEF_SENT_DEF: Launches Sentinel Platforms to defend the planet from siege
+BLD_ANCIENT_DOCK_DESC: <<
+	Increases Labour production by 3% on this planet
+
+	Increases support ship production by 5% on this planet
+>>
+BLD_ANCIENT_DEPOT_DESC: <<
+	Adds 100 Labor Storage on this planet.
+
+>>
+BLD_ANCIENT_REFINERY_DESC: <<
+	Produces 30% of the pressure that the planet's native resource gives. Pressure starts at 10% and increases by 10% every 7 minutes
+
+	[bbloc=#TIP_CONSUME_BASE_MATERIAL:10/]
+>>
+LS_BLD_DEF_FLAK: Hyper Velocity Cannon
+LS_BLD_DEF_FLAK_DESC: A massive Flak cannon area designed to bring down attacking fleets.
+LS_BLD_ECON_ORE: Strip Miner
+LS_BLD_ECON_ORE_DESC: <<
+	Produces 100 Ore a minute.
+	Reduces planet pressure by 25%
+>>

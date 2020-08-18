@@ -1,0 +1,21 @@
+Resource: Plutonium
+	Name: #PLUTONIUM
+	Description: #PLUTONIUM_DESC
+	Native Biome: Forest
+
+	Icon: ResourceIcons::34
+	Small Icon: ResourceIconsSmall::34
+
+	Level: 2
+	Affinity: Energy
+
+	Pressure: 4 Influence
+	Pressure: 4 Research
+	Pressure: 8 Labor
+	Pressure: 2 Money
+	Pressure: 16 Energy
+	Exportable: False
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

@@ -1,0 +1,6 @@
+Status: LS_CIV_POPM
+	Visible To: Nobody
+	AddMaxPopulation(1)
+Status: LS_CIV_POPG
+	Visible To: Nobody
+	ModPopulationGrowth(0.1)

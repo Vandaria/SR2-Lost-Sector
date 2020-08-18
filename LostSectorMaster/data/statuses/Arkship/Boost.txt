@@ -1,0 +1,3 @@
+Status: AS_STS_ARBOOST
+	Visible To: Nobody
+	AddFleetEffectiveness(0.1)

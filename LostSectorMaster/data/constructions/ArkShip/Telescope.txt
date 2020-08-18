@@ -1,0 +1,13 @@
+Construction: AS_CONS_TELE
+	Target: targ = Object
+	Name: #AS_CONS_TELE
+	Description: #AS_CONS_TELE_DESC
+	Category: Equipment
+	Build Cost: 500
+	Time Cost: 120
+	Maintenance Cost: 300
+	RequireNotStatus(AS_STS_TELESCOPE)
+	ConsumeCargo(Ore, 1000)
+	ConsumeResearch(300)
+	GrantAbility(AS_ABL_ASTEROID_Telescope)
+	RequireStatus(AS_STS_ASTS)

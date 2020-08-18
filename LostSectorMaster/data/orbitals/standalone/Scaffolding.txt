@@ -1,0 +1,18 @@
+Module: Scaffolding
+	Name: #ORB_SCAFFOLDING
+	Blurb: #ORB_SCAFFOLDING_BLURB
+	Description: #ORB_SCAFFOLDING_DESC
+	Icon: GuiOrbitalIcons::24
+
+	Standalone: True
+	Spin: 0
+
+	Model: ScaffoldRound
+	Material: GenericPBR_ScaffoldRound
+	Size: 150
+
+	Strategic Icon: OrbitalIcons::24
+
+	Can Fling: False
+
+	CannotBuildManually()

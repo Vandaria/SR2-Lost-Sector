@@ -1,0 +1,19 @@
+Resource: Hydroconductors
+	Name: #HYDROCONDUCTORS
+	Description: #HYDROCONDUCTORS_DESC
+	Native Biome: Oceanic
+
+	Icon: ResourceIcons::40
+	Small Icon: ResourceIconsSmall::40
+
+	Affinity: Labor
+
+	Pressure: 32 Labor
+	Pressure: 8 Money
+	Pressure: 4 Influence
+	Pressure: 16 Energy
+	Exportable: False
+	ModTileDevelopRate(0.5)
+	AddStatus(Lvl3)
+	DuplicateResourceEffects() #version<88
+	AddLaborFactor(0.5) #version>=88

@@ -1,0 +1,22 @@
+ILLINIUM_DESC: Increases loyalty on all planets by 2
+LS_RES_HW_HW: Homeworld
+LS_RES_HW_HW_DESC: <<
+	Your homeworld, protect it, nurture it.
+
+	Increase Labour per minute by 10 for each level.
+
+	At Level 2: +200% increased tile development rate
+
+	At Level3: +3 FTL Income, +1500 FTL Storage
+
+	At Level 4: +50% Support ship production rate
+
+	At Level 5: Allows all support ships in orbit to attack throughout the system.
+>>
+LS_RES_CIV_CIV: Independant Planet
+LS_RES_CIV_CIV_DESC: <<
+	An independant planet that is part of the coalition.
+	Well produce resources as per the populations desires.
+
+	Even if taken over something remains in the air leading to much higher than normal independant behaviour and thought amongst biological and AI consciousness.
+>>

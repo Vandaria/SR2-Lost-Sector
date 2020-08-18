@@ -1,0 +1,27 @@
+Module: LS_CIV_FACS
+	Name: #LS_CIV_ORB_FACS
+	Description: #LS_CIV_ORB_FACS_DESC
+	Icon: GuiOrbitalIcons::15
+	Distant Icon: GuiOrbitalIcons::15
+	Icon Size: 0.015
+	Model: CommerceStation
+	Material: GenericPBR_CommerceStation
+	Health: 500000
+	Armor: 500000
+	Size: 30
+	Maintenance: 1000
+	Build Cost: 2500
+	Labor Cost: 100
+	RequireTrait(LS_TRAIT_CIV)
+	GrantAbility(ACruiser2BattleshipAbl)
+	GrantAbility(Bscount2CruiserAbl)
+	GrantAbility(BCruiser2BattleshipAbl)
+	GrantAbility(Cscount2CruiserAbl)
+	GrantAbility(CCruiser2BattleshipAbl)
+	TriggerPeriodic(RandomTrigger(0.1, SpawnShip(Trade Post, Design From = Creeps, , Offset = 1500)), Interval = 300, Random Margin = 30)
+	TriggerPeriodic(RandomTrigger(0.1, SpawnShip(Research Lab, Design From = Creeps, , Offset = 950)), Interval = 300, Random Margin = 30)
+	TriggerPeriodic(RandomTrigger(0.1, SpawnShip(Art Gallery, Design From = Creeps, , Offset = 1200)), Interval = 300, Random Margin = 30)
+	GrantAbility(Ascount2CruiserAbl)
+	TriggerPeriodic(RandomTrigger(0.2, SpawnShip(Type A Scout, Design From = Creeps, , Add Status = ScoutGrowthA, Offset = 30)), Random Margin = 20)
+	TriggerPeriodic(RandomTrigger(0.2, SpawnShip(Type B Scout, Design From = Creeps, , Add Status = ScoutGrowthB, Offset = 30)), Random Margin = 20)
+	TriggerPeriodic(RandomTrigger(0.2, SpawnShip(Type C Scout, Design From = Creeps, , Add Status = ScoutGrowthC, Offset = 30)), Random Margin = 20)

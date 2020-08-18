@@ -1,0 +1,11 @@
+System: AncientSystem
+	Inherit: BaseSystem
+	Frequency: 0.1
+
+	
+	MakeStar(Temperature = 1000:9500, Radius = 1)
+	MakePlanet(RandomType:Scalable, Radius = 500:700)
+			SetupOrbit(Radius = 0, Orbit Pct = 0.9)
+	ExpandSystem(10000)
+
+

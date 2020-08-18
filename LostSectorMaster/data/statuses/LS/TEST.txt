@@ -1,0 +1,3 @@
+Status: Siege
+	Icon: MilitaryStrengthIcon
+	SiegeFromOrigin()

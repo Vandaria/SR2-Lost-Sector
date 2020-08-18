@@ -1,0 +1,21 @@
+Resource: Thorium
+	Name: #THORIUM
+	Description: #THORIUM_DESC
+	Native Biome: Forest
+
+	Icon: ResourceIcons::35
+	Small Icon: ResourceIconsSmall::35
+
+	Level: 2
+	Affinity: Energy
+
+	Pressure: 8 Influence
+	Pressure: 5 Research
+	Pressure: 4 Labor
+	Pressure: 6 Money
+	Pressure: 16 Energy
+	Exportable: False
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

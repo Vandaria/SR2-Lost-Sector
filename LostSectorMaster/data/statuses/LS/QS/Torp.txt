@@ -1,0 +1,14 @@
+Status: TorpMk1
+	Visible To: Nobody
+	AddTurret(Torpedo, Range=8000, Damage=1000, Reload=15, Speed=200, Tracking=6, Radius=100)
+Status: TorpMk2
+	Visible To: Nobody
+	AddTurret(Torpedo, Range=8000, Damage=2000, Reload=15, Speed=200, Tracking=6, Radius=100)
+Status: TorpMk3
+	Visible To: Nobody
+	AddTurret(Torpedo, Range=8000, Damage=3000, Reload=15, Speed=200, Tracking=6, Radius=100)
+Status: TorpMk4
+	Visible To: Nobody
+	AddTurret(Torpedo, Range=8000, Damage=5000, Reload=15, Speed=200, Tracking=6, Radius=100)
+Status: QSTorpGG
+	AddTurret(Torpedo, Range=8000, Damage=50000, Reload=5, Speed=200, Tracking=6, Radius=1500)

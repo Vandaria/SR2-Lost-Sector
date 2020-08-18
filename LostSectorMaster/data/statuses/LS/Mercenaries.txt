@@ -1,0 +1,6 @@
+Status: MercSTS
+	Visible To: Nobody
+	ModColonyShipAccel(Multiplier = 2)
+	ModTileDevelopRate(0.3)
+	ModPopulationGrowth(0.3)
+	ModResourceEfficiencyBonus(0.3)

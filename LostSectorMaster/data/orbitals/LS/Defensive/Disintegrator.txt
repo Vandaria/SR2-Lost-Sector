@@ -1,0 +1,15 @@
+Module: LS_ORB_DIS
+	Name: #LS_ORB_DIS
+	Build Cost: 2500
+	Labor Cost: 100
+	Icon: GuiOrbitalIcons::19
+	Strategic Icon: OrbitalIcons::19
+	Model: FTLStorage
+	Material: GenericPBR_FTLStorage
+	Health: 50000
+	Armor: 50000
+	Can Fling: False
+	Maintenance: 50
+	Size: 40
+	RequireNever()
+	GrantAbility(LS_ABL_DIS)

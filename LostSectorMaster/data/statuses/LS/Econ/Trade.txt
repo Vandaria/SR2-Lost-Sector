@@ -1,0 +1,3 @@
+Status: LS_STS_TRADE
+	Name: #LS_STS_TRADE
+	Visible To: Nobody

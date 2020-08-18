@@ -1,0 +1,2 @@
+LS_ORB_MERC_MERC: Mercanary Station
+LS_ORB_MERC_MERC_DESC: A station with which to recruit mercnary fleets from.

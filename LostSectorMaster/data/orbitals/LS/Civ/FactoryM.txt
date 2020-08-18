@@ -1,0 +1,30 @@
+Module: LS_CIV_FACM
+	Name: #LS_CIV_ORB_FACM
+	Description: #LS_CIV_ORB_FACM_DESC
+	Icon: GuiOrbitalIcons::15
+	Distant Icon: GuiOrbitalIcons::15
+	Icon Size: 0.015
+	Model: CommerceStation
+	Material: GenericPBR_CommerceStation
+	Health: 500000
+	Armor: 500000
+	Size: 80
+	Maintenance: 2500
+	Build Cost: 5000
+	Labor Cost: 1000
+	TriggerPeriodic(RandomTrigger(0.2, SpawnShip(Trade Post, Design From = Creeps, , Offset = 1500)), Interval = 300, Random Margin = 30)
+	TriggerPeriodic(RandomTrigger(0.2, SpawnShip(Research Lab, Design From = Creeps, , Offset = 950)), Interval = 300, Random Margin = 30)
+	TriggerPeriodic(RandomTrigger(0.2, SpawnShip(Art Gallery, Design From = Creeps, , Offset = 1200)), Interval = 300, Random Margin = 30)
+	TriggerPeriodic(RandomTrigger(0.2, SpawnShip(Type A Battleship, Design From = Creeps, , Add Status = BattleShipGrowthA, Offset = 30)), Interval = 600, Random Margin = 30)
+
+	TriggerPeriodic(RandomTrigger(0.2, SpawnShip(Type B Battleship, Design From = Creeps, , Add Status = BattleShipGrowthB, Offset = 30)), Interval = 600, Random Margin = 30)
+
+	TriggerPeriodic(RandomTrigger(0.2, SpawnShip(Type C Battleship, Design From = Creeps, , Add Status = BattleShipGrowthC, Offset = 30)), Interval = 600, Random Margin = 30)
+
+	RequireUnlockTag(FactoriumM)
+	IfTagUnlocked(UnlockTag(CivAltDes), GrantAbility(AHBS2AHBSALtAbl))
+	GrantAbility(ABS2AHBSAbl)
+	IfTagUnlocked(UnlockTag(CivAltDes), GrantAbility(BBS2BBSAltAbl))
+	GrantAbility(BBS2AHBSAbl)
+	IfTagUnlocked(UnlockTag(CivAltDes), GrantAbility(CBS2BBSAltAbl))
+	GrantAbility(CBS2AHBSAbl)

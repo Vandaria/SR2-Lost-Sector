@@ -1,0 +1,10 @@
+Construction: AS_CONS_RMSCAN_WEAK
+	Target: targ = Object
+	Category: Misc
+	Build Cost: 300
+	Time Cost: 30
+	Name: #AS_CONS_RMSCAN_WEAK
+	RequireStatus(AS_STS_ASTS)
+	TargetFilterFlagship(targ, Allow Stations = False)
+	TargetFilterOwned(targ)
+	SpawnShip(CampSpawner, Design From = Creeps, , Add Status = AS_STS_RCWEAK, Offset = 4000)

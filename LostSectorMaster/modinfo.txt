@@ -1,0 +1,12 @@
+	Name: Lost Sector
+	Compatibility: 200
+	Description: <<
+		Overhaul of SR2
+
+		Large system.
+		Large planets
+		Weapons rebalanced.
+		slight changes to AI
+
+		More to come- In progress
+	>>

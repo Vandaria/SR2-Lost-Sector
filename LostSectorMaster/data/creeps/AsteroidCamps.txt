@@ -1,0 +1,39 @@
+Camp: AsteroidBase
+	Frequency: 0
+
+
+	Pickup:
+		Name: #PICKUP_ASTEROID
+		Description: #PICKUP_ASTEROID_DESC
+		Verb: #VERB_ACTIVATE
+
+		Model: Asteroid1
+		Material: AsteroidPegmatite
+
+		Physical Size: 6
+
+		OwnedAsteroid(AsteroidAffinity)
+
+	Pickup:
+		Name: #PICKUP_ASTEROID
+		Description: #PICKUP_ASTEROID_DESC
+		Verb: #VERB_ACTIVATE
+
+		Model: Asteroid1
+		Material: AsteroidPegmatite
+
+		Physical Size: 6
+
+		OwnedAsteroid(Deuterium)
+
+	Pickup:
+		Name: #PICKUP_ASTEROID
+		Description: #PICKUP_ASTEROID_DESC
+		Verb: #VERB_ACTIVATE
+
+		Model: Asteroid1
+		Material: AsteroidPegmatite
+
+		Physical Size: 6
+
+		OwnedAsteroid(Water)

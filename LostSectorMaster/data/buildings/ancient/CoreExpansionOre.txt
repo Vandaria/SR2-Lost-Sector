@@ -1,0 +1,29 @@
+Building: COREEXPORE
+	Name: #BLD_ANCIENT_COREEXPORE
+	Description: #BLD_ANCIENT_COREEXPORE_DESC
+	Sprite: StripMiner
+
+	Category: ControlHubs
+
+	Size: 6x6
+
+	Base Cost: 150
+	Build Time: 90
+	Base Maintenance: 70
+
+	In Queue: True
+
+	RequireStatus(AncientReplicator)
+	RequireStatusToProgress(AncientReplicator)
+
+	DisableResourceExport()
+
+	AddStatus(AncientClaim)
+
+	RequireNever()
+	TriggerPeriodic(AddCargo(Ore, 10), Interval = 6)
+	OnDisable(RemoveStatus(LSORECOREXP))
+	OnEnable(AddStatus(LSORECOREXP))
+	ConflictBuilding(COREEXPORE)
+	ConflictBuilding(COREEXPBM)
+	ModResourceEfficiencyBonus(-0.6)

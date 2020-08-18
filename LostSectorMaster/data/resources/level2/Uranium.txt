@@ -1,0 +1,21 @@
+Resource: Uranium
+	Name: #URANIUM
+	Description: #URANIUM_DESC
+	Native Biome: Mountains
+
+	Icon: ResourceIcons::13
+	Small Icon: ResourceIconsSmall::4
+
+	Level: 2
+	Affinity: Energy
+
+	Pressure: 2 Influence
+	Pressure: 2 Research
+	Pressure: 8 Labor
+	Pressure: 4 Money
+	Pressure: 8 Energy
+	Exportable: False
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

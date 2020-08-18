@@ -1,0 +1,9 @@
+Status: LS_CIV_RES1
+	Visible To: Nobody
+	AddToNativeResource(AddPressure(Research, 1))
+Status: LS_CIV_RES2
+	Visible To: Nobody
+	AddToNativeResource(AddPressure(Research, 3))
+Status: LS_CIV_RES3
+	Visible To: Nobody
+	AddToNativeResource(AddPressure(Research, 5))

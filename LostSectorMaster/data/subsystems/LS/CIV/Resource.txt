@@ -1,0 +1,12 @@
+Subsystem: LSCivRSSub
+	Name: CivResearch
+	Hull: Station
+	Tags: NoBulkhead, NoWall, NoCore, NonContiguous
+	EvaluationOrder: -10
+	Size := HexSize * Hexes
+	Hex.HP := 18 * HexSize
+	Hex.Resistance := 0.2
+	BaseColor: #a30fff
+	Module: default
+		Sprite: FleetComputer
+	Hook: AddResearchIncome(Size * 0.03)

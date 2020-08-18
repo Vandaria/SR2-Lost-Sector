@@ -1,0 +1,14 @@
+Ability: LS_ABL_DIS
+	Name: #LS_ABL_ORB_DIS
+	Description: #LS_ABL_ORB_DIS_DESC
+	Target: targ = Object
+	Range: 2000
+	Cooldown: 30
+	DealDamage(5000, Spillable = False)
+	IsToggleTarget(targ, Range Margin = 1, Channels = False)
+	TargetFilterSameRegion(targ)
+	TargetFilterWar(targ)
+	TargetFilterAttackable(targ)
+	AutoCastNearby(Target = targ, Prioritize Combat = True, Require Priority = True)
+	PersistentBeamEffect(targ, #750687, Tractor)
+	TargetFilterSameRegion(targ)

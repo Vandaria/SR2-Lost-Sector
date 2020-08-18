@@ -1,0 +1,6 @@
+Status: AS_STS_REPAIR
+	Visible To: Nobody
+	CannotFireOutsideOwnedSpace()
+	DelayFTL()
+	InterdictMovement()
+	RepairPerSecond(Percent = 0.5)

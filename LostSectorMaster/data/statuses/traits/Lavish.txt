@@ -1,0 +1,4 @@
+Status: Lavish
+	Visible To: Nobody
+
+	AddMoneyIncome(-75)

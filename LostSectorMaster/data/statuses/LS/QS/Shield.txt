@@ -1,0 +1,12 @@
+Status: QSSHIELD1
+	Visible To: Nobody
+	AddBonusShield(Amount = 25000)
+Status: QSSHIELD2
+	Visible To: Nobody
+	AddBonusShield(Amount = 75000)
+Status: QSSHIELD3
+	Visible To: Nobody
+	AddBonusShield(Amount = 150000)
+Status: QSSHIELD4
+	Visible To: Nobody
+	AddBonusShield(Amount = 500000)

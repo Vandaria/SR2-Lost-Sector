@@ -1,0 +1,7 @@
+LS_TRAIT_PH_WAR_DESC: <<
+	Raw military might is the only true path forward to the stars.
+
+	[b]Larger Fleets[/b]: Cheap and easy to build flagships at your disposal, however slightly weaker with much decreased support capacity.
+	[b]Labor Economy[/b]: An Economy based around rapid production of ships, at the expense of other capabilities.
+	[b]Unique subsystems[/b]: Specialised subsystems designed to turn the tide of battle at critical moments
+>>

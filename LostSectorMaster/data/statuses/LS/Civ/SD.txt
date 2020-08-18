@@ -1,0 +1,3 @@
+Status: LSCIVSD
+	Visible To: Nobody
+	TriggerPeriodic(Destroy(Quiet = True), Interval = 1, Max Triggers = 1)

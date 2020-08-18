@@ -1,0 +1,23 @@
+Resource: Lattices
+	Name: #R_LATTICES
+	Native Biome: Crystallic
+	DLC: Heralds
+
+	Small Icon: ResourceIconsSmall::80
+
+	Level: 2
+
+	Affinity: Research
+	Affinity: Money
+
+	Pressure: 4 Influence
+	Pressure: 5 Research
+	Pressure: 2 Labor
+	Pressure: 10 Money
+	Pressure: 8 Energy
+	Exportable: False
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)
+

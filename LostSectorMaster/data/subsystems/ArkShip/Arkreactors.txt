@@ -1,0 +1,11 @@
+Subsystem: AS_SUB_REAC1
+	Tags: Category:Equipment
+	Hull: Flagship
+	Name: #AS_SUB_REAC1
+	BaseColor: #636db7
+	TypeColor: #636db7
+	Hex.HP := 18 * HexSize
+	Hex.Resistance := 0.1
+	Repair := 3 * HexSize * (Hexes-1)
+	Module: Core
+		Sprite: TechIcons::34

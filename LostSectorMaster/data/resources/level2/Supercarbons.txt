@@ -1,0 +1,22 @@
+Resource: Supercarbons
+	Name: #SUPERCARBONS
+	Description: #SUPERCARBONS_DESC
+	Native Biome: Volcanic
+
+	Icon: ResourceIcons::39
+	Small Icon: ResourceIconsSmall::39
+
+	Level: 2
+	Affinity: Labor
+
+	Pressure: 4 Influence
+	Pressure: 4 Research
+	Pressure: 26 Labor
+	Pressure: 4 Money
+	Pressure: 8 Energy
+	Exportable: False
+
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

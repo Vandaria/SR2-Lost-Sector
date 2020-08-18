@@ -1,0 +1,6 @@
+AS_CRP_Boost: Ship Enhancement
+AS_CRP_Boost_DESC: <<
+	Salvaging the materials from the defensive fleet enhancements to the Ark Ship can be made untill the next refit.
+
+	Plus 10% effectiveness
+>>

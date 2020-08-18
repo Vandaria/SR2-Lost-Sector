@@ -1,0 +1,9 @@
+Technology: CombatBoost
+	Name: Combat Boost
+	Icon: SupportYeaIcon
+	Symbol: SupportYeaIcon
+	Point Cost: 500
+	Time Cost: 60
+	Color: #63ff09
+	Description: Increases the strength of your combat ships.
+	ModAttribute(MercBoost, Add, 0.5)

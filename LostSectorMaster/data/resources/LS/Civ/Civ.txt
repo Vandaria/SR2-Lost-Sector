@@ -1,0 +1,22 @@
+Resource: LS_CivPlanetResource
+	Frequency: 0
+	Name: #LS_RES_CIV_CIV
+	Description: #LS_RES_CIV_CIV_DESC
+	Can Be Terraformed: False
+	Exportable: False
+	Display Requirement: False
+	Small Icon: ResourceIcons::38
+	Icon: ResourceIcons::38
+	Native Biome: Forest
+	IfLevel(5, AddRandomPressure(20, 300, 180))
+	IfLevel(4, AddRandomPressure(10, 300, 180))
+	IfLevel(3, AddRandomPressure(8, 300, 180))
+	IfLevel(5, AddRandomPressure(20, 300, 180))
+	IfLevel(4, AddRandomPressure(10, 300, 180))
+	IfLevel(3, AddRandomPressure(8, 300, 180))
+	IfLevel(2, AddRandomPressure(5, 300, 180))
+	IfLevel(2, AddRandomPressure(5, 300, 180))
+	IfLevel(2, AddRandomPressure(5, 300, 180))
+	AddRandomPressure(5, 300, 180)
+	AddRandomPressure(5, 300, 180)
+	AllowConstruction(Ships = False, Orbitals = True, Asteroids = True, Supports Only = True)

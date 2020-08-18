@@ -1,0 +1,21 @@
+Resource: AncientCity
+	Name: #ANCIENT_CITY
+	Description: #ANCIENT_CITY_DESC
+	Native Biome: Mountains
+
+	Icon: ResourceIcons::38
+	Small Icon: ResourceIconsSmall::38
+
+	Level: 2
+	Affinity: Influence + Research
+
+	Pressure: 16 Influence
+	Pressure: 5 Research
+	Pressure: 2 Labor
+	Pressure: 8 Money
+	Pressure: 4 Energy
+	Exportable: False
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

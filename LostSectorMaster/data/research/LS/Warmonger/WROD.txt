@@ -1,0 +1,11 @@
+Technology: RESWROD
+	Name: #LS_RES_WROD
+	Blurb: #RES_WROD_DESC
+	Description: #RES_WROD_DESC
+	Class: Unlock
+	Category: Subsystems
+	Point Cost: 500
+	Time Cost: 90
+	Icon: Jumpdrive*#bf2004
+	Color: #ff1a00
+	UnlockSubsystem(WROD)

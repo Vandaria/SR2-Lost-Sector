@@ -1,0 +1,11 @@
+Status: 120Sec
+	Visible To: Nobody
+	TriggerPeriodic(Destroy(), Interval = 120, Max Triggers = 1)
+Status: 240Sec
+	Visible To: Nobody
+	RepeatExtended(AddBonusHP(0.5), Base Attribute = MercBoost, Multiply Attribute = MercBoost)
+	RepeatExtended(AddFleetEffectiveness(0.5), Base Attribute = MercBoost, Multiply Attribute = MercBoost)
+	TriggerPeriodic(Destroy(), Interval = 240, Max Triggers = 1)
+Status: 60Sec
+	Visible To: Nobody
+	TriggerPeriodic(Destroy(), Interval = 60, Max Triggers = 1)

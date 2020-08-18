@@ -1,0 +1,14 @@
+Status: QSFLAK1
+	Visible To: Nobody
+	AddTurret(FlakBattery, Range=1400, Damage=50, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+	AddTurret(FlakBattery, Range=1400, Damage=50, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+	AddTurret(FlakBattery, Range=1400, Damage=50, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+Status: QSFLAK2
+	AddTurret(FlakBattery, Range=1400, Damage=50, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+	AddTurret(FlakBattery, Range=1400, Damage=50, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+	AddTurret(FlakBattery, Range=1400, Damage=50, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+	AddTurret(FlakBattery, Range=1400, Damage=50, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+	AddTurret(FlakBattery, Range=1400, Damage=50, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+	AddTurret(FlakBattery, Range=1400, Damage=50, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78)
+Status: QSFLAK3
+	Repeat(9, AddTurret(FlakBattery, Range=1400, Damage=50, Reload=0.1, Speed=300, Spread=0.03, FireArc=3.14, Tracking=0.4, FireTolerance=0.78))

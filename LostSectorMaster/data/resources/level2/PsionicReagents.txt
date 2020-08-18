@@ -1,0 +1,23 @@
+Resource: PsionicReagents
+	Name: #PSIONIC_REAGENTS
+	Description: #PSIONIC_REAGENTS_DESC
+	Native Biome: Forest
+
+	Icon: ResourceIcons::37
+	Small Icon: ResourceIconsSmall::37
+
+	Level: 2
+	Rarity: Uncommon
+	Affinity: Influence
+
+	Pressure: 16 Influence
+	Pressure: 4 Research
+	Pressure: 2 Labor
+	Pressure: 8 Money
+	Pressure: 8 Energy
+	Exportable: False
+
+
+
+	ModTileDevelopRate(0.2)
+	AddStatus(Lvl2)

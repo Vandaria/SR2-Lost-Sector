@@ -1,0 +1,19 @@
+Trait: Warmonger
+	Category: Philosphy
+	Unique: Philosphy
+	Description: #LS_TRAIT_PH_WAR_DESC
+	Name: #LS_TRAIT_PH_WAR
+	Icon: Revolutionaries
+	Color: #961006
+	Available: False
+	AddModifier(hull/Flagship::BuildCostFactor(0.5))
+	UnlockSubsystem(IonCannon)
+	AddModifier(hull/Flagship::LaborCostFactor(0.3))
+	UnlockSubsystem(QuantumWeapon)
+	ReplaceTechnologyNodes(TitanHull, RESWMTIT)
+	ReplaceTechnologyNodes(DestroyerHull, RESWROD)
+	ReplaceTechnologyNodes(CarrierHull, RESWRMA)
+	AddModifier(hull/Flagship::MaintCostFactor(0.5))
+	AddModifier(FlagshipHull::IncreaseHexLimit(32))
+	AddModifier(SupportCapacityFactor(0.1))
+	AddStatusOwnedPlanets(WarmongerSTS)

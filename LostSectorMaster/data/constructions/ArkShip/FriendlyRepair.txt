@@ -1,0 +1,13 @@
+Construction: AS_CONS_FR
+	Target: targ = Object
+	Category: Defense
+	Name: #AS_CONS_FR
+	Description: #AS_CONS_FR_DESC
+	Time Cost: 60
+	Build Cost: 500
+	Maintenance Cost: 100
+	ConsumeResearch(500)
+	GrantAbility(AS_ABL_FR)
+	RequireStatus(AS_STS_ASTS)
+	TargetFilterFlagship(targ, Allow Stations = False)
+	TargetFilterOwned(targ)

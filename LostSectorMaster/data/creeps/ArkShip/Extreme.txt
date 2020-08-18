@@ -1,0 +1,3 @@
+Camp: AS_CRP_CMP_EXTRM
+	Frequency: 0
+	Target Strength: 500000000
