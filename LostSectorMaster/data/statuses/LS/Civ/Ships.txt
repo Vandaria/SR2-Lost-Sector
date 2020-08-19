@@ -60,5 +60,3 @@ Status: FlagshipGrowthC
 	Visible To: Nobody
 	RepeatExtended(AddFleetEffectiveness(0.5), Base Attribute = MercBoost, Multiply Attribute = MercBoost)
 	RepeatExtended(AddBonusHP(0.5), Base Attribute = MercBoost, Multiply Attribute = MercBoost)
-
-

@@ -1,0 +1,15 @@
+LS_BLD_ECON_RESEARCHCENTRE: Research Centre
+LS_BLD_ECON_RESEARCHCENTRE_DESC: <<
+	Tier 1 planet Focus: Research
+
+	Starts to focus the planet towards research
+	Benefits:
+	+5% research income
+	Occasionaly may find anicent ruins on the planet
+
+
+	Allows for the following Tier 2 Planet Focus Buildings:
+	Research
+	Energy
+	Military
+>>

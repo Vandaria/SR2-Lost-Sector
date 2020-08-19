@@ -1,0 +1,22 @@
+LS_RE_ECON_POSITIVE_RAREFIND: Rare Archaelogical Find
+LS_RE_ECON_POSITIVE_RAREFIND_DESC: <<
+	Scientists discovery an archalogical mystery from a previous race.
+	Do we ignore or extract
+>>
+LS_RE_ECON_POSITIVE_RAREFIND_IGNORE: Ignore
+LS_RE_ECON_POSITIVE_RAREFIND_EXTRACT: Extract
+LS_RE_ECON_POSITIVE_RAREFIND_IGNORE_MSG1: Occasionaly rumors of technology failing in this away come away, no one is sure way. Although those visiting seem to become healthier
+LS_RE_ECON_POSITIVE_RAREFIND_IGNORE_MSG2: After uncovering even though left alone sometimes there's occasional bursts of some unkown energy. This appears to impact the planets communications occasionaly harming the economy
+LS_RE_ECON_POSITIVE_RAREFIND_IGNORE_MSG3: Although left alone it becomes a toursit spot
+LS_RE_ECON_POSITIVE_RAREFIND_IGNORE_MSG4: Left alone, nothing happens Yay
+LS_RE_ECON_POSITIVE_RAREFIND_EXTRACT_MSG1: An ancient virus was inside. Now released although able to cope the population growth suffers
+LS_RE_ECON_POSITIVE_RAREFIND_EXTRACT_MSG2: <<
+	Upon opening a signal was sent to deep space. It is not known what was signalled.
+
+	(TO Do - lead to new event of what it signaled, may be good, may be negative)
+>>
+LS_RE_ECON_POSITIVE_RAREFIND_EXTRACT_MSG3: <<
+	We discover some ancient technology, that has allowed minor improvements to our support ships health.
+	+1% support ship health
+>>
+LS_RE_ECON_POSITIVE_RAREFIND_EXTRACT_MSG4: Although no major breakthroughs, some interesting data existed

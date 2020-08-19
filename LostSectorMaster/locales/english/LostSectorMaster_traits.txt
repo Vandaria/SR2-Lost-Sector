@@ -7,3 +7,15 @@ LSTRAITS_AI_NORMALBUFF_DESC: <<
 	+25% flagship health
 	-25% flagship maint
 >>
+LSTRAITS_AI_HARDBUFF: Hard AI Buff
+LSTRAITS_AI_HARDBUFF_DESC: <<
+	Flagship Maint Cost  -50%
+	Turn thrust +80%
+	Thrust + 50%
+	FlagshipHP +50%
+	Flagship repair +50%
+	Research Income +2
+	Flagship Labour Cost - 25%
+	Pop Growth +25%
+
+>>

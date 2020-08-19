@@ -11,7 +11,7 @@ Subsystem: SupportPlasmaThrower
 	Hull: Support, Satellite
 
 	Size := HexSize * Hexes
-	Range := (Size/3)  + 300
+	Range := (Size/3)  + 2000
 
 	Duration := 5 * (1.0 + Size/64)
 	DamageOverTime := (Size * 5.0)

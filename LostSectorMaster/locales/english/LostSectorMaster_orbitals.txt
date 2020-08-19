@@ -1,0 +1,5 @@
+LS_ORB_DIS_DESC: <<
+	A Automated platform delivering raw damage to the enemy flagships. Highly Fragile
+
+	(5000 flat damage per second, range of 2000)
+>>

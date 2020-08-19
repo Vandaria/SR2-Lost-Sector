@@ -11,7 +11,7 @@ Subsystem: SupportMissileLauncher
 	Hull: Support, Satellite
 
 	Size := HexSize * Hexes
-	Range := (Size/3)  + 1500
+	Range := (Size/3)  + 7000
 	Damage := Size * 25
 	Reload := 25
 	Speed := max(85, Range / 10)

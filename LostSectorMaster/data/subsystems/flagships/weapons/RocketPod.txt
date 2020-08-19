@@ -12,7 +12,7 @@ Subsystem: RocketPod
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes
-	Range := (Size/3)  + 2000
+	Range := (Size/3)  + 5000
 	Damage := Size * 8
 	Reload := 30
 	Speed := max(65, Range / 3)
@@ -24,10 +24,7 @@ Subsystem: RocketPod
 	Hex.HP := 18 * HexSize
 	Hex.Resistance := 0.2
 	Hex.Mass := HexSize
-	AddShipModifier: <<
-		
-			AddShipModifier: ThrustFactor(1 - (Hexes/85))
-	>>
+	AddShipModifier: AddShipModifier: ThrustFactor(1 - (Hexes/85))
 
 	Requires:
 		Command = 1

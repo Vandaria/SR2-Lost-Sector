@@ -9,6 +9,7 @@ Trait: Extragalactic
 
 	Category: Lifestyle
 	Unique: Lifestyle
+	Available: False
 
 	ModAttribute(PopulationGrowthFactor, Multiply, 0.4)
 	ModAttribute(ForbidColonization, Add, 1)

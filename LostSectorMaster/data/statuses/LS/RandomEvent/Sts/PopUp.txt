@@ -1,0 +1,8 @@
+Status: LS_STS_RE_STS_POPUP5
+	Visible To: Nobody
+	Collapses: True
+	ModPopulationGrowth(1.05)
+Status: LS_STS_RE_STS_POPUP10
+	Visible To: Nobody
+	Collapses: True
+	ModPopulationGrowth(1.1)

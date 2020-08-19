@@ -23,7 +23,7 @@ final class PlanetNodeScript {
 	const Material@ atmosMat;
 	const Model@ planetModel;
 	PlanetSpecial special = PS_None;
-	double ringScale = 1.0, ringAngle = 0.0;
+	double ringScale = 0, ringAngle = 0.0;
 	float ringMin = 0.f, ringMax = 1.f;
 	const Material@ ringMat;
 	array<MoonData@>@ moons;
@@ -78,7 +78,7 @@ final class PlanetNodeScript {
 		uint angle = rnd % 64;
 		rnd /= 64;
 		
-		ringScale = 1.2 + 2.0 * double(scale) / 1024.0;
+		ringScale = 0;
 		ringMin = double(inner) * 0.9 / 1024.0;
 		ringMax = max(1.0 - ((1.0 - ringMin) * double(outer)/1024.0), ringMin + 0.1);
 		ringAngle = pi * (-0.07 + (0.14 * double(angle)/64.0));

@@ -12,7 +12,7 @@ Subsystem: MissileLauncher
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes
-	Range := (Size/3)  + 3500
+	Range := (Size/3)  + 7000
 	Damage := Size * 25
 	Reload := 45
 	Speed := max(85, Range / 10)
@@ -22,10 +22,7 @@ Subsystem: MissileLauncher
 	Hex.HP := 18 * HexSize
 	Hex.Resistance := 0.2
 	Hex.Mass := HexSize
-	AddShipModifier: <<
-		
-			AddShipModifier: ThrustFactor(1 - (Hexes/85))
-	>>
+	AddShipModifier: AddShipModifier: ThrustFactor(1 - (Hexes/85))
 
 	Requires:
 		Command = 1

@@ -6,10 +6,12 @@ Module: LS_ORB_DIS
 	Strategic Icon: OrbitalIcons::19
 	Model: FTLStorage
 	Material: GenericPBR_FTLStorage
-	Health: 50000
-	Armor: 50000
+	Health: 1
+	Armor: 49999
 	Can Fling: False
-	Maintenance: 50
+	Maintenance: 100
 	Size: 40
+	Description: #LS_ORB_DIS_DESC
+	Combat Repair: False
 	RequireNever()
 	GrantAbility(LS_ABL_DIS)

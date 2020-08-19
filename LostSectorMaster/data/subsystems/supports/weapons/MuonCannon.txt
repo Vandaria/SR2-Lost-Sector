@@ -11,7 +11,7 @@ Subsystem: MuonCannon
 
 	Size := HexSize * Hexes
 
-	Range := (Size/3)  + 500
+	Range := (Size/3)  + 1500
 	Damage := Size * 1
 	Reload := 0.33
 	Speed := max(90, Range / 3)
