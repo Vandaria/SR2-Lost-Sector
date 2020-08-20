@@ -3,5 +3,5 @@ Module: LS_ORB_PF_RETRIGGER_Energy1
 	Material: GenericPBR_Outpost
 	Size: 1
 	RequireNever()
-	TriggerPeriodic(Destroy(Quiet = True), Interval = 5, Max Triggers = 1)
-	TriggerPeriodic(TriggerRandomEvent(LS_RE_ECON_POSITIVE_ENERGYSURGE), Interval = 1200, Max Triggers = 1, Trigger Immediate = True, Random Margin = 1200)
+	TriggerPeriodic(Destroy(Quiet = True), Interval = 2, Max Triggers = 1)
+	TriggerPeriodic(TriggerRandomEvent(LS_RE_ECON_POSITIVE_ENERGYSURGE), Max Triggers = 1, Trigger Immediate = True)

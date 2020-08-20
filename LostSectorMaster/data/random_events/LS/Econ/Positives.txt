@@ -4,6 +4,7 @@ Event: LS_RE_ECON_POSITIVE_RAREFIND
 	Name: #LS_RE_ECON_POSITIVE_RAREFIND
 	Text: #LS_RE_ECON_POSITIVE_RAREFIND_DESC
 	Unique: False
+	TargetFilterSameRegion(targ)
 	TargetFilterStatus(targ, LS_STS_PLANETFOCUS_RESEARCH_1)
 	TargetFilterPlanetLevel(targ, 0)
 	TargetFilterOwned(targ)

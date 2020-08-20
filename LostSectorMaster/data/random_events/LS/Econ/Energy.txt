@@ -4,6 +4,7 @@ Event: LS_RE_ECON_POSITIVE_ENERGYSURGE
 	Text: #LS_RE_ECON_POSITIVE_ENERGYSURGE_DESC
 	Frequency: 0
 	Unique: False
+	TargetFilterSameRegion(targ)
 	TargetFilterStatus(targ, LS_STS_PLANETFOCUS_ENERGY_1)
 	TargetFilterPlanetLevel(targ, 0)
 	TargetFilterOwned(targ)
