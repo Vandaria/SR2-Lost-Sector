@@ -1,7 +1,7 @@
 Subsystem: RepairArm
 	Name: #LS_SUB_WM_RA
 	Description: #LS_SUB_WM_RA_DESC
-	Tags: Category:Equipment, HighMaint, HasInternals, Ability:ABLWMRA
+	Tags: Category:Equipment, HighMaint, HasInternals, Ability:ABLWMRA, DefaultUnlock,
 	Hull: Flagship
 	EvaluationOrder:
 	Elevation: 3
@@ -12,6 +12,8 @@ Subsystem: RepairArm
 	Hex.Resistance := 0.2
 	Hex.Mass := HexSize * 4
 	Hex.MaintainCost := HexSize *0.8
+	AddShipModifier: SupportCapacityFactor(0.75)
+	AddShipModifier: DamageFactor(0.75)
 	Assert: Size / ShipSize > 0.33
 		Message: #ERROR_TOO_SMALL
 	Module: Core

@@ -8,7 +8,7 @@ Subsystem: DestroyerHull
 	EvaluationOrder: -200
 	BaseColor: #ff8080
 
-	HexLimit := 30
+	HexLimit := 40
 
 	AddShipModifier: ArmorResistFactor(2)
 	AddShipModifier: MassFactor(0.35)

@@ -13,3 +13,18 @@ LS_BLD_ECON_RESEARCHCENTRE_DESC: <<
 	Energy
 	Military
 >>
+LS_BLD_ECON_ENERGYFOCUS1: Centralised Power Grid
+LS_BLD_ECON_ENERGYFOCUS1_DESC: <<
+	Create an centralised power grid system for managing the entire planet.
+
+	Starts to focus the planet towards High energy
+	Benefits:
+	+5% Energy income
+	Occasionaly may result in a random event occuring
+
+
+	Allows for the following Tier 2 Planet Focus Buildings:
+	Research
+	Energy
+	Military
+>>

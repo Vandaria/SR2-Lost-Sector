@@ -14,5 +14,5 @@ Module: LS_ORB_SWARMDEF
 	Size: 20
 	Icon Size: 0.015
 
-	OnEnable(LS_Effects::SpawnOrbitalRange(LS_ORB_SWARMDEFAUTO, Offset = 700), Repeats = 50)
-	AddTurret(Missile, Range=5000, Damage=200, Reload=5, Speed=150, Tracking=6)
+	OnEnable(LS_Effects::SpawnOrbitalRange(LS_ORB_SWARMDEFAUTO, Offset = 300), Repeats = 20)
+	AddTurret(Missile, Range=7000, Damage=200, Reload=5, Speed=150, Tracking=6)

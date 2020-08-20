@@ -1,0 +1,3 @@
+Camp: Energyfocus1Fail
+	Frequency: 0
+	Target Strength: 10000000

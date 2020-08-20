@@ -11,6 +11,6 @@ Trait: HardAIBuff
 	AddModifier(hull/Flagship::MaintCostFactor(0.5))
 	AddModifier(hull/Flagship::HpFactor(1.5))
 	AddModifier(hull/Flagship::RepairFactor(1.5))
-	ModEmpireAttribute(PopulationGrowthFactor, Multiply, 1.2)
+	ModEmpireAttribute(PopulationGrowthFactor, Multiply, 2)
 	AddResearchIncome(2)
 	AddModifier(hull/Flagship::LaborCostFactor(0.75))

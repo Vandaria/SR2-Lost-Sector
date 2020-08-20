@@ -1,0 +1,14 @@
+Module: LS_ORB_SHIELDWALL
+	Name: #LS_ORB_SHIELDWALL
+	Description: #LS_ORB_SHIELDWALL_DESC
+	Icon: GuiOrbitalIcons::0
+	Distant Icon: GuiOrbitalIcons::0
+	Icon Size: 0.0015
+	Build Cost: 500
+	Labor Cost: 300
+	Health: 1000000
+	Armor: 1000000
+	Size: 300
+	Material: VolkurGenericPBR
+	Model: DefenseStation
+	Maintenance: 200

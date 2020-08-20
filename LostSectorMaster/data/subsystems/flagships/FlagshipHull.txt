@@ -3,7 +3,7 @@ Subsystem: FlagshipHull
 	Hull: Flagship
 	EvaluationOrder: -100
 
-	HexLimit := 128
+	HexLimit := 160
 	FreeHexLimit := 0
 
 	GridWidth := 35

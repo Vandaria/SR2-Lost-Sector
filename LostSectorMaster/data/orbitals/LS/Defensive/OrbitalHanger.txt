@@ -5,16 +5,16 @@ Module: OrbitalHanger
 	Mass: 10000000
 	Build Cost: 5000
 	Labor Cost: 700
-	Model: DefenseStation
+	Model: Temple
 	Material: VolkurGenericPBR
-	Icon: GuiOrbitalIcons::0
-	Distant Icon: GuiOrbitalIcons::0
+	Icon: GuiOrbitalIcons::21
+	Distant Icon: GuiOrbitalIcons::21
 	Name: #LS_ORB_DEF_OH
 	Description: #LS_ORB_DEF_OH_DESC
-	Icon Size: 0.015
+	Icon Size: 0.005
+	Maintenance: 1000
 	LimitOncePerSystem(LSDEFOH)
-	RequireTrait(Defensive)
-	AddLocalDefense(50)
+	AddLocalDefense(90)
 	AllowFreeRaiding()
 	AddRaidRange(30000)
-	AddFleetCommand(10000)
+	AddFleetCommand(50000)

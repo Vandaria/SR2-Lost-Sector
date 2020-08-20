@@ -1,0 +1,4 @@
+Status: LS_STS_RE_STS_LABORUp5
+	Visible To: Nobody
+	Collapses: True
+	ModCivResourceMult(Labor, 0.05)

@@ -1,4 +1,4 @@
-Subsystem: ShrikeMissiles
+Subsystem: ShrikeMissiles1
 	Name: #SHRIKE_MISSILES
 	Description: #SHRIKEMISSILES_DESC
 	BaseColor: #1b38f9
@@ -8,15 +8,15 @@ Subsystem: ShrikeMissiles
 
 	Tags: BaseCost, Category:Weapons
 	Tags: WeaponBase, Rotatable, HexLimitArc
-	Tags: ExteriorCore, Weapon, HasInternals, MainDPS, Disabled
+	Tags: ExteriorCore, Weapon, DefaultUnlock, HasInternals, MainDPS,
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes
-	Range := (Size/3) + 500
-	Damage := Size * 12
-	Reload := 3.0 * min(1.0 + Size/512, 2.0)
-	Speed := max(65, Range / 30)
-	Spread := 0.2 / max(Range / 600, 1)
+	Range := Size + 9000
+	Damage := Size * 15
+	Reload := 12
+	Speed := max(30, Range / 60)
+	Spread := 0.4 / max(Range / 600, 1)
 	Tracking := 0.3
 	FireArc := 0.3
 	SupplyCost := Size * 1.5
@@ -55,7 +55,7 @@ Subsystem: ShrikeMissiles
 		Speed = Speed
 		Tracking = Tracking
 		FireDelay = 0.01
-		PodSize = 11
+		PodSize = 30
 		Spread = Spread
 		FireArc = FireArc
 		TargetTolerance = max(pi,FireArc + pi/4)

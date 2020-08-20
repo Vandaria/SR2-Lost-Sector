@@ -1,6 +1,6 @@
 Subsystem: LS_SUB_SS
 	Name: #LS_SUB_SS
-	Tags: BaseCost, Category:Defense,  NoCore, NonContiguous, IsArmor, BaseCost, PassExterior, RaceSpecial
+	Tags: BaseCost, Category:Defense,  NoCore, NonContiguous, IsArmor, DefaultUnlock, PassExterior, RaceSpecial
 	Hull: Flagship, Station, Support
 	Size := HexSize * Hexes
 	Hex.HP := 15 * HexSize

@@ -8,7 +8,7 @@ Subsystem: CarrierHull
 	EvaluationOrder: -200
 	BaseColor: #d6d300
 
-	HexLimit := -26
+	HexLimit := -30
 
 	AddShipModifier: SupplyCapacityFactor(1.5)
 	AddShipModifier: SupportCapacityFactor(2.0)

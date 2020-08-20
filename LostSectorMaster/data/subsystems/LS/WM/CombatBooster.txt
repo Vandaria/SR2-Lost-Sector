@@ -8,7 +8,7 @@ Subsystem: WROD
 	Hex.Resistance := 0.2
 	Hex.Mass := HexSize * 4
 	Hex.MaintainCost := HexSize * 4
-	Tags: Category:Equipment, HighMaint, HasInternals, Ability:WMOD
+	Tags: Category:Equipment, HighMaint, HasInternals, Ability:WMOD, Disabled
 	Hull: Flagship
 	Module: Core
 		Sprite: Jumpdrive*#bf2004

@@ -1,0 +1,40 @@
+Event: LS_RE_ECON_POSITIVE_ENERGYSURGE
+	Target: targ = Object
+	Name: #LS_RE_ECON_POSITIVE_ENERGYSURGE
+	Text: #LS_RE_ECON_POSITIVE_ENERGYSURGE_DESC
+	Frequency: 0
+	Unique: False
+	TargetFilterStatus(targ, LS_STS_PLANETFOCUS_ENERGY_1)
+	TargetFilterPlanetLevel(targ, 0)
+	TargetFilterOwned(targ)
+	Option: Control
+		Text: #LS_RE_ECON_POSITIVE_ENERGYSURGE_CONTROL
+		Result: 35%
+			AddStatus(LS_STS_RE_STS_EnergyUp5)
+			SendMessage(#LS_RE_ECON_POSITIVE_ENERGYSURGE_CONTROL_MSG1)
+		Result: 25%
+			SendMessage(#LS_RE_ECON_POSITIVE_ENERGYSURGE_CONTROL_MSG2)
+		Result: 5%
+			AddStatus(LS_STS_RE_STS_Energydown5)
+			SendMessage(#LS_RE_ECON_POSITIVE_ENERGYSURGE_CONTROL_MSG3)
+		Result: 35%
+
+			AddStatus(LS_STS_RE_STS_LABORUp5)
+			SendMessage(#LS_RE_ECON_POSITIVE_ENERGYSURGE_CONTROL_MSG4)
+	Option: Ignore
+		Text: #LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE
+		Safe: False
+		Result: 5%
+			SpawnCreepCamp(Camp Type = Energyfocus1Fail)
+			SendMessage(#LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE_MSG1)
+		Result: 50%
+			AddStatus(LS_STS_RE_STS_Energydown5)
+			SendMessage(#LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE_MSG2)
+		Result: 30%
+			AddEmpireResource(Research, 250)
+			SendMessage(#LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE_MSG3)
+		Result: 10%
+			AddStatus(LS_STS_RE_STS_POPDOWN5)
+			SendMessage(#LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE_MSG4)
+		Result: 5%
+			SendMessage(#LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE_MSG5)

@@ -1,0 +1,8 @@
+Status: LS_STS_RE_STS_EnergyUp5
+	Visible To: Nobody
+	Collapses: True
+	ModCivResourceMult(Energy, 0.05)
+Status: LS_STS_RE_STS_Energydown5
+	Visible To: Nobody
+	Collapses: True
+	ModCivResourceMult(Energy, -0.05)

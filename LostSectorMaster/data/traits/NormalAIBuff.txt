@@ -7,6 +7,6 @@ Trait: NormalAIBuff
 	AddModifier(hull/Flagship::MaintCostFactor(0.75))
 	AddModifier(hull/Flagship::HpFactor(1.25))
 	AddModifier(hull/Flagship::RepairFactor(1.25))
-	ModEmpireAttribute(PopulationGrowthFactor, Multiply, 1.2)
+	ModEmpireAttribute(PopulationGrowthFactor, Multiply, 1.5)
 	AddResearchIncome(2)
 	AddModifier(hull/Flagship::LaborCostFactor(0.75))

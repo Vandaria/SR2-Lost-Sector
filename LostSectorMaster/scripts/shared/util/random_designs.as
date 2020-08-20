@@ -103,12 +103,12 @@ tidy class Designer {
 					composeSatellite();
 			break;
 			case DT_Flagship:
-				hexLimit = 128;
+				hexLimit = 160;
 				if(compose)
 					composeFlagship();
 			break;
 			case DT_Station:
-				hexLimit = 160;
+				hexLimit = 190;
 				if(compose)
 					composeStation();
 			break;

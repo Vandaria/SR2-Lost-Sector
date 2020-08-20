@@ -14,4 +14,4 @@ Module: LS_ORB_SWARMDEFAUTO
 	Icon Size:
 
 	RequireNever()
-	AddTurret(Missile, Range=5000, Damage=200, Reload=5, Speed=150, Tracking=6)
+	AddTurret(Missile, Range=7000, Damage=200, Reload=5, Speed=150, Tracking=6)

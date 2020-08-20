@@ -1,5 +1,13 @@
 LS_ORB_DIS_DESC: <<
 	A Automated platform delivering raw damage to the enemy flagships. Highly Fragile
 
-	(5000 flat damage per second, range of 2000)
+	Requires Manual Targeting
+	(5000 flat damage per second, range of 4000)
+
+>>
+LS_ORB_SHIELDWALL: Space Shield
+LS_ORB_SHIELDWALL_DESC: <<
+	A Large Orbital designed to act as a shield for well positioned Fleets or other orbitals.
+
+	Warning Space is 3D, don't forgot this
 >>

@@ -1,7 +1,7 @@
 Subsystem: LSCIVMSUB
 	Name: CivMoney
 	Hull: Station
-	Tags: NoBulkhead, NoWall, NoCore, NonContiguous
+	Tags: NoBulkhead, NoWall, NoCore, NonContiguous, Disabled
 	EvaluationOrder: -10
 	Size := HexSize * Hexes
 	Hex.HP := 18 * HexSize

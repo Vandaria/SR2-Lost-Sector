@@ -1,6 +1,6 @@
 LS_RE_ECON_POSITIVE_RAREFIND: Rare Archaelogical Find
 LS_RE_ECON_POSITIVE_RAREFIND_DESC: <<
-	Scientists discovery an archalogical mystery from a previous race.
+	Scientists discovery an archalogical mystery from a previous race on [target=Location/].
 	Do we ignore or extract
 >>
 LS_RE_ECON_POSITIVE_RAREFIND_IGNORE: Ignore
@@ -20,3 +20,26 @@ LS_RE_ECON_POSITIVE_RAREFIND_EXTRACT_MSG3: <<
 	+1% support ship health
 >>
 LS_RE_ECON_POSITIVE_RAREFIND_EXTRACT_MSG4: Although no major breakthroughs, some interesting data existed
+LS_RE_ECON_POSITIVE_ENERGYSURGE: Energy Surge
+LS_RE_ECON_POSITIVE_ENERGYSURGE_DESC: An energy Surge has occured on [target=Location/]. How do we deal with it
+LS_RE_ECON_POSITIVE_ENERGYSURGE_CONTROL: Attempt to Control
+LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE: Ignore it
+LS_RE_ECON_POSITIVE_ENERGYSURGE_CONTROL_MSG1: <<
+	Suscesfully controlling the surge led to a better understanding.
+	Energy up by 5%
+>>
+LS_RE_ECON_POSITIVE_ENERGYSURGE_CONTROL_MSG2: Safe and sound, nothing happens
+LS_RE_ECON_POSITIVE_ENERGYSURGE_CONTROL_MSG3: <<
+	Failed at controlling leading to a temporary blackout
+
+	Energy income down by 5%
+>>
+LS_RE_ECON_POSITIVE_ENERGYSURGE_CONTROL_MSG4: <<
+	Suscesfully controlling the surge led to a better understanding.
+	Labor up by 5%
+>>
+LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE_MSG1: Catatstrophe, the electrical surge led to a blow out a FTL research centre, something appears to have been pulled through a subspace rift above the planet
+LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE_MSG2: Energy Down by 5%
+LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE_MSG3: The surge seemed to have given unexpected results and led to early completion of some high energy experiements
+LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE_MSG4: Hospitals Crashed, population growth down
+LS_RE_ECON_POSITIVE_ENERGYSURGE_IGNORE_MSG5: Nothing happened somehow

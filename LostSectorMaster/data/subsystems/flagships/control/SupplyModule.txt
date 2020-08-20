@@ -10,7 +10,7 @@ Subsystem: SupplyModule
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes
-	SupplyCapacity := Size * 4000
+	SupplyCapacity := Size * 6000
 	SupplyRate := Size * 6
 
 	Hex.LaborCost := 0.15 * HexSize + 0.8
