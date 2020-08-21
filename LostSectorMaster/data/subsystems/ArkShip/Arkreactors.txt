@@ -1,5 +1,5 @@
 Subsystem: AS_SUB_REAC1
-	Tags: Category:Equipment, Disabled
+	Tags: Category:Equipment
 	Hull: Flagship
 	Name: #AS_SUB_REAC1
 	BaseColor: #636db7

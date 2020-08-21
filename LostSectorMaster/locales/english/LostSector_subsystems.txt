@@ -1,7 +1,7 @@
 LS_SUB_EHR_MC: MacroCannon
 LS_SUB_SS: SuperStructure
-AS_SUB_ARKSWEEP: Cycler
-AS_SUB_ARKSWEEP_DESC: Lser, moves across fleet
+AS_SUB_ARKSWEEP: ark
+AS_SUB_ARKSWEEP_DESC: ARk
 S_DESTROYER_HULL_DESC: <<
 	A hull optimized to fit many different weapon turrets at the cost of being unable to field a support fleet.
 

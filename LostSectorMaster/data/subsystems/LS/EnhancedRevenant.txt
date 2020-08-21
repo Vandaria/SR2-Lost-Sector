@@ -1,6 +1,6 @@
 Subsystem: MacroCannon
 	Name: #LS_SUB_EHR_MC
-	Tags: BaseCost, Category:Weapons, ExteriorCore, Weapon, IsProjWeapon, IsRailgun, HasInternals, MainDPS, WeaponBase, Rotatable, HexLimitArc, Disabled
+	Tags: BaseCost, Category:Weapons, ExteriorCore, Weapon, IsProjWeapon, IsRailgun, HasInternals, MainDPS, WeaponBase, Rotatable, HexLimitArc
 	Hull: Flagship
 	Elevation: 2
 	BaseColor: #575757

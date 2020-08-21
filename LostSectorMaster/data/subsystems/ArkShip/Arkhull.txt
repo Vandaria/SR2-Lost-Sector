@@ -1,6 +1,6 @@
 Subsystem: AS_SUB_HULL_ARKHULL1
 	Name: #AS_SUB_HULL_ARKHULL
-	Tags: Applied:Hull, Category:Hulls, NoCore, Disabled
+	Tags: Applied:Hull, Category:Hulls, NoCore
 	Hull: Flagship
 	EvaluationOrder: -100
 	HexLimit := 999999999

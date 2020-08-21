@@ -22,3 +22,5 @@ LS_SYS_FLG_SWEEPER_DESC: <<
 	A laser that sweeps across the fleet hitting multiple ships.
 	Best used as multiple small subsystems
 >>
+LS_ARKMASSDRIVEr: MAssDriver
+ERROR_MIN_SIZE: $1 has minimum size $2

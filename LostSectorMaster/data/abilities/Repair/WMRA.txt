@@ -6,7 +6,7 @@ Ability: ABLWMRA
 	Hotkey: R
 	Description: #LS_ABL_SUB_WMRA_DESC
 	Icon: techMaterialScience2*#07f41f
-	Repair(Base Amount = 5000)
+	Repair(Percent = 0.01)
 	ApplyTargetStatusEffect(targ, STSWMRAOTHR)
 	PersistentBeamEffect(targ, #07f41f, Tractor)
 	IsToggleTarget(targ, Range Margin = 1, Channels = False)

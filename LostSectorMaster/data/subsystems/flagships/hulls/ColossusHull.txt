@@ -11,13 +11,24 @@ Subsystem: ColossusHull
 	AddShipModifier: FlagshipHull::GridWidthFactor(4.0)
 	AddShipModifier: FlagshipHull::GridHeightFactor(3)
 	AddShipModifier: FireArcFactor(2.0)
+	AddShipModifier: PowerFactor(5)
+	AddShipModifier: ShieldRegenFactor(1.2)
+	AddShipModifier: ShieldCapacityFactor(2)
 
+	ShieldCapacity := ShipSize*10
+	AddShipModifier: RepairFactor(2)
+	AddShipModifier: SupplyCapacityFactor(5)
+	AddShipModifier: BuildCostFactor(0.8)
+	AddShipModifier: MaintenanceModFactor(0.3)
+	AddShipModifier: HpFactor(3)
+	AddShipModifier: MassFactor(0.5)
+	Effect: ShieldDamage
 	Requires:
 		Command = 20
 		Power = ShipSize * 0.3
 
-	Assert: ShipSize >= 3000
-		Message: #ERROR_MIN_SIZE:$1:3000
+	Assert: ShipSize >= 8000
+		Message: #ERROR_MIN_SIZE:$1:8000
 
 	Module: Default
 		Sprite: DesignationIcons::16

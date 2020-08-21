@@ -1,5 +1,5 @@
 Subsystem: ShrikeMissiles
-	Name: #SHRIKE_MISSILES
+	Name: #LS_ARKMASSDRIVEr
 	Description: #SHRIKEMISSILES_DESC
 	BaseColor: #1b38f9
 	TypeColor: #1b38f9
@@ -8,7 +8,7 @@ Subsystem: ShrikeMissiles
 
 	Tags: BaseCost, Category:Weapons
 	Tags: WeaponBase, Rotatable, HexLimitArc
-	Tags: ExteriorCore, Weapon, HasInternals, MainDPS, Disabled
+	Tags: ExteriorCore, Weapon, HasInternals, MainDPS
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes

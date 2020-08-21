@@ -6,7 +6,7 @@ Subsystem: AS_SUB_POP1
 	Hex.Mass := 1 * HexSize
 	Hex.Resistance := 0.1
 	Hull: Flagship
-	Tags: Category:Equipment, Disabled
+	Tags: Category:Equipment
 	Module: Default
 		Sprite: CrewQuarters * #16f301
 		Color: #087100

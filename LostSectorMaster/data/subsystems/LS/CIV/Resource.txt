@@ -1,7 +1,7 @@
 Subsystem: LSCivRSSub
 	Name: CivResearch
 	Hull: Station
-	Tags: NoBulkhead, NoWall, NoCore, NonContiguous, Disabled
+	Tags: NoBulkhead, NoWall, NoCore, NonContiguous
 	EvaluationOrder: -10
 	Size := HexSize * Hexes
 	Hex.HP := 18 * HexSize

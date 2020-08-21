@@ -4,4 +4,4 @@ Module: LS_ORB_PF_RETRIGGER_ECON
 	Size: 1
 	RequireNever()
 	TriggerPeriodic(Destroy(Quiet = True), Interval = 2, Max Triggers = 1)
-	TriggerPeriodic(TriggerRandomEvent(LS_RE_ECON_POSITIVE_RAREFIND), Interval = , Max Triggers = 1, Trigger Immediate = True, Random Margin = )
+	TriggerPeriodic(TriggerRandomEvent(LS_RE_ECON_POSITIVE_RAREFIND), Max Triggers = 1, Trigger Immediate = True)

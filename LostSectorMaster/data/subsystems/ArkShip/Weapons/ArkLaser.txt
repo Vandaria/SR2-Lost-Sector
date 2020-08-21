@@ -7,7 +7,7 @@ Subsystem: AS_SUB_ARKSWEEP
 
 	Tags: BaseCost
 	Tags: WeaponBase, MissileBase, Category:Weapons, Rotatable
-	Tags: ExteriorCore, Weapon, HasInternals, MainDPS, Disabled
+	Tags: ExteriorCore, Weapon, HasInternals, MainDPS
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes

@@ -2,7 +2,7 @@ Subsystem: AS_SUB_FACT1
 	BaseColor: #b07501
 	TypeColor: #b07501
 	Name: #AS_SUB_FACT1
-	Tags: Category:Equipment, Disabled
+	Tags: Category:Equipment
 	Hull: Flagship
 	Hex.HP := 18 * HexSize
 	Hex.Resistance := 0.1

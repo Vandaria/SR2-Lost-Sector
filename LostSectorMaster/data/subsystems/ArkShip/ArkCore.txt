@@ -1,6 +1,6 @@
 Subsystem: AS_SUB_ARKCORE
 	Name: #AS_SUB_ARKCORE
-	Tags: IsReactor, Category:Control, Important, HasInternals, Control, ControlCore, Disabled
+	Tags: IsReactor, Category:Control, Important, HasInternals, Control, ControlCore
 	Hull: Flagship
 	Power := 9999999999999
 	Hex.HP := 5

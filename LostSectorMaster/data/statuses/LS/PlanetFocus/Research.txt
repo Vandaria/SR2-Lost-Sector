@@ -1,6 +1,6 @@
 Status: LS_STS_PLANETFOCUS_RESEARCH_1
 	Visible To: Nobody
 	Unique: True
-	TriggerPeriodic(SpawnOrbital(LS_ORB_PF_RETRIGGER_ECON), Interval = 1200, Random Margin = 1200)
+	TriggerPeriodic(SpawnOrbital(LS_ORB_PF_RETRIGGER_ECON), Interval = 600, Random Margin = 600)
 	PerIncomeAddResource(Research, 1.05, Research)
 	ModPressurePct(Research, 0.05)
