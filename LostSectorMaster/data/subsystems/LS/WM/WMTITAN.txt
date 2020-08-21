@@ -2,7 +2,7 @@ Subsystem: WMTITAN
 	Name: #S_TITAN_HULL
 	Description: #LS_SUB_WM_TITAN_DESC
 
-	Tags: Applied:Hull, Category:Hulls, NoCore
+	Tags: Applied:Hull, Category:Hulls, NoCore, Disabled
 	Hull: Flagship
 	EvaluationOrder: -200
 	BaseColor: #cc6a3a
@@ -15,6 +15,7 @@ Subsystem: WMTITAN
 	AddShipModifier: FireArcFactor(2.0)
 	AddShipModifier: CommandFactor(1.5)
 	AddShipModifier: MassFactor(0.75)
+	Requires:
 
 	Assert: ShipSize >= 500
 		Message: #ERROR_MIN_SIZE:$1:500

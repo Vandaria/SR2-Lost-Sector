@@ -1,5 +1,5 @@
 Subsystem: AR_SUB_SS
-	Tags: BaseCost, Category:Defense,  NoCore, NonContiguous, IsArmor, BaseCost, PassExterior, RaceSpecial, ExternalSpace
+	Tags: BaseCost, Category:Defense,  NoCore, NonContiguous, IsArmor, BaseCost, PassExterior, RaceSpecial, ExternalSpace, Disabled
 	Hull: Flagship
 	Name: #AR_SUB_SS
 	Description: #AR_SUB_SS_DESC
@@ -17,7 +17,7 @@ Subsystem: AS_SUB_CRUSTARM
 	Hex.Resistance := 0.6
 	Hex.HP := 0.2 * ShipSize
 	Hex.Mass := 0.02 * Size
-	Tags: BaseCost, Category:Defense,  NoCore, NonContiguous, IsArmor, BaseCost, PassExterior, RaceSpeciall, ExternalSpace
+	Tags: BaseCost, Category:Defense,  NoCore, NonContiguous, IsArmor, BaseCost, PassExterior, RaceSpeciall, ExternalSpace, Disabled
 	Hull: Flagship
 	Ship.ExternalHexes := Ship.ExternalHexes + ExteriorHexes
 	Module: Default

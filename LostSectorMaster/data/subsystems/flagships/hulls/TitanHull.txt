@@ -8,8 +8,8 @@ Subsystem: TitanHull
 	BaseColor: #cc6a3a
 
 	AddShipModifier: FlagshipHull::HexLimitFactor(4.0)
-	AddShipModifier: FlagshipHull::GridWidthFactor(sqrt(3.2))
-	AddShipModifier: FlagshipHull::GridWidthFactor(sqrt(3.2))
+	AddShipModifier: FlagshipHull::GridWidthFactor(3)
+	AddShipModifier: FlagshipHull::GridHeightFactor(3)
 
 	AddShipModifier: HyperdriveSpeedFactor(0.66)
 	AddShipModifier: BuildCostFactor(0.5)

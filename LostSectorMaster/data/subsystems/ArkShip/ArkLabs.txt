@@ -1,6 +1,6 @@
 Subsystem: AS_SUB_LAB1
 	Name: #AS_SUB_LAB1
-	Tags: Category:Equipment
+	Tags: Category:Equipment, Disabled
 	Hull: Flagship
 	BaseColor: #9d0dcc
 	TypeColor: #9d0dcc

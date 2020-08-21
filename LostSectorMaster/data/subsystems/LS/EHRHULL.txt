@@ -1,7 +1,7 @@
 Subsystem: EHRHULL
 	Name: EHRHUll
 
-	Tags: Applied:Hull, Category:Hulls, NoCore
+	Tags: Applied:Hull, Category:Hulls, NoCore, Disabled
 	Hull: Flagship
 	EvaluationOrder: -200
 	BaseColor: #b0adb5

@@ -17,6 +17,7 @@ Subsystem: SpinalMountHull
 	AddShipModifier: tag/IsArmor::HpFactor(0.4)
 	AddShipModifier: ReloadFactor(2)
 	AddShipModifier: CooldownFactor(2)
+	AddShipModifier: tag/Weapon::DamageFactor(1.5)
 
 	Assert: ShipSize >= 300
 		Message: #ERROR_MIN_SIZE:$1:300

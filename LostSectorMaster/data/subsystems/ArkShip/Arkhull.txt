@@ -1,6 +1,6 @@
 Subsystem: AS_SUB_HULL_ARKHULL1
 	Name: #AS_SUB_HULL_ARKHULL
-	Tags: Applied:Hull, Category:Hulls, NoCore
+	Tags: Applied:Hull, Category:Hulls, NoCore, Disabled
 	Hull: Flagship
 	EvaluationOrder: -100
 	HexLimit := 999999999
@@ -27,7 +27,7 @@ Subsystem: AS_SUB_HULL_ARKHULL1
 
 Subsystem: AS_SUB_HULL_ARKHULL2
 	Name: #AS_SUB_HULL_ARKHULL2
-	Tags: Applied:Hull, Category:Hulls, NoCore
+	Tags: Applied:Hull, Category:Hulls, NoCore, Disabled
 	Hull: Flagship
 	EvaluationOrder: -100
 	HexLimit := 999999999
@@ -54,7 +54,7 @@ Subsystem: AS_SUB_HULL_ARKHULL2
 
 Subsystem: AS_SUB_HULL_ARKHULL3
 	Name: #AS_SUB_HULL_ARKHULL3
-	Tags: Applied:Hull, Category:Hulls, NoCore
+	Tags: Applied:Hull, Category:Hulls, NoCore, Disabled
 	Hull: Flagship
 	EvaluationOrder: -100
 	HexLimit := 999999999
@@ -81,7 +81,7 @@ Subsystem: AS_SUB_HULL_ARKHULL3
 
 Subsystem: AS_SUB_HULL_ARKHULL4
 	Name: #AS_SUB_HULL_ARKHULL4
-	Tags: Applied:Hull, Category:Hulls, NoCore
+	Tags: Applied:Hull, Category:Hulls, NoCore, Disabled
 	Hull: Flagship
 	EvaluationOrder: -100
 	HexLimit := 999999999

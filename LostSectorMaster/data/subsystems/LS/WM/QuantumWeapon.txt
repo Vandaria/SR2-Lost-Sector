@@ -4,7 +4,7 @@ Subsystem: QuantumWeapon
 	Hex.Resistance := 0.2
 	Hex.HP := 5 * HexSize
 	PowerUse := 2.5 * Size
-	Tags: BaseCost, SpecialWeapon, Category:Weapons, Rotatable, ExteriorCore, Weapon, HasInternals, Ability:QuantumWeaponABL
+	Tags: BaseCost, SpecialWeapon, Category:Weapons, Rotatable, ExteriorCore, Weapon, HasInternals, Ability:QuantumWeaponABL, Disabled
 	Hull: Flagship, Station
 	Elevation: 2
 	Size := HexSize * Hexes
