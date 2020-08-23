@@ -131,7 +131,7 @@ class OverviewTab : Tab, QuestionDialogCallback {
 				return true;
 			}
 			else if(evt.caller is researchGridBtn3) {
-				open(ResearchEditor("Civilian_grid.txt", "Civilian"));
+				open(ResearchEditor("Inf_grid.txt", "LSInf"));
 				return true;
 			}
 			else for(uint i = 0, cnt = buttons.length; i < cnt; ++i) {

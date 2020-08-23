@@ -52,6 +52,7 @@ Trait: StarChildren
 	ReplaceTechnologyNodes(BldPlanetaryEngine, ImpHabitat)
 	ReplaceTechnologyNodes(RingHabitat, ImpHabitat)
 
+	ReplaceTechnologyGrid(LSInf)
 	Repeat(4, AddStatusOwnedPlanets(SMCOUNT))
 	ReplaceTechnologyNodes(FactoryLabor, MothershipLabor)
 	ReplaceTechnologyNodes(FactoryLabor2, MothershipLabor2)

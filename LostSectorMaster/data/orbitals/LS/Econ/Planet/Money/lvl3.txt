@@ -1,0 +1,16 @@
+Module: LS_ORB_ECON_MNY3
+	Name: #LS_ORB_ECON_MNY3
+	Model: Research_Station
+	Material: VolkurGenericPBR
+	Size: 100
+	Icon Size: 0.0001
+	Icon: GuiOrbitalIcons::12
+	Distant Icon: GuiOrbitalIcons::12
+	Health: 50000
+	Description: #LS_ORB_ECON_MNY1_DESC
+	OnDisable(RemoveStatusInstance(LS_STS_ECON_MNY3_COUNT))
+	AddRegionStatus(LS_STS_ECON_MNY3_COUNT)
+	SpawnFreighters(Rate = 2, Status = LS_STS_ECON_MNY3)
+	SpawnFreighters(Rate = 3, Status = LS_STS_ECON_MNY2)
+	RequireNever()
+	SpawnFreighters(Rate = 6, Status = LS_STS_ECON_MNY1)

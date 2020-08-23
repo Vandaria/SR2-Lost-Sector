@@ -1,0 +1,15 @@
+Module: LS_ORB_ECON_ERGY2
+	Name: #LS_ORB_ECON_ERGY2
+	Model: SolarEngine
+	Material: GenericPBR_SolarEngine
+	Size: 100
+	Icon Size: 0.0001
+	Icon: OrbitalIcons::13
+	Distant Icon: OrbitalIcons::13
+	Health: 50000
+	Description: #LS_ORB_ECON_ERGY1_DESC
+	OnDisable(RemoveStatusInstance(LS_STS_ECON_ERGY_2_COUNT))
+	AddRegionStatus(LS_STS_ECON_ERGY_2_COUNT)
+	SpawnFreighters(Rate = 2, Status = LS_STS_ECON_ERGY_2)
+	RequireNever()
+	SpawnFreighters(Rate = 6, Status = LS_STS_ECON_ERGY_1)

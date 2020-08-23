@@ -1,0 +1,15 @@
+Technology: LS_RSCH_INFSUPPLY
+	Name: #LS_RSCH_INFSUPPLY
+	Description: #LS_RSCH_INFSUPPLY_DESC
+	Icon: AttributeIcons::4
+	Point Cost: 350
+	Time Cost: 45
+	Class: Keystone
+	Category: Infinites
+	Color: #fefc61
+	Symbol: EditIcons::7
+	AddModifier( SupplyCapacityFactor(1.1) )
+	ModAttribute(INFSUPPLY, Add, 1)
+	AddTimeCostAttribute(INFSUPPLY, Multiply = 15)
+	AddPointCostAttribute(INFSUPPLY, Multiply = 350)
+	ResetWhenUnlocked()

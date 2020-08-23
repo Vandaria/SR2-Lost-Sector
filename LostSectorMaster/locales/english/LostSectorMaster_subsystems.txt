@@ -25,3 +25,9 @@ S_COLOSSUS_HULL_DESC: <<
 	[img=Minus]Requires a large amount of Control and Power.[/img]
 	[img=Minus]Can only be used for ships of size 8000 or greater.[/img]
 >>
+S_CONSTRUCTION_BAY_DESC: <<
+	Equipment and space for construction of new ships in the field.
+
+	[img=$Labor;22]Provides labor to construct new ships with.[/img]
+	Slowly builds support ships for free based on subsystem size
+>>

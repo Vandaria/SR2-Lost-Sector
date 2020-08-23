@@ -1,5 +1,3 @@
 Status: CivOrbRes
 	Visible To: Nobody
 	AddResearchIncome(1)
-Status: CivOrbInf
-	AddInfluenceStake(1)

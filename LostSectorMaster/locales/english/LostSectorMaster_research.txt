@@ -1,0 +1,18 @@
+LS_RSCH_INFPOP: Population Booster
+LS_RSCH_INFPOP_DESC: <<
+	Boosts Population on all planets level 2 or higher by 2
+
+	Can be researched multiple times. Each subsequent time it is researched, the cost and time taken are increased.
+>>
+LS_RSCH_INFFAC: Factory Booster
+LS_RSCH_INFFAC_DESC: <<
+	Boosts Labour of factories by 2
+
+	Can be researched multiple times. Each subsequent time it is researched, the cost and time taken are increased.
+>>
+LS_RSCH_INFSUPPLY_DESC: <<
+	Increase Supply by 10%
+
+	Can be researched multiple times. Each subsequent time it is researched, the cost and time taken are increased.
+>>
+LS_RSCH_INFSUPPLY: Supply Booster

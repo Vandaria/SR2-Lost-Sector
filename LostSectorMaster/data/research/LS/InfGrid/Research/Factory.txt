@@ -1,0 +1,15 @@
+Technology: DUPLICATE_LS_RSCH_INFFAC
+	Name: #LS_RSCH_INFFAC
+	Description: #LS_RSCH_INFFAC_DESC
+	Icon: Factory
+	Point Cost: 350
+	Time Cost: 45
+	Class: Keystone
+	Category: Infinites
+	Color: #b1b4b6
+	Symbol: EditIcons::7
+	ModAttribute(FactoryLaborMod, Add, 2)
+	ModAttribute(INFFAC, Add, 1)
+	AddTimeCostAttribute(INFFAC, Multiply = 15)
+	AddPointCostAttribute(INFFAC, Multiply = 350)
+	ResetWhenUnlocked()

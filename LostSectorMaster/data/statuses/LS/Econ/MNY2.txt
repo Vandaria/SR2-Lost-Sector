@@ -1,0 +1,7 @@
+Status: LS_STS_ECON_MNY2
+	Visible To: Nobody
+	Collapses: True
+	AddMoneyIncome(10)
+Status: LS_STS_ECON_MNY2_COUNT
+	Visible To: Nobody
+	Collapses: True

@@ -19,6 +19,7 @@ Trait: Mechanoid
 	TriggerHomeworld(MorphSystemPlanetResource(3, Iron))
 	TriggerHomeworld(AddStatus(MonoHomeworld))
 
+	ReplaceTechnologyGrid(LSInf)
 	Repeat(4, AddStatusOwnedPlanets(SMCOUNT))
 	ModAttribute(PopulationGrowthFactor, Multiply, 0)
 	ModAttribute(PopulationDecayFactor, Multiply, 0)

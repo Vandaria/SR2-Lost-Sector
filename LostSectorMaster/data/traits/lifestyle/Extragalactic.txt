@@ -27,6 +27,7 @@ Trait: Extragalactic
 
 	TriggerHomeworld(DestroySystemPlanet(0, Quiet = True), Run Post = True)
 
+	ReplaceTechnologyGrid(LSInf)
 	Repeat(4, AddStatusOwnedPlanets(SMCOUNT))
 	ModAttribute(ColonizerSpeed, Multiply, 2.0)
 	SetColonizerInfo(#RACE_HERALDS_COLONIZER)

@@ -24,6 +24,7 @@ Trait: Verdant
 	UnlockSubsystem(VerdantSinew)
 	UnlockSubsystem(VerdantSupportSinew)
 
+	ReplaceTechnologyGrid(LSInf)
 	Repeat(4, AddStatusOwnedPlanets(SMCOUNT))
 	ModAttribute(PopulationPerColonizer, Multiply, 16)
 	ModAttribute(ForbidCityConstruction, Add, 1)

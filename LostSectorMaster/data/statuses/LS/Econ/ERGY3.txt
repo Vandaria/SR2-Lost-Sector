@@ -1,0 +1,7 @@
+Status: LS_STS_ECON_ERGY_3
+	Visible To: Nobody
+	Collapses: True
+	AddEnergyIncome(1)
+Status: LS_STS_ECON_ERGY_3_COUNT
+	Visible To: Nobody
+	Collapses: True
