@@ -23,6 +23,7 @@ Resource: SpaceFerns
 	ModTileDevelopRate(0.5)
 	SetMaxLevel(5)
 
+	RegenSurface(26, 16)
 	IfLevel(0, EnableModifier(tag/Engine::MaintCostFactor(0.95)), Exact = True)
 	IfLevel(1, EnableModifier(tag/Engine::MaintCostFactor(0.90)), Exact = True)
 	IfLevel(2, EnableModifier(tag/Engine::MaintCostFactor(0.75)), Exact = True)

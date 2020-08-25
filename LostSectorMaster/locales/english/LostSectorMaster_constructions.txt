@@ -1,0 +1,5 @@
+MECH_BUILD_POPULATION_DESC: <<
+	Construct 2B new mechanoid population on this planet.
+
+	As you construct more population, the labor cost of constructing will increase.
+>>

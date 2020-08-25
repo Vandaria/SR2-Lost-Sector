@@ -25,6 +25,7 @@ Resource: Allondium
 	ModTileDevelopRate(0.5)
 	SetMaxLevel(5)
 
+	RegenSurface(26, 16)
 	IfLevel(0, TriggerPeriodic(GainRandomInfluenceCards(1), Interval = 600), Exact = True) #version<116
 	IfLevel(1, TriggerPeriodic(GainRandomInfluenceCards(1), Interval = 480), Exact = True) #version<116
 	IfLevel(2, TriggerPeriodic(GainRandomInfluenceCards(1), Interval = 360), Exact = True) #version<116

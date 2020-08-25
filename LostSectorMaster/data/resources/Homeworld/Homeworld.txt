@@ -44,3 +44,4 @@ Resource: Homeworld
 	IfLevel(3, AddFTLIncome(3))
 	IfLevel(3, AddFTLStorage(1500))
 	SetOrbitSpin(120)
+	RegenSurface(50, 25)

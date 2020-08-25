@@ -7,6 +7,7 @@ Subsystem: LSCivRSSub
 	Hex.HP := 18 * HexSize
 	Hex.Resistance := 0.2
 	BaseColor: #a30fff
+	Ship.Hexes := Hexes/10
 	Module: default
 		Sprite: FleetComputer
 	Hook: AddResearchIncome(Size * 0.03)

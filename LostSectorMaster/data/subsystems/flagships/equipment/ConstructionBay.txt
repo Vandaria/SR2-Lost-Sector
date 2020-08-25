@@ -16,7 +16,7 @@ Subsystem: ConstructionBay
 	Hook: AddLaborIncome(LaborIncome)
 	Hook: AddPermanentStatus(ConstructionBay)
 
-	Hook: AddLocalDefense(Size/10)
+	Hook: AddLocalDefense(Size/2)
 	Module: Core
 		Sprite: ComputerCore * #fca404
 

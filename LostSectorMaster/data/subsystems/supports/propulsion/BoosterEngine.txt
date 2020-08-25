@@ -16,7 +16,7 @@ Subsystem: BoosterEngine
 	Size := HexSize * Hexes
 
 	BoostThrust := 500 * Size
-	TurnThrust := 5.0 * Size
+	TurnThrust := 25.0 * Size
 
 	Hex.Mass := 0.5 * HexSize
 

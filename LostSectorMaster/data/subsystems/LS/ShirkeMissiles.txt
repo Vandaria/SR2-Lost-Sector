@@ -13,7 +13,7 @@ Subsystem: ShrikeMissiles1
 
 	Size := HexSize * Hexes
 	Range := Size + 9000
-	Damage := Size * 15
+	Damage := Size * 10
 	Reload := 12
 	Speed := max(30, Range / 60)
 	Spread := 0.4 / max(Range / 600, 1)

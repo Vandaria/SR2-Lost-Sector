@@ -25,6 +25,7 @@ Resource: FTL
 	IfType(Planet, AddFTLIncome(+1)) #version<105
 	IfType(Planet, AddFTLStorage(+250)) #version<105
 
+	RegenSurface(26, 16)
 	AddFTLIncome(+0.1) #version>=105
 	IfLevel(1, AddFTLIncome(+0.4)) #version>=105
 	IfLevel(2, AddFTLIncome(+0.5)) #version>=105

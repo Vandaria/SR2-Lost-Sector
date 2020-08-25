@@ -21,6 +21,7 @@ Resource: Quartz
 	ModTileDevelopRate(0.5)
 	SetMaxLevel(5)
 
+	RegenSurface(26, 16)
 	AddLaborStorage(10)
 	RepeatPlanetLevel(AddLaborStorage(100))
 

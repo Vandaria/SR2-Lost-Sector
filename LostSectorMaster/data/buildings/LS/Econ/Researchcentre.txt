@@ -11,5 +11,6 @@ Building: LS_BLD_ECON_RESEARCHCENTRE
 	Category: Planet Focus
 	Size: 8x5
 	In Queue: True
+	RequireNever()
 	RequireNotStatus(LS_STS_PLANETFOCUS_RESEARCH_1)
 	AddStatus(LS_STS_PLANETFOCUS_RESEARCH_1)

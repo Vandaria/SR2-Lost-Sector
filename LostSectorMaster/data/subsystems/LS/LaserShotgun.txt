@@ -11,11 +11,11 @@ Subsystem: Sweeper
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes
-	Range := Size + 1000
-	Damage := Size * 15
+	Range := Size + 2000
+	Damage := Size * 20
 	Reload := 15
 	Speed := max(65, Range / 12)
-	Spread := 0.3 / max(Range / 200, 1)
+	Spread := 0.2 / max(Range / 200, 1)
 	Tracking := 0.14
 	FireArc := 0.2
 	SupplyCost := Size * 2.0

@@ -5,10 +5,10 @@ Status: Mothership
 
 	CannotFireOutsideOwnedSpace()
 
-	OnEnable(AddStatus(MothershipPopulation), 6)
+	OnEnable(AddStatus(MothershipPopulation), 18)
 	OnDisable(RemoveStatus(MothershipPopulation))
 
-	TriggerPeriodic(AddStatus(MothershipPopulation, Max Stacks = 30), Interval = 20)
+	TriggerPeriodic(AddStatus(MothershipPopulation, Max Stacks = 30), Interval = 15)
 
 	AllowConstruction(Ships = True, Orbitals = True, Asteroids = True, Terraforming = True)
 

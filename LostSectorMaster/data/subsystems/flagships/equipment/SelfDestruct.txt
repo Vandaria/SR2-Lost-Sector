@@ -12,7 +12,7 @@ Subsystem: SelfDestruct
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes
-	Damage := Size * 500
+	Damage := Size * 250
 	Radius := ((ShipSize + Size)/2)^(1/2.5) * 200
 	PowerUse := 10 * Size
 

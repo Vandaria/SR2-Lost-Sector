@@ -10,6 +10,7 @@ Building: LS_BLD_ECON_ENERGYFOCUS1
 	Tile Maintenance: 5
 	Labor Cost: 30
 	Build Time: 90
+	RequireNever()
 	RequireNotStatus(LS_STS_PLANETFOCUS_RESEARCH_1)
 	RequireNotStatus(LS_STS_PLANETFOCUS_MILITARY_1)
 	RequireNotStatus(LS_STS_PLANETFOCUS_ENERGY_1)

@@ -3,7 +3,7 @@ Resource: Plains
 	Blurb: #PLAINS_BLURB
 	Description: #PLAINS_DESC
 	Native Biome: Forest
-	Class: 
+	Class:
 
 	Small Icon: ResourceIconsSmall::59
 
@@ -14,7 +14,7 @@ Resource: Plains
 	Can Be Terraformed: False
 	Exportable: False
 
-	RegenSurface(26, 16, Biome Count = 3)
+	RegenSurface(50, 25)
 
 	ModTileDevelopRate(+1.0)
 	RepeatPlanetLevel(ModTileDevelopRate(+0.5))
@@ -35,4 +35,3 @@ Resource: Plains
 	IfLevel(4, IfNotHaveStatus(LS_STS_ECON_RSRCH_3_COUNT, TriggerPeriodic(RepeatTrigger(1, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH3, Offset = 4500)), Interval = 300)))
 	IfLevel(2, IfNotHaveStatus(LS_STS_ECON_RSRCH_1_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH1, Offset = 8000)), Interval = 300)))
 	IfLevel(3, IfNotHaveStatus(LS_STS_ECON_RSRCH_2_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH2, Offset = 6000)), Interval = 300)))
-	

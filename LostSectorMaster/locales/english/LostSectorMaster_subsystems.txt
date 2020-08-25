@@ -31,3 +31,11 @@ S_CONSTRUCTION_BAY_DESC: <<
 	[img=$Labor;22]Provides labor to construct new ships with.[/img]
 	Slowly builds support ships for free based on subsystem size
 >>
+ERROR_TOO_SMALL: $1 too small. Msy be at least 25 hexes
+LS_SUB_SS_DESC: <<
+	Used as the framework for ships.
+	No cost
+	No mass
+	No labour
+	1 health each
+>>

@@ -23,6 +23,7 @@ Resource: Cyllium
 	ModCivResourceMult(Energy, +0.1)
 	RepeatPlanetLevel(ModCivResourceMult(Energy, +0.1))
 
+	RegenSurface(26, 16)
 	IfLevel(0, TriggerPeriodic(SpawnArtifact(In System = True, Owned = True, Expire = 120), Interval = 120), Exact = True)
 	IfLevel(1, TriggerPeriodic(SpawnArtifact(In System = True, Owned = True, Expire = 240), Interval = 120), Exact = True)
 	IfLevel(2, TriggerPeriodic(SpawnArtifact(In System = True, Owned = True, Expire = 360), Interval = 120), Exact = True)

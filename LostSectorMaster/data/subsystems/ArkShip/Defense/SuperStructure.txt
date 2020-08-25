@@ -7,7 +7,7 @@ Subsystem: AR_SUB_SS
 	Hex.HP := 0.1 * ShipSize
 	Hex.Resistance := 0.2
 	Elevation: 1
-	Ship.ExternalHexes := Ship.ExternalHexes + ExteriorHexes
+	Ship.ExternalHexes := 0
 	Module: Default
 		Sprite: NanoMesh * #666f71
 Subsystem: AS_SUB_CRUSTARM

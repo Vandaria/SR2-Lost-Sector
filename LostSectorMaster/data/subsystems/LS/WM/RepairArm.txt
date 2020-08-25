@@ -12,9 +12,9 @@ Subsystem: RepairArm
 	Hex.Resistance := 0.2
 	Hex.Mass := HexSize * 4
 	Hex.MaintainCost := HexSize *0.8
-	AddShipModifier: SupportCapacityFactor(0.75)
-	AddShipModifier: DamageFactor(0.75)
-	Assert: Size / ShipSize > 0.33
+	AddShipModifier: SupportCapacityFactor(0.55)
+	AddShipModifier: DamageFactor(0.55)
+	Assert: Hexes = 25
 		Message: #ERROR_TOO_SMALL
 	Module: Core
 		Hex.HP := Hex.HP * 0.9
@@ -22,5 +22,3 @@ Subsystem: RepairArm
 		Hex.BuildCost := Hex.BuildCost * 10
 		DrawMode:
 		Sprite: ComputerCore * #22ff00
-	Assert: ShipSize >= 1500
-		Message: #ERROR_MIN_SIZE
