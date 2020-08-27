@@ -7,5 +7,6 @@ Trait: SequesteredSociety
 	Color: #aaffaa
 
 	Costs Points: 1
+	Available: False
 
 	TriggerHomeworld(DevelopTiles(800))

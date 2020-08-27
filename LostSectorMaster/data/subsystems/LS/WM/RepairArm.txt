@@ -14,8 +14,8 @@ Subsystem: RepairArm
 	Hex.MaintainCost := HexSize *0.8
 	AddShipModifier: SupportCapacityFactor(0.55)
 	AddShipModifier: DamageFactor(0.55)
-	Assert: Hexes = 25
-		Message: #ERROR_TOO_SMALL
+	Assert: Hexes <= 1
+		Message: Repair Arm can only be one hex
 	Module: Core
 		Hex.HP := Hex.HP * 0.9
 		Hex.Mass := Hex.Mass * 5

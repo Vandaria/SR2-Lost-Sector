@@ -7,7 +7,7 @@ Subsystem: ShrikeMissiles1
 	Elevation: 2
 
 	Tags: BaseCost, Category:Weapons
-	Tags: WeaponBase, Rotatable, HexLimitArc
+	Tags: WeaponBase, Rotatable, HexLimitArc, Missile
 	Tags: ExteriorCore, Weapon, DefaultUnlock, HasInternals, MainDPS,
 	Hull: Flagship, Station
 
@@ -15,7 +15,7 @@ Subsystem: ShrikeMissiles1
 	Range := Size + 9000
 	Damage := Size * 10
 	Reload := 12
-	Speed := max(30, Range / 60)
+	Speed := max(40, Range / 60)
 	Spread := 0.4 / max(Range / 600, 1)
 	Tracking := 0.3
 	FireArc := 0.3

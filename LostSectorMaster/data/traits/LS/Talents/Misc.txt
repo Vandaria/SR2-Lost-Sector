@@ -1,0 +1,40 @@
+Trait: LS_TRT_HIVEMIND
+	Category: Philosphy
+	Name: #LS_TRT_HIVE
+	Description: #LS_TRT_HIVE_DESC
+	Unique: Philosphy
+	Costs Points: 5
+	AddModifier(hull/Flagship::SupportCapacityFactor(1.3) )
+	AddModifier(hull/Flagship::HPFactor(0.8) )
+	AddModifier(hull/Flagship::LaborCostFactor(0.5) )
+	AddModifier(SupportHull::LaborCostFactor((ShipSize/100)*(ShipSize/100)))
+	AddModifier(SupportHull::BuildCostFactor((ShipSize/100)*(ShipSize/100)))
+Trait: LS_TRT_DRAGON
+	Category: Philosphy
+	Unique: Philosphy
+	Name: #LS_TRT_DRAGON
+	Description: #LS_TRT_DRAGON_DESC
+	Costs Points: 5
+	AddModifier(hull/Flagship::ArmorResistFactor(1.3))
+	AddModifier(hull/Flagship::RepairFactor(6))
+	AddModifier(hull/Flagship::MaintCostFactor(1.5))
+	AddModifier(hull/Flagship::BuildCostFactor(2.25) )
+	AddModifier(hull/Flagship::ShieldRegenFactor(0.1) )
+	AddModifier(hull/Flagship::ShieldCapacityFactor(0.1) )
+	AddModifier(hull/Flagship::SupplyCapacityFactor(2) )
+	AddModifier(hull/Flagship::SupportCapacityFactor(0.1) )
+	AddModifier(hull/Flagship::HPFactor(2) )
+	AddModifier(hull/Flagship::LaborCostFactor(2.25) )
+Trait: LS_TRT_PEACE
+	Category: Philosphy
+	Unique: Philosphy
+	Available: False
+Trait: LS_TRT_MERC
+	Category: Philosphy
+	Unique: Philosphy
+	Available: False
+Trait: LS_TRT_AI
+	Category: Philosphy
+	Order:
+	Unique: Philosphy
+	Available: False

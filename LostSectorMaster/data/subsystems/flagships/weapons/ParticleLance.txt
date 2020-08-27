@@ -14,7 +14,7 @@ Subsystem: ParticleLance
 	Range := (Size/3)  + 2000
 	Damage := Size * 10
 	Reload := 5
-	Speed := max(60, Range / 30)
+	Speed := 120
 	Spread := 0
 	Tracking := 0.1
 	FireArc := 3.0

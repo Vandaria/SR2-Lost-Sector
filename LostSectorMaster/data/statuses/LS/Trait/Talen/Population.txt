@@ -1,0 +1,16 @@
+Status: LS_STS_TRT_POPMAJ
+	Visible To: Nobody
+	Unique: True
+	ModPopulationGrowth(0.12)
+Status: LS_STS_TRT_POPMINOR
+	Visible To: Owner
+	Unique: True
+	ModPopulationGrowth(0.05)
+Status: LS_STS_TRT_POPDOWNMINOR
+	Visible To: Nobody
+	Unique: True
+	ModPopulationGrowth(-0.05)
+Status: LS_STS_TRT_POPDOWNMAJ
+	Visible To: Nobody
+	Unique: True
+	ModPopulationGrowth(-0.12)

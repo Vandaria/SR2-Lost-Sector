@@ -24,7 +24,7 @@ Subsystem: SupportPlasmaThrower
 		DamageOverTime := DamageOverTime * factor
 
 	Reload := 5.0 * min(1.0 + Size/512, 2.0)
-	Speed := max(200, Range / 10)
+	Speed := 125
 	Spread := 0.015 / max(Range / 600, 1)
 	Tracking := 0.2
 	FireArc := 1.5

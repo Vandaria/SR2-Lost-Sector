@@ -9,5 +9,6 @@ Trait: Terrestial
 	Category: Lifestyle
 	Unique: Lifestyle
 	Default: True
+	Gives Points: 10
 	ReplaceTechnologyGrid(LSInf)
 	Repeat(4, AddStatusOwnedPlanets(SMCOUNT))

@@ -14,7 +14,7 @@ Subsystem: MuonCannon
 	Range := (Size/3)  + 1500
 	Damage := Size * 1
 	Reload := 0.33
-	Speed := max(90, Range / 3)
+	Speed := 100
 	Spread := 0.06 / max(Range / 600, 1)
 	Tracking := 0.8
 	FireArc := 0.5 * pi

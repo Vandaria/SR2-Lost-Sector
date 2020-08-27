@@ -25,7 +25,7 @@ Subsystem: PlasmaThrower
 		DamageOverTime := DamageOverTime * factor
 
 	Reload := 15
-	Speed := max(200, Range / 10)
+	Speed := 10
 	Spread := 0.015 / max(Range / 600, 1)
 	Tracking := 0.2
 	FireArc := 1.5

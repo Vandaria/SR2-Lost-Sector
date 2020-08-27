@@ -9,6 +9,7 @@ Trait: RandomLifestyle
 	Category: Lifestyle
 	Unique: Lifestyle
 	AI Support: False
+	Gives Points: 10
 
 	Repeat(4, AddStatusOwnedPlanets(SMCOUNT))
 	AddResearchIncome(1)

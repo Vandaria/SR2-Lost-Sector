@@ -8,6 +8,7 @@ Trait: Linked
 
 	Category: Lifestyle
 	Unique: Lifestyle
+	Gives Points: 10
 
 	AddStatusOwnedFleets(FleetLinked, Give to Stations = False)
 

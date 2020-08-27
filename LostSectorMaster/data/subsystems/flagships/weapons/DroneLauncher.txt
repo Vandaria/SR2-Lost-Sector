@@ -13,13 +13,13 @@ Subsystem: DroneLauncher
 
 	Size := HexSize * Hexes
 	Range := Size + 1800
-	Speed := 80
+	Speed := 120
 	Tracking := 3
 	SupplyCost := (Size/3)  * 3.0
 
 	Lifetime := 30
 
-	DroneCount := 4.0 * floor(pow(Size, 0.33))
+	DroneCount := 16
 	Damage := (Size * 5.0) / DroneCount
 	FireDelay := min(0.5, Lifetime / (DroneCount + 1))
 

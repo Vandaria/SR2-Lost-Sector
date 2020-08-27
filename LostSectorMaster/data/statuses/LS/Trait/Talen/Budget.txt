@@ -1,0 +1,16 @@
+Status: LS_STS_TRT_BUDGETDOWNMINOR
+	Visible To: Nobody
+	Unique: True
+	AddMoneyIncome(-100)
+Status: LS_STS_TRT_BUDGETDOWNMAJ
+	Visible To: Nobody
+	Unique: True
+	AddMoneyIncome(-250)
+Status: LS_STS_TRT_BUDGETUPMINOR
+	Visible To: Nobody
+	Unique: True
+	AddMoneyIncome(100)
+Status: LS_STS_TRT_BUDGETUPMAJ
+	Visible To: Nobody
+	Unique: True
+	AddMoneyIncome(150)

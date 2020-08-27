@@ -18,7 +18,7 @@ Subsystem: FlakBattery
 	Damage := Size * 1.0
 	Reload := 0.05
 
-	Speed := Range
+	Speed := 250
 	Spread := 0.2
 
 	Tracking := 0.6

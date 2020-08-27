@@ -8,5 +8,6 @@ Trait: Evangelical
 
 	Category: Lifestyle
 	Unique: Lifestyle
+	Gives Points: 10
 	ReplaceTechnologyGrid(LSInf)
 	Repeat(4, AddStatusOwnedPlanets(SMCOUNT))

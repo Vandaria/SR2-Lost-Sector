@@ -1,0 +1,24 @@
+Trait: LS_TRT_INFUPMINOR
+	Category: Domestic
+	Name: #LS_TRT_INFUPMINOR
+	Description: #LS_TRT_INFUPMINOR_DESC
+	Costs Points: 1
+	ModInfluenceFactor(0.05)
+Trait: LS_TRT_INFUPMAJOR
+	Category: Domestic
+	Name: #LS_TRT_INFUPMAJOR
+	Description: #LS_TRT_INFUPMAJOR_DES
+	Costs Points: 3
+	ModInfluenceFactor(0.12)
+Trait: LS_TRT_INFDOWNMINOR
+	Category: Domestic
+	Name: #LS_TRT_INFDOWNMINOR
+	Description: #LS_TRT_INFDOWNMINOR_DESC
+	Gives Points: 1
+	ModInfluenceFactor(-0.05)
+Trait: LS_TRT_INFDOWNMAJOR
+	Category: Domestic
+	Name: #LS_TRT_INFDOWNMAJOR
+	Description: #LS_TRT_INFDOWNMAJOR_DESC
+	Gives Points: 3
+	ModInfluenceFactor(-0.12)

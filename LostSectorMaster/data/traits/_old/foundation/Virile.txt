@@ -8,5 +8,6 @@ Trait: Virile
 
 	Icon: StatusIcons::0
 	Color: #aaffaa
+	Available: False
 
 	OnHomeworld(AddStatus(Virile))

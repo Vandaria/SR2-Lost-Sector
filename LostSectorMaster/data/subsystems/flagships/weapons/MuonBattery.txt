@@ -15,7 +15,7 @@ Subsystem: MuonBattery
 	Range := (Size/3)  + 2000
 	Damage := Size * 1
 	Reload := 0.33
-	Speed := max(90, Range / 3)
+	Speed := 100
 	Spread := 0.035 / max(Range / 600, 1)
 	Tracking := 0.4
 	FireArc := 1.5

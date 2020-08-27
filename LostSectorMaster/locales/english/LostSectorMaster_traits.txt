@@ -19,3 +19,194 @@ LSTRAITS_AI_HARDBUFF_DESC: <<
 	Pop Growth +25%
 
 >>
+LS_TRT_POPUPMINOR: Population Growth Minor
+LS_TRT_POPUPMAJOR: Population Growth Major
+LS_TRT_POPUPMINOR_DESC: Increase Population growth by 12%
+LS_TRT_POPDOWNMINOR: Population Growth Decrease Minor
+LS_TRT_POPDOWNMINOR_DESC: Decrease Population growth my 5%
+LS_TRT_BUDGETUPMINOR: Budget  Up Minor
+LS_TRT_BUDGETUPMINOR_DESC: Planets generate $100k extra budget
+LS_TRT_BUDGETUPMAJOR: Budget Up Major
+LS_TRT_BUDGETUPMAJOR_DESC: Planets generate an extra $150k budget
+LS_TRT_BUDGETDOWNMINOR: Budget Down Minor
+LS_TRT_BUDGETDOWNMINOR_DESC: Planets generate $100k less budget
+LS_TRT_BUDGETDOWNMAJOR: Budget Down Major
+LS_TRT_BUDGETDOWNMAJOR_DESC: Planets Generate $250k less budget
+LS_TRT_SUPPLYUPMINOR: Supply Up Minor
+LS_TRT_SUPPLYUPMINOR_DESC: Decrease supply costs by 10%
+LS_TRT_SUPPLYUPMAJ: Supply Up Major
+LS_TRT_SUPPLYUPMAJ_DESC: Decrase Supply costs by 20%
+LS_TRT_SUPPLYDOWNMINOR: <<
+	Supply Down Minor
+
+>>
+LS_TRT_SUPPLYDOWNMINOR_DESC: Increase Supply costs by 20%
+LS_TRT_SUPPLYDOWNMAJOR: Supply Down Major
+LS_TRT_SUPPLYDOWNMAJOR_DESC: Increase Supply costs by 40%
+LS_TRT_MISSILEFOCUS: Missile Focus
+LS_TRT_MISSILEFOCUS_DESC: <<
+	Missile Weapons have the following bonuses:
+	+10% damage
+	-10% Supply Cost
+	+50% AOE
+	+5% Reload
+>>
+LS_TRT_LASERFOCUS: Laser Focus
+LS_TRT_LASERFOCUS_DESC: <<
+	Laser weapons have the following buffs:
+
+	+20% damage
+	-10% Cooldown
+	-10% Power use
+	+ 20% Range
+>>
+LS_TRT_PROJECTILEFOCUS: Projectile Focus
+LS_TRT_PROJECTILEFOCUS_DESC: <<
+	Projectile Weapons have the following buffs:
+	+50% Pierce
+	-30% Reload
+	+10% Range
+>>
+LS_TRT_RELOADUPMINOR: Reload up Minor
+LS_TRT_RELOADUPMINOR_DESC: Decrease Reload times by 10%
+LS_TRT_RELOADUPMAJ: Reload Up Major
+LS_TRT_RELOADUPMAJ_DESC: Decrease Reload Times by 15%
+LS_TRT_RELOADDOWNMINOR: Reload Down Minor
+LS_TRT_RELOADDOWNMINOR_DESC: Increase Reload times by 10%
+LS_TRT_RELOADDOWNMAJ: Reload down Major
+LS_TRT_RELOADDOWNMAJ_DESC: Reload times increased by 20%
+LS_TRT_HPUPMINOR: HP Up Minor
+LS_TRT_HPUPMINOR_DESC: <<
+	Increase HP by 25%
+	Increase repair rate by 50%
+>>
+LS_TRT_HPUPMAJOR: HP Up Major
+LS_TRT_HPUPMAJOR_DESC: <<
+	Increase HP by 40%
+	Increase Repair by 80%
+>>
+LS_TRT_HPDOWNMINOR: HP Down Minor
+LS_TRT_HPDOWNMINOR_DESC: Decrease HP by 10%
+LS_TRT_HPDOWNMAJOR: HP Down Major
+LS_TRT_HPDOWNMAJOR_DESC: Decrease HP by 20%
+LS_TRT_SHIELDUPMINOR: Shield Up Minor
+LS_TRT_SHIELDUPMINOR_DESC: <<
+	Increase Shield Capacity by 5%
+	Increase Shield Regen by 10%
+>>
+LS_TRT_SHIELDUPMAJOR: Shield Up Major
+LS_TRT_SHIELDUPMAJOR_DESC: <<
+	Increase Shield Capacity by 12%
+	Increase Shield Regen by 17%
+>>
+LS_TRT_SHIELDDOWNMINOR: Shield Down Minor
+LS_TRT_SHIELDDOWNMINOR_DESC: <<
+	Decrease Shield Capacity by 5%
+	Decrease Shield Regen by 10%
+>>
+LS_TRT_SHIELDDOWNMAJOR: Shield Down Major
+LS_TRT_SHIELDDOWNMAJOR_DESC: <<
+	Decrease Shield Capacity by 12%
+	Decrease Shield Regen by 17%
+>>
+LS_TRT_ARMORFOCUS: Armour Focus
+LS_TRT_ARMORFOCUS_DESC: <<
+	Increase Armour Resistance by 50%
+	Increase Armour HP by 20%
+	Increase Repair rate by 50%
+>>
+LS_TRT_SHIELDFOCUS: Shield Focus
+LS_TRT_SHIELDFOCUS_DESC: <<
+	Increase Shield regen by 100%
+	Increase Shield Capacity by 20%
+	Decrease Shield Power use by 25%
+	Decrease Armour HP by 30%
+	Decrease Armour Resist by 20%
+>>
+LS_TRT_ARMORFOCUS_DESC: <<
+	Increase Armour Resistance by 50%
+	Increase Armour HP by 20%
+	Increase Repair rate by 50%
+>>
+LS_TRT_INFUPMINOR: Influence Up Minor
+LS_TRT_INFUPMINOR_DESC: Increase Influence Generation by 5%
+LS_TRT_INFUPMAJOR: Influence Up Major
+LS_TRT_INFUPMAJOR_DES: Increase Influence Generation by 12%
+LS_TRT_INFDOWNMINOR: Influence Down Minor
+LS_TRT_INFDOWNMINOR_DESC: Decrease Influence Generation by 5%
+LS_TRT_INFDOWNMAJOR: Influence Down Major
+LS_TRT_INFDOWNMAJOR_DESC: Decrrase Influence Generation by 12%
+LS_TRT_LABOURUPMINOR: Labour Up Minor
+LS_TRT_LABOURUPMINOR_DESC: Increase Labour by 20%
+LS_TRT_LABOURUPMAJ: Labour Up Major
+LS_TRT_LABOURUPMAJ_DESC: Increase Labour by 40%
+LS_TRT_LABOURDOWNMINOR: Labour Down Minor
+LS_TRT_LABOURDOWNMINOR_DESC: Decrease Labour by 15%
+LS_TRT_LABOURDOWNMAJ: Labour Down Major
+LS_TRT_LABOURDOWNMAJ_DESC: Decrease Labour by 30%
+LS_TRT_HIVE: Hive Mind
+LS_TRT_HIVE_DESC: <<
+	A race linked together by one unified hive mind.
+
+
+	Flagships labour cost -50%
+	Support Ship Labour Cost is cheaper under Size 100, More expensive above Size 100
+	Support Ship Build Cost is cheaper under Size 100, more expensive above Size 100
+	Flagship Health decrease by 20%
+	Flagship Support capacity increase by 30%
+>>
+LS_TRT_DRAGON: Dragon
+LS_TRT_DRAGON_DESC: <<
+	Encompass that of the mighty mythical dragon. One unstoppable ship.
+
+
+	90% less support capacity
+	100% more Flagship Health
+	100% more Flagship damage
+	100% more Flagship Supplies
+	500% more Flagship repair
+	90% less Flagship Shield Capacity
+	90% less Flagship Shield Regen
+	30% more Armour DR
+
+	125% more Flagship Build cost
+	125% more Flagship Labour cost
+	50% more Flagship Maintenance
+>>
+LS_TRT_THRUSTALLDOWNMAJOR: Thrust All Down Major
+LS_TRT_THRUSTALLDOWNMAJOR_DESC: <<
+	Decreaste Turn Thrust by 15%
+	Decrease Thrust by 25%
+>>
+LS_TRT_THRUSTALLUPMINOR: Thrust Up All Minor
+LS_TRT_THRUSTALLUPMINOR_DESC: <<
+	Increase by:
+	10% thrust
+	15% Turn Thrust
+>>
+LS_TRT_THRUSTALLDOWNMINOR: Thrust All Down Minor
+LS_TRT_THRUSTALLDOWNMINOR_DESC: <<
+	Descrease Turn Thrust by 8%
+	Decreasre Thrust by 15%
+
+>>
+LS_TRT_THRUSTDOWNMAJOR: Thrust Down Major
+LS_TRT_THRUSTDOWNMAJOR_DESC: Decrease thrust by 30%
+LS_TRT_THRUSTDOWNMINOR: Decrease Thrust by 20%
+LS_TRT_THRUSTUPMAJOR: Thrust Up Major
+LS_TRT_THRUSTUPMAJOR_DESC: Increase Thrust by 35%
+LS_TRT_THRUSTUPMINOR: Thrust Up Minor
+LS_TRT_THRUSTUPMINOR_DESC: Increase Thrust by 25%
+LS_TRT_TURNTHRUSTUPMAJOR: Turn Thrust Up Major
+LS_TRT_TURNTHRUSTUPMAJOR_DESC: Increase Turn Thrust by 70%
+LS_TRT_TURNTHRUSTUPMINOR: Turn Thrust up Minor
+LS_TRT_TURNTHRUSTUPMINOR_DESC: Increase Turn Thrust by 30%
+LS_TRT_TURNTHRUSTDOWNMAJOR: Turn Thrust Down Major
+LS_TRT_TURNTHRUSTDOWNMAJOR_DESC: Decrease Turn Thrust by 20%
+LS_TRT_TURNTHRUSTDOWNMINOR: Turn Thrust Down Minor
+LS_TRT_TURNTHRUSTDOWNMINOR_DESC: Decrease Turn Thrust by 12%
+LS_TRT_THRUSTALLUPMAJOR: Thrust All Up Major
+LS_TRT_THRUSTALLUPMAJOR_DESC: <<
+	Increase Turn Thrust by 30%
+	Increase Thrust by 20%
+>>

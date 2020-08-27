@@ -7,7 +7,7 @@ Subsystem: SupportLaser
 	Elevation: 2
 
 	Tags: BeamBase, Rotatable, HexLimitArc, Category:Weapons
-	Tags: ExteriorCore, Weapon, DefaultUnlock, IsBeamWeapon, HasInternals
+	Tags: ExteriorCore, Weapon, DefaultUnlock, IsBeamWeapon, HasInternals, Laser
 	Hull: Support, Satellite
 
 	Size := HexSize * Hexes

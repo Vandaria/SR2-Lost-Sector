@@ -1,0 +1,11 @@
+Trait: LS_TRT_POPUPMAJOR
+	Name: #LS_TRT_POPUPMAJOR
+	Description: #LS_TRT_POPUPMINOR_DESC
+	Category: Domestic
+	Order: 2
+	Icon: ResourceIcon::8
+	Color: #1cff33
+	Conflict: StarChildren
+	Conflict: Mechanoid
+	Costs Points: 3
+	AddStatusOwnedPlanets(LS_STS_TRT_POPMAJ)

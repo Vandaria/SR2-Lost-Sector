@@ -7,14 +7,14 @@ Subsystem: SupportMissileLauncher
 	Elevation: 2
 
 	Tags: WeaponBase, MissileBase, Category:Weapons, Rotatable, Homing
-	Tags: ExteriorCore, Weapon, DefaultUnlock, IsExplosiveWeapon, HasInternals
+	Tags: ExteriorCore, Weapon, DefaultUnlock, IsExplosiveWeapon, HasInternals, Missile
 	Hull: Support, Satellite
 
 	Size := HexSize * Hexes
 	Range := (Size/3)  + 7000
 	Damage := Size * 25
 	Reload := 25
-	Speed := max(85, Range / 10)
+	Speed := 75
 	Tracking := 3
 	SupplyCost := Size * 3.0
 
@@ -25,6 +25,7 @@ Subsystem: SupportMissileLauncher
 	Hex.BuildCost := 0.75 * HexSize
 	Hex.LaborCost := 0.07 * HexSize
 
+	Radius := 10
 	Requires:
 		Command = 1
 
@@ -49,3 +50,4 @@ Subsystem: SupportMissileLauncher
 		Speed = Speed
 		Tracking = Tracking
 		SupplyCost = SupplyCost * Reload
+		Radius = Radius

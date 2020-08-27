@@ -6,7 +6,7 @@ Subsystem: PulseBolt
 	Elevation: 1
 
 	Tags: BeamBase, Rotatable, HexLimitArc, Category:Weapons
-	Tags: ExteriorCore, Weapon, IsBeamWeapon, HasInternals
+	Tags: ExteriorCore, Weapon, IsBeamWeapon, HasInternals, Laser 
 	Tags: HeraldsDLC, RangeForRaid
 	Hull: Support
 

@@ -15,7 +15,7 @@ Subsystem: RailgunBattery
 	Range := (Size/3) + 2500
 	Damage := Size * 0.85
 	Reload := 0.2
-	Speed := max(110, Range / 3)
+	Speed := 100
 	Spread := 0.0435 / max(Range / 600, 1)
 	Tracking := 0.4
 	FireArc := 1.5

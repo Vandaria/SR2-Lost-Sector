@@ -7,14 +7,14 @@ Subsystem: Warhead
 
 	Tags: BaseCost, HeraldsDLC
 	Tags: WeaponBase, MissileBase, Category:Weapons, Rotatable, Warhead, SecondaryDPS
-	Tags: ExteriorCore, Weapon, IsExplosiveWeapon, HasInternals, Homing
+	Tags: ExteriorCore, Weapon, IsExplosiveWeapon, HasInternals, Homing, Missile
 	Hull: Flagship, Station
 
 	Size := HexSize * Hexes
 	Range := (Size/3)  + 5000
 	Damage := Size  * 1
 	Reload := 60.0 * min(1.0 + Size/512, 2.0)
-	Speed := max(40, Range / 90)
+	Speed := 50
 	Tracking := 4
 	Radius := 100.0 + (log(Size) / log(2) * 10.0)
 	SupplyCost := 0

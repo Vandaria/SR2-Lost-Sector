@@ -8,6 +8,7 @@ Trait: StarChildren
 
 	Icon: SystemUnderAttack
 	Color: #1c9bb4
+	Gives Points: 10
 
 	AddStatusOwnedPlanets(StarChildren)
 	ModAttribute(PopulationGrowthFactor, Multiply, 0)
