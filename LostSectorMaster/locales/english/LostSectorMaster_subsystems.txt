@@ -1,7 +1,14 @@
 S_TITAN_HULL_DESC: <<
 	An extremely heavy hull frame that allows larger ships to be constructed more efficiently.
 
-
+	[img=Plus]50% cheaper Build Cost[/img]
+	[img=Plus]30% cheaper Maintenance Cost[/img]
+	[img=Plus]200% repair[/img]
+	[img=Plus]500% health[/img]
+	[img=Plus]150% Armour Resist[/img]
+	[img=Plus]30% more Supply Capacity[/img]
+	[img=Minus] 25% lower thrust [/img]
+	[img=Minus] 200% more labor [/img]
 >>
 SWEEPER: Sweeper
 SHRIKE_MISSILES: Shrike Missiles
@@ -22,8 +29,19 @@ S_COLOSSUS_HULL_DESC: <<
 	The pinnacle of giant ship construction, the colossus hull needs to use a sustained structural integrity field in order to prevent it from collapsing in on itself.
 
 	[img=Plus]Much much more internal space available.[/img]
-	[img=Minus]Requires a large amount of Control and Power.[/img]
+	[img=Plus]400% more Power.[/img]
+	[img=Plus]20% Shield Regen[/img]
+	[img=Plus]100% Sheild Capacity.[/img]
+	[img=Plus]Inherent Shield Capacity [/img]
+	[img=Plus]100% Repair[/img]
+	[img=Plus] 20% cheaper Build Cost[/img]
+	[img=Plus]70% cheaper Maintenance cost.[/img]
+	[img=Plus]200% more HP[/img]
+	[img=Plus]400% Supply Capacity[/img]
+	[img=Minus]Requires a large amount of Control[/img]
 	[img=Minus]Can only be used for ships of size 8000 or greater.[/img]
+	[img=Minus]400% more Labour[/img]
+	[img=Minus]50% less Thrust[/img]
 >>
 S_CONSTRUCTION_BAY_DESC: <<
 	Equipment and space for construction of new ships in the field.
@@ -38,4 +56,11 @@ LS_SUB_SS_DESC: <<
 	No mass
 	No labour
 	1 health each
+>>
+LS_SYS_SUPPORTSHIELD_FUTURETECH: Support Shield (FutureTech)
+LS_SYS_SUPPORTSHIELD_FUTURETECH_DESC: <<
+	Creates a shield around the vessel, blocking some incoming damage.
+
+	[img=Plus]Creates regenerating barrier against damage.[/img]
+	[img=Minus]Weakened shields allow some damage through.[/img]
 >>

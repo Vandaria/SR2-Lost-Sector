@@ -15,7 +15,7 @@ Subsystem: MissileLauncher
 	Range := (Size/3)  + 7000
 	Damage := Size * 25
 	Reload := 45
-	Speed := 75
+	Speed := 100
 	Tracking := 6
 	SupplyCost := Size * 3.0
 

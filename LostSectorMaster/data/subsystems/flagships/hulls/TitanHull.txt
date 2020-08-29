@@ -20,6 +20,8 @@ Subsystem: TitanHull
 	AddShipModifier: MaintenanceModFactor(0.7)
 
 	AddShipModifier: RepairFactor(3)
+	AddShipModifier: ThrustFactor(0.75)
+	AddShipModifier: LaborCostFactor(3)
 	Effect: ShieldDamage
 	Assert: ShipSize >= 3000
 		Message: #ERROR_MIN_SIZE:$1:3000

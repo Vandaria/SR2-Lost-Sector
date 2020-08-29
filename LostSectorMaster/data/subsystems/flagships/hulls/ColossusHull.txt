@@ -19,13 +19,14 @@ Subsystem: ColossusHull
 	AddShipModifier: RepairFactor(2)
 	AddShipModifier: SupplyCapacityFactor(5)
 	AddShipModifier: BuildCostFactor(0.8)
-	AddShipModifier: MaintenanceModFactor(0.3)
+	AddShipModifier: MaintCostFactor(0.3)
 	AddShipModifier: HpFactor(3)
 	AddShipModifier: MassFactor(0.5)
+	AddShipModifier: LaborCostFactor(5)
+	AddShipModifier: ThrustFactor(0.5)
 	Effect: ShieldDamage
 	Requires:
-		Command = 20
-		Power = ShipSize * 0.3
+		Command = 60
 
 	Assert: ShipSize >= 8000
 		Message: #ERROR_MIN_SIZE:$1:8000

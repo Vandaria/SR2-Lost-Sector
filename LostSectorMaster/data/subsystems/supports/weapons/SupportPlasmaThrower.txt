@@ -13,7 +13,7 @@ Subsystem: SupportPlasmaThrower
 	Size := HexSize * Hexes
 	Range := (Size/3)  + 2000
 
-	Duration := 5 * (1.0 + Size/64)
+	Duration := 30
 	DamageOverTime := (Size * 5.0)
 
 	out DPS := (DamageOverTime * Duration) / Reload
@@ -23,7 +23,7 @@ Subsystem: SupportPlasmaThrower
 	Modifier: DamageFactor(factor)
 		DamageOverTime := DamageOverTime * factor
 
-	Reload := 5.0 * min(1.0 + Size/512, 2.0)
+	Reload := 15
 	Speed := 125
 	Spread := 0.015 / max(Range / 600, 1)
 	Tracking := 0.2

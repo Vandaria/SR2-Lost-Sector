@@ -8,8 +8,9 @@ Subsystem: WROD
 	Hex.Resistance := 0.2
 	Hex.Mass := HexSize * 4
 	Hex.MaintainCost := HexSize * 4
-	Tags: Category:Equipment, HighMaint, HasInternals, Ability:WMOD, DefaultUnlock,
+	Tags: Category:Equipment, HighMaint, HasInternals, Ability:WMOD,
 	Hull: Flagship
+	BaseColor: #9423db
 	Module: Core
 		Sprite: Jumpdrive*#bf2004
 	Assert: Hexes <= 1

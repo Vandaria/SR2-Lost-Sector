@@ -67,6 +67,7 @@ Effector: Torpedo
 	Trail: MissileTrail
 	TrailCol: ffffff00, 00000000
 	Material: Torpedo
+	PhysicalType: Missile
 
 	Effect: AreaExplDamage
 		Amount = Damage

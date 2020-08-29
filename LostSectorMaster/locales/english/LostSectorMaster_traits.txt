@@ -210,3 +210,15 @@ LS_TRT_THRUSTALLUPMAJOR_DESC: <<
 	Increase Turn Thrust by 30%
 	Increase Thrust by 20%
 >>
+LS_TRT_FUTURETECH: Future Tech
+LS_TRT_FUTURETECH_DESC: <<
+	Your race has always been ahead of their time in advanced technology, however this has made them fragile and very reliant on their technology
+
+	+500% Shield Regen
+	Access to Overdrive Ship Subsystem
+	+100% Power Generation
+	Support Ships have 12 Extra Hexes
+	Access to Shields for Support Ships
+	-75% armour Health
+
+>>
