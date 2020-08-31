@@ -21,7 +21,6 @@ Effector: Rockets
 	Activation: Magazine(FireDelay, PodSize, Reload)
 	OnTrigger: combat::WeaponFire(SupplyCost)
 
-	PhysicalType: Aimed Missile
 	GfxType: Sprite
 	GfxSize: 0.7
 	FireSfx: rocket
@@ -33,6 +32,7 @@ Effector: Rockets
 	Material: Missile
 	ImpactGfx: ImpactFlareRocket
 	Value: Radius
+	PhysicalType: Aimed Missile
 
 	Effect: AreaExplDamage
 		Amount = Damage

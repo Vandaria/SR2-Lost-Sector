@@ -1,0 +1,11 @@
+LS_PLT_FIRST_FORGE: Forge World
+LS_PLT_FIRST_FORGE_DESC: <<
+	An ancient First Forge World that was locked in a subspace.
+	Released from the prison and the creature that was sealed with it destroyed the planet is free to reclaim.
+	It appears to be fully functional still and we have inserted some compatible designs of ships to be produced.
+
+	At Level 3 - Automatically produce Scout Class Vessels
+	At Level 5 - Automatically produce Battleship Class Vessels
+
+	[b] WARNING[/b] This planet was infected once, who knows if it might happen again or worse, if the ships produced from this might be infected
+>>

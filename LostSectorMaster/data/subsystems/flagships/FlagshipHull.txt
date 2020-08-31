@@ -23,7 +23,7 @@ Subsystem: FlagshipHull
 
 	OnCheckErrors: designs::checkGlobalDesign
 
-	Assert: ShipTotalHexes - Ship.ExternalHexes < Sum.HexLimit + 0.001
+	Assert: ShipTotalHexes - (Ship.ExternalHexes + Ship.FreeHexes) < Sum.HexLimit + 0.001
 		Message: #ERROR_HEX_COUNT
 
 	Assert: Ship.Command > 0
@@ -43,6 +43,7 @@ Subsystem: FlagshipHull
 	AddShipModifier: ArmorResistFactor(1 + ((0.4)*((ShipSize/1000)^1.5)))
 	AddShipModifier: SupplyCapacityFactor(1 + ((0.4)*((ShipSize/1000)^1.5)))
 
+	Ship.FreeHexes := 0
 	Modifier: IncreaseHexLimit(Hexes)
 		HexLimit := HexLimit + Hexes
 		FreeHexLimit := FreeHexLimit + Hexes

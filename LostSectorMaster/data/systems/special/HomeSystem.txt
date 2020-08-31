@@ -10,20 +10,6 @@ System: HomeSystem
 			ForceUsefulSurface(0.8, Crystallic)
 	ExpandSystem(13000)
 	
-		MakePlanet(RandomLevel:2, Radius = 250, Conditions = False, Moons = False)
-			SetupOrbit(Radius = 6000, Orbit Pct = 0.9)
-			ForceUsefulSurface(0.8, Moon)
-			
-		MakePlanet(RandomLevel:2, Radius = 250, Conditions = False, Moons = False)
-			SetupOrbit(Radius = 10000, Orbit Pct = 0.4)
-			ForceUsefulSurface(0.8, Moon)
 		
-		
-
-
-
-
 	AddAdjacentArtifacts(2)
-	MakeAdjacentCreepCamp(SmallCamp, Place Far = True)
-
 	

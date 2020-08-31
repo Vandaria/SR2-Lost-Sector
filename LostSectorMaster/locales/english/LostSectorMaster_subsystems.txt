@@ -32,7 +32,6 @@ S_COLOSSUS_HULL_DESC: <<
 	[img=Plus]400% more Power.[/img]
 	[img=Plus]20% Shield Regen[/img]
 	[img=Plus]100% Sheild Capacity.[/img]
-	[img=Plus]Inherent Shield Capacity [/img]
 	[img=Plus]100% Repair[/img]
 	[img=Plus] 20% cheaper Build Cost[/img]
 	[img=Plus]70% cheaper Maintenance cost.[/img]

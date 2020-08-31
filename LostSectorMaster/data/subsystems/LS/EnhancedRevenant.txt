@@ -7,7 +7,7 @@ Subsystem: MacroCannon
 	TypeColor: #575757
 	Size := HexSize * Hexes
 	Damage := Size * 1.0
-	Range := Size + 300
+	Range := Size + 5000
 	Reload := 0.2
 	Speed := max(110, Range / 10)
 	Spread := 0.035 / max(Range / 600, 1)

@@ -16,11 +16,13 @@ ConVar ai_full_speed("ai_full_speed", 0);
 
 Empire@ Creeps;
 Empire@ Pirates;
+Empire@ Monstrosity;
 uint majorEmpireCount = 0;
 
 array<ScriptThread@> threads;
 DesignSet creepDesigns;
 DesignSet pirateDesigns;
+DesignSet monstrosityDesigns;
 
 uint getMajorEmpireCount() {
 	return majorEmpireCount;
@@ -112,6 +114,9 @@ void initEmpireDesigns() {
 	creepDesigns.log = true;
 	pirateDesigns.readDirectory("data/designs/pirates");
 	pirateDesigns.log = true;
+	monstrosityDesigns.readDirectory("data/designs/monstrosity");
+	monstrosityDesigns.log = true;
+
 
 	for(uint i = 0, cnt = getEmpireCount(); i < cnt; ++i) {
 		Empire@ emp = getEmpire(i);
@@ -123,6 +128,10 @@ void initEmpireDesigns() {
 		else if(emp is Pirates) {
 			//Give the pirates their blueprints
 			pirateDesigns.createFor(emp);
+		}
+		else if(emp is Pirates) {
+			//Give the pirates their blueprints
+			monstrosityDesigns.createFor(emp);
 		}
 	}
 }
@@ -153,6 +162,7 @@ void init() {
 void save(SaveFile& msg) {
 	msg << Creeps;
 	msg << Pirates;
+	msg << Monstrosity;
 	msg << majorEmpireCount;
 
 	uint cnt = getEmpireCount();
@@ -225,6 +235,7 @@ void load(SaveFile& msg) {
 	msg >> Creeps;
 	if(msg >= SV_0084)
 		msg >> Pirates;
+		msg >> Monstrosity;
 	msg >> majorEmpireCount;
 
 	initCreepCampTypes();

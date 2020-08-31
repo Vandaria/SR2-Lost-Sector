@@ -8,7 +8,16 @@ Preset: Terrakin
 	Trait: Empire
 	Trait: Hyperdrive
 	Trait: Terrestial
-	Trait: Nimble
+	Trait: LS_TRT_POPUPMINOR
+	Trait: LS_TRT_LABOURUPMINOR
+	Trait: LS_TRT_BUDGETUPMINOR
+	Trait: LS_TRT_INFUPMINOR
+	Trait: LS_TRT_THRUSTALLUPMINOR
+	Trait: LS_TRT_THRUSTUPMINOR
+	Trait: LS_TRT_HPUPMINOR
+	Trait: LS_TRT_SHIELDUPMINOR
+	Trait: LS_TRT_SUPPLYUPMINOR
+	Trait: LS_TRT_RELOADUPMINOR
 
 Preset: Oko
 	Name: #RACE_OKO
@@ -21,7 +30,13 @@ Preset: Oko
 	Trait: Communism
 	Trait: Fling
 	Trait: Verdant
-	Trait: Prideful
+	Trait: LS_TRT_BUDGETDOWNMINOR
+	Trait: LS_TRT_HPUPMAJOR
+	Trait: LS_TRT_TURNTHRUSTDOWNMINOR
+	Trait: LS_TRT_INFDOWNMINOR
+	Trait: LS_TRT_RELOADUPMINOR
+	Trait: LS_TRT_HIVEMIND
+	Trait: LS_TRT_POPUPMAJOR
 
 Preset: Hoonan
 	Name: #RACE_HOONAN
@@ -33,7 +48,13 @@ Preset: Hoonan
 	Trait: Empire
 	Trait: Hyperdrive
 	Trait: Linked
-	Trait: SpaceProgram
+	Trait: LS_TRT_DRAGON
+	Trait: LS_TRT_ARMORFOCUS
+	Trait: LS_TRT_SHIELDDOWNMAJOR
+	Trait: LS_TRT_SHIELDDOWNMINOR
+	Trait: LS_TRT_HPUPMAJOR
+	Trait: LS_TRT_LABOURUPMAJ
+	Trait: LS_TRT_INFDOWNMINOR
 
 Preset: Feyh
 	Name: #RACE_FEYH
@@ -45,8 +66,11 @@ Preset: Feyh
 	Trait: Theocracy
 	Trait: Fling
 	Trait: Devout
-	Trait: Frugal
-
+	Trait: LS_TRT_BUDGETUPMAJOR
+	Trait: LS_TRT_SHIELDUPMINOR
+	Trait: LS_TRT_SHIELDUPMAJOR
+	Trait: LS_TRT_SHIELDFOCUS
+	
 Preset: Saar
 	Name: #RACE_SAAR
 	Tagline: #RACE_SAAR_TAGLINE

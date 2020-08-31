@@ -6,7 +6,7 @@ import orbitals;
 import object_creation;
 import traits;
 import maps;
-from empire import Creeps, Pirates, majorEmpireCount, initEmpireDesigns;
+from empire import Creeps, Pirates, Monstrosity, majorEmpireCount, initEmpireDesigns;
 import void addModifierToEmpire(Empire@ emp, const string& spec) from "bonus_effects";
 
 #priority init 5000
@@ -220,6 +220,18 @@ void init() {
 		Pirates.flagID = flag.id;
 		@Pirates.flag = getMaterial(Creeps.flagDef);
 		@Pirates.shipset = getShipset("Tyrant");
+		//added
+		@Monstrosity = Empire();
+		Monstrosity.name = "Monstrosity";
+		Monstrosity.color = Color(0xaaaaaaff);
+		Monstrosity.major = false;
+		Monstrosity.visionMask = ~0;
+
+		@flag = getEmpireFlag(randomi(0, getEmpireFlagCount()-1));
+		Monstrosity.flagDef = flag.flagDef;
+		Monstrosity.flagID = flag.id;
+		@Monstrosity.flag = getMaterial(Creeps.flagDef);
+		@Monstrosity.shipset = getShipset("Tyrant");
 
 		//Everyone hates creeps and pirates
 		for(uint i = 0, cnt = getEmpireCount(); i < cnt; ++i) {
@@ -231,6 +243,10 @@ void init() {
 			if(other !is Pirates) {
 				Pirates.setHostile(other, true);
 				other.setHostile(Pirates, true);
+			}
+			if(other !is Monstrosity) {
+				Monstrosity.setHostile(other, true);
+				other.setHostile(Monstrosity, true);
 			}
 		}
 

@@ -1,0 +1,24 @@
+Subsystem: LS_SYS_INVADERS_HULLULT
+	Name: LS_SYS_INVADERS_HULLULT
+	Tags: Applied:Hull, Category:Hulls, NoCore, Disabled
+	Hull: Flagship
+	EvaluationOrder: -100
+	HexLimit := 999999999
+	FreeHexLimit := 0
+	GridWidth := 80
+	GridHeight := 80
+	Ship.ExternalHexes := 0
+	Ship.HexSize := ShipSize / (HexLimit - FreeHexLimit)
+	Hex.Mass := 0
+	Hex.MaintainCost := 0
+	Hex.BuildCost := 0
+	Hex.LaborCost := 0.1 * ShipSize
+	AddPostModifier: AddMass(ShipSize * (1.0 - min(max((ShipTotalHexes - Ship.ExternalHexes) / Sum.HexLimit, 0.0), 1.0)))
+	OnCheckErrors: designs::checkGlobalDesign
+	AddShipModifier: SupplyCostFactor(0)
+	AddShipModifier: RepairFactor(10)
+	AddShipModifier: MaintCostFactor(0)
+	Thrust := 150 * ShipSize
+	TurnThrust := 150 * ShipSize
+	AddShipModifier: DamageFactor(5)
+	Hook: AddCargoStorage(999999999)

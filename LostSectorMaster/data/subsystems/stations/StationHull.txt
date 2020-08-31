@@ -23,7 +23,7 @@ Subsystem: StationHull
 	Hex.Mass := 0
 	AddPostModifier: AddMass(3.0 * ShipSize * (1.0 - max((ShipTotalHexes - Ship.ExternalHexes) / HexLimit, 0.0)))
 
-	Assert: ShipTotalHexes - Ship.ExternalHexes < Sum.HexLimit + 0.001
+	Assert: ShipTotalHexes - (Ship.ExternalHexes + Ship.FreeHexes) < Sum.HexLimit + 0.001
 		Message: #ERROR_HEX_COUNT
 
 	Assert: Ship.Command > 0
@@ -50,6 +50,7 @@ Subsystem: StationHull
 	AddShipModifier: FireArcFactor(2.0)
 	AddShipModifier: TrackingFactor(2.0)
 
+	Ship.FreeHexes := 0
 	Modifier: IncreaseHexLimit(Hexes)
 		HexLimit := HexLimit + Hexes
 		FreeHexLimit := FreeHexLimit + Hexes

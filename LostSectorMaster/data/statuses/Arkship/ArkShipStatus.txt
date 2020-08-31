@@ -1,5 +1,6 @@
 Status: AS_STS_ASTS
 	Visible To: Nobody
+	
 	AllowConstruction(Supports Only = True)
 	GrantAbility(PickupCargo)
 	GrantAbility(TransferCargo)

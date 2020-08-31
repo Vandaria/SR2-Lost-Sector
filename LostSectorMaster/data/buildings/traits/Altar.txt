@@ -19,7 +19,7 @@ Building: Altar
 	RemoveAllStatus(GodlessPlanet)
 
 	IfLevel(0, ModEmpireAttribute(AltarSupportedPopulation, Add, 20), Exact = True)
-	IfLevel(1, ModEmpireAttribute(AltarSupportedPopulation, Add, 50), Exact = True)
+	IfLevel(1, ModEmpireAttribute(AltarSupportedPopulation, Add, 75), Exact = True)
 	IfLevel(2, ModEmpireAttribute(AltarSupportedPopulation, Add, 150), Exact = True)
 	IfLevel(3, ModEmpireAttribute(AltarSupportedPopulation, Add, 300), Exact = True)
 	IfLevel(4, ModEmpireAttribute(AltarSupportedPopulation, Add, 500), Exact = True)

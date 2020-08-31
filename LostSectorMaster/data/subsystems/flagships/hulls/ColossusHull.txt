@@ -15,7 +15,6 @@ Subsystem: ColossusHull
 	AddShipModifier: ShieldRegenFactor(1.2)
 	AddShipModifier: ShieldCapacityFactor(2)
 
-	ShieldCapacity := ShipSize*10
 	AddShipModifier: RepairFactor(2)
 	AddShipModifier: SupplyCapacityFactor(5)
 	AddShipModifier: BuildCostFactor(0.8)
@@ -24,7 +23,6 @@ Subsystem: ColossusHull
 	AddShipModifier: MassFactor(0.5)
 	AddShipModifier: LaborCostFactor(5)
 	AddShipModifier: ThrustFactor(0.5)
-	Effect: ShieldDamage
 	Requires:
 		Command = 60
 

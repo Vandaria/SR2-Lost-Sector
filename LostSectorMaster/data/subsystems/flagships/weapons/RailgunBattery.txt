@@ -24,7 +24,7 @@ Subsystem: RailgunBattery
 	PowerUse := 2.5 * Size
 	Impulse := 0
 
-	Hex.HP := 18 * Size
+	Hex.HP := Size
 	Hex.Resistance := 0.2
 	Hex.Mass := HexSize
 

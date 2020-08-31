@@ -1,4 +1,4 @@
-Effector: LaserShotgun
+Effector: Invader_LWPurp
 	Value: Range
 	Value: Damage
 	Value: Reload
@@ -8,7 +8,6 @@ Effector: LaserShotgun
 	Value: Tracking = 0.01
 	Value: CapOnTarget = 1
 	Value: Spread
-	Value: FireArc = 0.2 * pi
 	Value: SupplyCost = 0
 
 	Range: Range
@@ -16,7 +15,7 @@ Effector: LaserShotgun
 	Tracking: Tracking
 	CapTarget: CapOnTarget
 	Spread: Spread
-	FireArc: FireArc
+	FireArc: 0.99
 
 	TargetAlgorithm: SingleTarget
 	CanTarget: isEnemy && isDamageable
@@ -37,5 +36,6 @@ Effector: LaserShotgun
 	FireSfx: laser_fire_3
 	FireSfx: laser_fire_4
 	Material: Laser
-	ImpactGfx: ImpactFlareLaserRed
-	TrailCol: ff3300aa, ff33ffaa
+	ImpactGfx: ShockImpact
+	TrailCol: 34033a, 34033a
+	Value: FireArc = pi

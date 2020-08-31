@@ -1,5 +1,8 @@
 System: CoreBlackhole
-	MakeBlackhole(Radius = 500.0)
+	MakeBlackhole(Radius = 1.0)
 	ExpandSystem(13000)
 	
+	MakePlanet(LS_PLT_FIRST_FORGE, Radius =1000 , Conditions = False, Moons = False)
+		SetupOrbit(Radius = 0, Orbit Pct = 0.9)
 	MakeAsteroidBelt(6)
+	MakeCreepCamp(Monstrosity)
