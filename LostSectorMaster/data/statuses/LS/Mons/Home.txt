@@ -1,0 +1,4 @@
+Status: LS_STS_MONS_HOME
+	Visible To: Nobody
+	AllowConstruction(Supports Only = True)
+	TriggerPeriodic(SpawnShip(Monstrosity, Design From = Creeps, , Offset = 1500)), Interval = 5400, Random Margin = 0)

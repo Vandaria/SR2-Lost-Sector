@@ -1,0 +1,9 @@
+Status: LS_STS_MONS_FLEETSUMMON
+	Visible To: Nobody
+	GiveGlobalTrade()
+	GiveTrade()
+	CountAsPlanet()
+	TriggerPeriodic(RepeatTrigger(3, SpawnShip(Infested Junk, Design From = Creep, , Offset = 1500)), Interval = 1, Max Triggers = 1)
+	TriggerPeriodic(RepeatTrigger(5, SpawnShip(Infested Freighter V3, Design From = Creep, , Offset = 2000)), Interval = 1, Max Triggers = 1)
+	TriggerPeriodic(RepeatTrigger(5, SpawnShip(Infested Freighter V2, Design From = Creep, , Offset = 500)), Interval = 1, Max Triggers = 1)
+	TriggerPeriodic(RepeatTrigger(5, SpawnShip(Infested Freighter V1, Design From = Creep, , Offset = 1250)), Interval = 1, Max Triggers = 1)

@@ -8,6 +8,7 @@ import traits;
 import maps;
 from empire import Creeps, Pirates, Monstrosity, majorEmpireCount, initEmpireDesigns;
 import void addModifierToEmpire(Empire@ emp, const string& spec) from "bonus_effects";
+from traits import getTraitID;
 
 #priority init 5000
 void init() {
@@ -221,17 +222,19 @@ void init() {
 		@Pirates.flag = getMaterial(Creeps.flagDef);
 		@Pirates.shipset = getShipset("Tyrant");
 		//added
-		@Monstrosity = Empire();
-		Monstrosity.name = "Monstrosity";
-		Monstrosity.color = Color(0xaaaaaaff);
-		Monstrosity.major = false;
-		Monstrosity.visionMask = ~0;
+		//@Monstrosity = Empire();
+		//Monstrosity.name = "Monstrosity";
+		//Monstrosity.color = Color(0xaaaaaaff);
+		//Monstrosity.major = true;
+		//Monstrosity.visionMask = ~0;
 
-		@flag = getEmpireFlag(randomi(0, getEmpireFlagCount()-1));
-		Monstrosity.flagDef = flag.flagDef;
-		Monstrosity.flagID = flag.id;
-		@Monstrosity.flag = getMaterial(Creeps.flagDef);
-		@Monstrosity.shipset = getShipset("Tyrant");
+		//@flag = getEmpireFlag(randomi(0, getEmpireFlagCount()-1));
+		//Monstrosity.flagDef = flag.flagDef;
+		//Monstrosity.flagID = flag.id;
+		//Monstrosity.addTrait(getTraitID("LS_TRT_MONS_RACE"));
+		//@Monstrosity.flag = getMaterial(Creeps.flagDef);
+		//@Monstrosity.shipset = getShipset("Tyrant");
+		//Monstrosity.initBasicAI();
 
 		//Everyone hates creeps and pirates
 		for(uint i = 0, cnt = getEmpireCount(); i < cnt; ++i) {
@@ -244,10 +247,10 @@ void init() {
 				Pirates.setHostile(other, true);
 				other.setHostile(Pirates, true);
 			}
-			if(other !is Monstrosity) {
-				Monstrosity.setHostile(other, true);
-				other.setHostile(Monstrosity, true);
-			}
+			//if(other !is Monstrosity) {
+			//	Monstrosity.setHostile(other, true);
+			//	other.setHostile(Monstrosity, true);
+			//}
 		}
 
 		auto@ hd = getSubsystemDef("Hyperdrive");

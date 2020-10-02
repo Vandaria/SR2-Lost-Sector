@@ -16,7 +16,7 @@ Subsystem: FlakBattery
 	Range := Size + 3000
 
 	Damage := Size * 1.0
-	Reload := 0.05
+	Reload := 0.1
 
 	Speed := 250
 	Spread := 0.2

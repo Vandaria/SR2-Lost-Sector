@@ -5,6 +5,8 @@ Trait: LS_TRT_BUDGETUPMINOR
 	Color: #fbff37
 	Costs Points: 1
 	Category: Domestic
+	Conflict: LS_TRT_BUDGETDOWNMINOR
+	Conflict: LS_TRT_BUDGETDOWNMAJOR
 	AddStatusOwnedPlanets(LS_STS_TRT_BUDGETUPMINOR)
 Trait: LS_TRT_BUDGETUPMAJOR
 	Name: #LS_TRT_BUDGETUPMAJOR
@@ -13,6 +15,8 @@ Trait: LS_TRT_BUDGETUPMAJOR
 	Color: #38ff19
 	Costs Points: 3
 	Category: Domestic
+	Conflict: LS_TRT_BUDGETDOWNMINOR
+	Conflict: LS_TRT_BUDGETDOWNMAJOR
 	AddStatusOwnedPlanets(LS_STS_TRT_BUDGETUPMAJ)
 Trait: LS_TRT_BUDGETDOWNMINOR
 	Name: #LS_TRT_BUDGETDOWNMINOR
@@ -21,6 +25,8 @@ Trait: LS_TRT_BUDGETDOWNMINOR
 	Color: #ff6d24
 	Gives Points: 1
 	Category: Domestic
+	Conflict: LS_TRT_BUDGETUPMAJOR
+	Conflict: LS_TRT_BUDGETUPMINOR
 	AddStatusOwnedPlanets(LS_STS_TRT_BUDGETDOWNMINOR)
 Trait: LS_TRT_BUDGETDOWNMAJOR
 	Name: #LS_TRT_BUDGETDOWNMAJOR
@@ -29,4 +35,6 @@ Trait: LS_TRT_BUDGETDOWNMAJOR
 	Color: #ff0e05
 	Gives Points: 3
 	Category: Domestic
+	Conflict: LS_TRT_BUDGETUPMINOR
+	Conflict: LS_TRT_BUDGETUPMAJOR
 	AddStatusOwnedPlanets(LS_STS_TRT_BUDGETDOWNMAJ)

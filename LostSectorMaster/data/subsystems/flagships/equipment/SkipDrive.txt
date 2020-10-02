@@ -14,9 +14,12 @@ Subsystem: SkipDrive
 
 	Hex.Resistance := 0.2
 	Hex.HP := 18 * HexSize
+	Assert: Sum.SkipCount <= 1
+		Message: Skip can only be one hex
 
+	SkipCount := 1
 	Assert: Hexes <= 1
-		Message: can only be one hex
+		Message: Skip can only be one hex
 
 	Requires:
 		Command = 1

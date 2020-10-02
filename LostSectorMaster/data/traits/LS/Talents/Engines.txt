@@ -5,6 +5,8 @@ Trait: LS_TRT_THRUSTALLUPMAJOR
 	Category: Engines
 	AddModifier(tag/Engine::TurnThrustFactor(1.3) )
 	AddModifier(tag/Engine::ThrustFactor(1.2) )
+	Conflict: LS_TRT_THRUSTALLDOWNMAJOR
+	Conflict: LS_TRT_THRUSTALLDOWNMINOR
 Trait: LS_TRT_THRUSTALLUPMINOR
 	Name: #LS_TRT_THRUSTALLUPMINOR
 	Description: #LS_TRT_THRUSTALLUPMINOR_DESC
@@ -13,6 +15,8 @@ Trait: LS_TRT_THRUSTALLUPMINOR
 	Category: Engines
 	AddModifier(tag/Engine::TurnThrustFactor(1.17) )
 	AddModifier(tag/Engine::ThrustFactor(1.12) )
+	Conflict: LS_TRT_THRUSTALLDOWNMAJOR
+	Conflict: LS_TRT_THRUSTALLDOWNMINOR
 Trait: LS_TRT_THRUSTALLDOWNMAJOR
 	Name: #LS_TRT_THRUSTALLDOWNMAJOR
 	Description: #LS_TRT_THRUSTALLDOWNMAJOR_DESC
@@ -21,6 +25,8 @@ Trait: LS_TRT_THRUSTALLDOWNMAJOR
 	Gives Points: 3
 	AddModifier(tag/Engine::TurnThrustFactor(0.85) )
 	AddModifier(tag/Engine::ThrustFactor(0.75) )
+	Conflict: LS_TRT_THRUSTALLUPMINOR
+	Conflict: LS_TRT_THRUSTALLUPMAJOR
 Trait: LS_TRT_THRUSTALLDOWNMINOR
 	Costs Points:
 	Category: Engines
@@ -29,6 +35,8 @@ Trait: LS_TRT_THRUSTALLDOWNMINOR
 	Gives Points: 1
 	AddModifier(tag/Engine::TurnThrustFactor(0.92) )
 	AddModifier(tag/Engine::ThrustFactor(0.85) )
+	Conflict: LS_TRT_THRUSTALLUPMINOR
+	Conflict: LS_TRT_THRUSTALLUPMAJOR
 Trait: LS_TRT_THRUSTDOWNMAJOR
 	Costs Points:
 	Category: Engines
@@ -36,6 +44,8 @@ Trait: LS_TRT_THRUSTDOWNMAJOR
 	Description: #LS_TRT_THRUSTDOWNMAJOR_DESC
 	Gives Points: 3
 	AddModifier(tag/Engine::ThrustFactor(0.7) )
+	Conflict: LS_TRT_THRUSTUPMAJOR
+	Conflict: LS_TRT_THRUSTUPMINOR
 
 Trait: LS_TRT_THRUSTDOWNMINOR
 	Costs Points:
@@ -44,6 +54,8 @@ Trait: LS_TRT_THRUSTDOWNMINOR
 	Name: #LS_TRT_THRUSTDOWNMINOR
 	Description: #LS_TRT_THRUSTDOWNMINOR
 	AddModifier(tag/Engine::ThrustFactor(0.8) )
+	Conflict: LS_TRT_THRUSTUPMAJOR
+	Conflict: LS_TRT_THRUSTUPMINOR
 
 Trait: LS_TRT_THRUSTUPMAJOR
 	Costs Points: 3
@@ -51,6 +63,8 @@ Trait: LS_TRT_THRUSTUPMAJOR
 	Name: #LS_TRT_THRUSTUPMAJOR
 	Description: #LS_TRT_THRUSTUPMAJOR_DESC
 	AddModifier(tag/Engine::ThrustFactor(1.35) )
+	Conflict: LS_TRT_THRUSTDOWNMAJOR
+	Conflict: LS_TRT_THRUSTDOWNMINOR
 
 Trait: LS_TRT_THRUSTUPMINOR
 	Costs Points: 1
@@ -58,18 +72,24 @@ Trait: LS_TRT_THRUSTUPMINOR
 	Name: #LS_TRT_THRUSTUPMINOR
 	Description: #LS_TRT_THRUSTUPMINOR_DESC
 	AddModifier(tag/Engine::ThrustFactor(1.2) )
+	Conflict: LS_TRT_THRUSTDOWNMAJOR
+	Conflict: LS_TRT_THRUSTDOWNMINOR
 Trait: LS_TRT_TURNTHRUSTUPMAJOR
 	Costs Points: 3
 	Category: Engines
 	Name: #LS_TRT_TURNTHRUSTUPMAJOR
 	Description: #LS_TRT_TURNTHRUSTUPMAJOR_DESC
 	AddModifier(tag/Engine::TurnThrustFactor(1.7) )
+	Conflict: LS_TRT_TURNTHRUSTDOWNMAJOR
+	Conflict: LS_TRT_TURNTHRUSTDOWNMINOR
 Trait: LS_TRT_TURNTHRUSTUPMINOR
 	Costs Points: 1
 	Category: Engines
 	Name: #LS_TRT_TURNTHRUSTUPMINOR
 	Description: #LS_TRT_TURNTHRUSTUPMINOR_DESC
 	AddModifier(tag/Engine::TurnThrustFactor(1.3) )
+	Conflict: LS_TRT_TURNTHRUSTDOWNMAJOR
+	Conflict: LS_TRT_TURNTHRUSTDOWNMINOR
 Trait: LS_TRT_TURNTHRUSTDOWNMAJOR
 	Costs Points:
 	Category: Engines
@@ -77,6 +97,8 @@ Trait: LS_TRT_TURNTHRUSTDOWNMAJOR
 	Description: #LS_TRT_TURNTHRUSTDOWNMAJOR_DESC
 	Gives Points: 3
 	AddModifier(tag/Engine::TurnThrustFactor(0.8) )
+	Conflict: LS_TRT_TURNTHRUSTUPMINOR
+	Conflict: LS_TRT_TURNTHRUSTUPMAJOR
 Trait: LS_TRT_TURNTHRUSTDOWNMINOR
 	Costs Points:
 	Category: Engines
@@ -84,3 +106,5 @@ Trait: LS_TRT_TURNTHRUSTDOWNMINOR
 	Name: #LS_TRT_TURNTHRUSTDOWNMINOR
 	Description: #LS_TRT_TURNTHRUSTDOWNMINOR_DESC
 	AddModifier(tag/Engine::TurnThrustFactor(0.88) )
+	Conflict: LS_TRT_TURNTHRUSTUPMINOR
+	Conflict: LS_TRT_TURNTHRUSTUPMAJOR

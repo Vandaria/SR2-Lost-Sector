@@ -1,0 +1,28 @@
+Status: StarHabitats
+	Name: #STATUS_STAR_HABITATS
+	Description: #STATUS_STAR_HABITATS_DESC
+	Icon: ResourceIcon::8
+	Collapses: True
+
+	AbandonOnDisableIfSameOrigin()
+	ForcePopulationToStacks()
+
+	ProduceAllPressure(Labor)
+	ProduceAllPressure(Money, Factor = 0.25)
+	ProduceAllPressure(Research, Factor = 0.25)
+	ProduceAllPressure(Energy, Factor = 0.25)
+	ProduceAllPressure(Defense, Factor = 0.25)
+	ProduceAllPressure(Influence, Factor = 0.25)
+
+	IfLevel(3, ProduceAllPressure(Research, Factor = 0.15))
+	IfLevel(3, ProduceAllPressure(Labor, Factor = 0.15))
+	IfLevel(3, ProduceAllPressure(Energy, Factor = 0.15))
+	IfLevel(3, ProduceAllPressure(Influence, Factor = 0.15))
+	IfLevel(3, ProduceAllPressure(Money, Factor = 0.15))
+	IfLevel(2, ProduceAllPressure(Research, Factor = 0.15))
+	IfLevel(2, ProduceAllPressure(Labor, Factor = 0.15))
+	IfLevel(2, ProduceAllPressure(Influence, Factor = 0.15))
+	IfLevel(2, ProduceAllPressure(Energy, Factor = 0.15))
+	IfLevel(2, ProduceAllPressure(Money, Factor = 0.15))
+	CannotUseLabor()
+	ForbidLaborExport()

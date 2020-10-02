@@ -16,8 +16,11 @@ Subsystem: IonCannon
 	Hex.HP := 18 * HexSize
 
 	Duration := 120
+	IonCount := 1
+	Assert: Sum.IonCount <= 1
+		Message: Ion can only be one hex
 	Assert: Hexes <= 1
-		Message: can only be one hex
+		Message: Ion can only be one hex
 
 	Requires:
 		Command = 1

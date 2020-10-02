@@ -222,3 +222,24 @@ LS_TRT_FUTURETECH_DESC: <<
 	-75% armour Health
 
 >>
+TRAIT_STAR_CHILDREN_DESC: <<
+	[vspace=3/] [img=ResourceIcon::8;22]Population grows only on giant [b]Motherships[/b] that have construction capabilities.[/img] [vspace=3/][img=ActionBarIcons::1;22]Motherships can move population to orbital [b]Habitats[/b] around planets, letting them use the planetary resources.[/img] [vspace=3/][img=BuildingSprites::0;22]Does [b]not[/b] use planet surfaces in any way. Planets cannot construct anything.[/img] [vspace=3/][img=ResourceIcon::6;22]Resources are produced in orbit, no pressure capacity is needed. Motherships in orbit of a planet automatically gain that planet's labor income.[/img]
+	[vspace=3/][img=Minus]Production of all resources is decreased.
+	Below Level 2  - 25% production
+	Level 2 - 40% production
+	Level 3 - 55% production[/img]
+
+
+>>
+LS_TRT_SHIELDWALL: Shield Wall
+LS_TRT_MERC: Mercanary Contracts
+LS_TRT_MERC_DESC: <<
+	You have access to mercanry Contracts.
+	Temporary summonable fleets that will fight under your control
+>>
+LS_TRT_AI: Swarmers
+LS_TRT_AI_DESC: <<
+	Support capacity decrease ny 50%
+	Labour cost decrease by 50%
+	Flagship maint cost decrease for sizes smaller than 400, increase for sizes larger than 400
+>>

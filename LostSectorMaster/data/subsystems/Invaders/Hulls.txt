@@ -1,6 +1,6 @@
 Subsystem: LS_SYS_INVADERS_HULLULT
 	Name: LS_SYS_INVADERS_HULLULT
-	Tags: Applied:Hull, Category:Hulls, NoCore, Disabled
+	Tags: Applied:Hull, Category:Unknown, NoCore
 	Hull: Flagship
 	EvaluationOrder: -100
 	HexLimit := 999999999

@@ -28,6 +28,9 @@ Subsystem: SupportHull
 	AddShipModifier: HpFactor(0.7)
 
 	Ship.FreeHexes := 0
+	IsHiveTrait := 0
+	AddShipModifier: BuildCostFactor(if(IsHiveTrait> 0, ((ShipSize / 100.0) * (ShipSize / 100.0)), 1))
+	AddShipModifier: LaborCostFactor(if(IsHiveTrait> 0, ((ShipSize / 100.0) * (ShipSize / 100.0)), 1))
 	Assert: Ship.Command > 0
 		Message: #ERROR_NEED_CONTROL
 

@@ -20,6 +20,9 @@ Subsystem: SelfDestruct
 
 	Hex.HP := 18 * HexSize
 	Hex.Resistance := 0.2
+	SDCount := 1
+	Assert: Sum.SDCount <= 1
+		Message: Self Destruct can only be one hex
 	Assert: Hexes <= 1
 		Message: Self Destruct can only be one hex
 

@@ -1,12 +1,12 @@
 {
 	"__VERSION__": 1,
 	"name": "Monstrosity",
-	"size": 15000,
+	"size": 10000,
 	"hull": "VolkurFlagLarge",
 	"type": "Flagship",
 	"gridWidth": 115,
 	"gridHeight": 110,
-	"class": "Combat",
+	"class": "Infested",
 	"subsystems": [
 		{
 			"type": "LS_SYS_InvadwerAmour",
@@ -1653,10 +1653,6 @@
 				],
 				[
 					83,
-					53
-				],
-				[
-					83,
 					55
 				],
 				[
@@ -1978,10 +1974,6 @@
 				[
 					36,
 					67
-				],
-				[
-					37,
-					68
 				],
 				[
 					37,
@@ -2462,10 +2454,6 @@
 				[
 					70,
 					15
-				],
-				[
-					70,
-					17
 				],
 				[
 					70,
@@ -4106,10 +4094,6 @@
 				[
 					102,
 					50
-				],
-				[
-					102,
-					51
 				],
 				[
 					95,
@@ -5830,46 +5814,34 @@
 				[
 					35,
 					61
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
+				],
 				[
-					28,
-					48,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
+					102,
+					51
+				],
 				[
-					29,
-					50,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					38,
 					58,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
+					55
+				],
 				[
-					24,
-					69,
-					"Core"
+					58,
+					54
+				],
+				[
+					57,
+					53
+				],
+				[
+					56,
+					54
+				],
+				[
+					56,
+					55
+				],
+				[
+					57,
+					55
 				]
 			]
 		},
@@ -5944,76 +5916,6 @@
 				[
 					92,
 					43,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					57,
-					55,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					58,
-					55,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					57,
-					53,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					56,
-					54,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					56,
-					55,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					58,
-					54,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					46,
-					53,
 					"Core"
 				]
 			]
@@ -6349,36 +6251,6 @@
 			]
 		},
 		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					35,
-					80,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					31,
-					57,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					29,
-					53,
-					"Core"
-				]
-			]
-		},
-		{
 			"type": "LS_SYS_InvadwerAmour",
 			"hexes": [
 				[
@@ -6388,97 +6260,7 @@
 			]
 		},
 		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					35,
-					65,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					35,
-					69,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					40,
-					69,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					45,
-					66,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					57,
-					69,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					56,
-					31,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					29,
-					31,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					70,
-					26,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					81,
-					54,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
+			"type": "LS_SYS_InvadwerWeaponDroneEXPLODE",
 			"hexes": [
 				[
 					74,
@@ -6488,267 +6270,47 @@
 			]
 		},
 		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
+			"type": "LS_SYS_InvadwerWeaponDroneEXPLODE",
 			"hexes": [
 				[
-					70,
-					9,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					57,
-					76,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					57,
-					74,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					57,
-					67,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					53,
-					76,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					60,
-					77,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					63,
-					77,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					37,
 					71,
+					53,
 					"Core"
 				]
 			]
 		},
 		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					37,
-					67,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					35,
-					60,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					48,
-					64,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					30,
-					31,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					29,
-					22,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					42,
-					31,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					44,
-					37,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					55,
-					32,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					59,
-					33,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
+			"type": "LS_SYS_InvadwerWeaponDroneEXPLODE",
 			"hexes": [
 				[
 					58,
-					29,
+					42,
 					"Core"
 				]
 			]
 		},
 		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
+			"type": "LS_SYS_InvadwerWeaponDroneEXPLODE",
 			"hexes": [
 				[
-					28,
-					22,
+					57,
+					69,
 					"Core"
 				]
 			]
 		},
 		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
+			"type": "LS_SYS_InvadwerWeaponDroneEXPLODE",
 			"hexes": [
 				[
-					71,
-					26,
+					57,
+					67,
 					"Core"
 				]
 			]
 		},
 		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					71,
-					23,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					71,
-					12,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					68,
-					10,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					72,
-					10,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					78,
-					54,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
-			"hexes": [
-				[
-					81,
-					53,
-					"Core"
-				]
-			]
-		},
-		{
-			"type": "LS_SYS_InvadwerWeaponDrone",
+			"type": "LS_SYS_InvadwerWeaponDroneEXPLODE",
 			"hexes": [
 				[
 					83,
@@ -6758,27 +6320,127 @@
 			]
 		},
 		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
+			"type": "LS_SYS_InvadwerWeaponDroneEXPLODE",
 			"hexes": [
 				[
-					71,
+					81,
+					54,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDroneEXPLODE",
+			"hexes": [
+				[
+					81,
 					53,
 					"Core"
 				]
 			]
 		},
 		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
+			"type": "LS_SYS_InvadwerWeaponDroneEXPLODE",
 			"hexes": [
 				[
-					58,
-					42,
+					78,
+					54,
 					"Core"
 				]
 			]
 		},
 		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					70,
+					9,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					68,
+					10,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					72,
+					10,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					57,
+					76,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					57,
+					74,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					35,
+					69,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					37,
+					68,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					37,
+					67,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					29,
+					50,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
 			"hexes": [
 				[
 					30,
@@ -6788,11 +6450,603 @@
 			]
 		},
 		{
-			"type": "DUPLICATE_LS_SYS_InvadwerWeaponDrone",
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					28,
+					48,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					30,
+					31,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					29,
+					31,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					44,
+					37,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					29,
+					22,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					59,
+					33,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					56,
+					31,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				0.34202,
+				0,
+				-0.939693
+			],
+			"hexes": [
+				[
+					58,
+					29,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.642788,
+				0,
+				-0.766044
+			],
+			"hexes": [
+				[
+					55,
+					32,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.939693,
+				0,
+				-0.34202
+			],
 			"hexes": [
 				[
 					41,
 					31,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				1.94289e-016,
+				0,
+				-1
+			],
+			"hexes": [
+				[
+					42,
+					31,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.939693,
+				0,
+				0.34202
+			],
+			"hexes": [
+				[
+					28,
+					22,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.984808,
+				0,
+				-0.173648
+			],
+			"hexes": [
+				[
+					29,
+					53,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.766044,
+				0,
+				0.642788
+			],
+			"hexes": [
+				[
+					31,
+					57,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.866025,
+				0,
+				0.5
+			],
+			"hexes": [
+				[
+					35,
+					60,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.866025,
+				0,
+				0.5
+			],
+			"hexes": [
+				[
+					35,
+					65,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.866025,
+				0,
+				0.5
+			],
+			"hexes": [
+				[
+					38,
+					58,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.939693,
+				0,
+				0.34202
+			],
+			"hexes": [
+				[
+					46,
+					53,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.984808,
+				0,
+				0.173648
+			],
+			"hexes": [
+				[
+					35,
+					80,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponLAser",
+			"direction": [
+				-0.939693,
+				0,
+				0.34202
+			],
+			"hexes": [
+				[
+					24,
+					69,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					37,
+					71,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					40,
+					69,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					45,
+					66,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					48,
+					64,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "LS_SYS_InvadwerWeaponDro",
+			"hexes": [
+				[
+					63,
+					77,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "Slipstream",
+			"hexes": [
+				[
+					55,
+					51
+				],
+				[
+					54,
+					52
+				],
+				[
+					54,
+					51
+				],
+				[
+					55,
+					50
+				],
+				[
+					56,
+					50
+				],
+				[
+					56,
+					51
+				],
+				[
+					53,
+					51
+				],
+				[
+					56,
+					52,
+					"Core"
+				],
+				[
+					55,
+					52
+				]
+			]
+		},
+		{
+			"type": "Slipstream",
+			"hexes": [
+				[
+					59,
+					56,
+					"Core"
+				],
+				[
+					59,
+					57
+				],
+				[
+					58,
+					58
+				],
+				[
+					58,
+					57
+				],
+				[
+					58,
+					59
+				],
+				[
+					59,
+					58
+				],
+				[
+					60,
+					57
+				],
+				[
+					61,
+					57
+				],
+				[
+					60,
+					58
+				]
+			]
+		},
+		{
+			"type": "Slipstream",
+			"hexes": [
+				[
+					60,
+					55,
+					"Core"
+				],
+				[
+					60,
+					54
+				],
+				[
+					61,
+					53
+				],
+				[
+					61,
+					54
+				],
+				[
+					61,
+					55
+				],
+				[
+					62,
+					55
+				],
+				[
+					62,
+					54
+				],
+				[
+					62,
+					53
+				],
+				[
+					62,
+					56
+				]
+			]
+		},
+		{
+			"type": "Slipstream",
+			"hexes": [
+				[
+					58,
+					52,
+					"Core"
+				],
+				[
+					58,
+					51
+				],
+				[
+					58,
+					50
+				],
+				[
+					59,
+					50
+				],
+				[
+					59,
+					51
+				],
+				[
+					60,
+					51
+				],
+				[
+					60,
+					52
+				],
+				[
+					61,
+					51
+				],
+				[
+					59,
+					52
+				]
+			]
+		},
+		{
+			"type": "Slipstream",
+			"hexes": [
+				[
+					55,
+					56,
+					"Core"
+				],
+				[
+					56,
+					57
+				],
+				[
+					56,
+					58
+				],
+				[
+					55,
+					58
+				],
+				[
+					55,
+					57
+				],
+				[
+					54,
+					58
+				],
+				[
+					53,
+					57
+				],
+				[
+					54,
+					57
+				],
+				[
+					56,
+					59
+				]
+			]
+		},
+		{
+			"type": "Slipstream",
+			"hexes": [
+				[
+					54,
+					55,
+					"Core"
+				],
+				[
+					54,
+					54
+				],
+				[
+					53,
+					53
+				],
+				[
+					52,
+					54
+				],
+				[
+					52,
+					55
+				],
+				[
+					52,
+					56
+				],
+				[
+					53,
+					55
+				],
+				[
+					53,
+					54
+				],
+				[
+					52,
+					53
+				]
+			]
+		},
+		{
+			"type": "CarpetBomb",
+			"direction": [
+				0.984808,
+				0,
+				-0.173648
+			],
+			"hexes": [
+				[
+					71,
+					26,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "CarpetBomb",
+			"hexes": [
+				[
+					70,
+					17,
+					"Core"
+				]
+			]
+		},
+		{
+			"type": "CarpetBomb",
+			"hexes": [
+				[
+					83,
+					53,
 					"Core"
 				]
 			]

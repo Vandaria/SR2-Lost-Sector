@@ -14,7 +14,11 @@ Subsystem: RepairArm
 	Hex.MaintainCost := HexSize *0.8
 	AddShipModifier: SupportCapacityFactor(0.55)
 	AddShipModifier: DamageFactor(0.55)
+	RepairArmCount := 1
+	OtherRepairRate := 1000 * Size
 	Assert: Hexes <= 1
+		Message: Repair Arm can only be one hex
+	Assert: Sum.RepairArmCount <= 1
 		Message: Repair Arm can only be one hex
 	Module: Core
 		Hex.HP := Hex.HP * 0.9

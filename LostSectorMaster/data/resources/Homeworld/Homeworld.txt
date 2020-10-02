@@ -15,17 +15,22 @@ Resource: Homeworld
 	Pressure: 30 Influence
 	Pressure: 30 Energy
 	Pressure: 30 Labor
-	Pressure: 5 Research
+	Pressure: 15 Research
 	Level: 1
-	IfLevel(4, IfNotHaveStatus(LS_STS_ECON_ERGY_3_COUNT, TriggerPeriodic(RepeatTrigger(1, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_ERGY3, Offset = 4500)), Interval = 300)))
-	IfLevel(3, IfNotHaveStatus(LS_STS_ECON_ERGY_2_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_ERGY2, Offset = 6000)), Interval = 300)))
-	IfLevel(2, IfNotHaveStatus(LS_STS_ECON_ERGY_1_COUNT, TriggerPeriodic(RepeatTrigger(3, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_ERGY1, Offset = 8000)), Interval = 300)))
-	IfLevel(4, IfNotHaveStatus(LS_STS_ECON_MNY3_COUNT, TriggerPeriodic(RepeatTrigger(1, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_MNY3, Offset = 4500)), Interval = 300)))
-	IfLevel(3, IfNotHaveStatus(LS_STS_ECON_MNY2_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_MNY2, Offset = 6000)), Interval = 300)))
-	IfLevel(2, IfNotHaveStatus(LS_STS_ECON_MNY1_COUNT, TriggerPeriodic(RepeatTrigger(3, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_MNY1, Offset = 8000)), Interval = 300)))
-	IfLevel(4, IfNotHaveStatus(LS_STS_ECON_RSRCH_3_COUNT, TriggerPeriodic(RepeatTrigger(1, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH3, Offset = 4500)), Interval = 300)))
-	IfLevel(2, IfNotHaveStatus(LS_STS_ECON_RSRCH_1_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH1, Offset = 8000)), Interval = 300)))
-	IfLevel(3, IfNotHaveStatus(LS_STS_ECON_RSRCH_2_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH2, Offset = 6000)), Interval = 300)))
+	IfLevel(6, AddIncome(5000))
+	SetMaxLevel(6)
+	IfLevel(2, ModBuildingConstructRate(2))
+	AddMoneyIncome(250)
+	IfLevel(4, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_ERGY_3_COUNT, TriggerPeriodic(RepeatTrigger(1, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_ERGY3, Offset = 4500)), Interval = 300))))
+	IfLevel(3, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_ERGY_2_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_ERGY2, Offset = 6000)), Interval = 300))))
+	IfLevel(2, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_ERGY_1_COUNT, TriggerPeriodic(RepeatTrigger(3, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_ERGY1, Offset = 8000)), Interval = 300))))
+	IfLevel(4, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_MNY3_COUNT, TriggerPeriodic(RepeatTrigger(1, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_MNY3, Offset = 4500)), Interval = 300))))
+	IfLevel(3, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_MNY2_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_MNY2, Offset = 6000)), Interval = 300))))
+	IfLevel(2, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_MNY1_COUNT, TriggerPeriodic(RepeatTrigger(3, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_MNY1, Offset = 8000)), Interval = 300))))
+	IfLevel(4, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_RSRCH_3_COUNT, TriggerPeriodic(RepeatTrigger(1, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH3, Offset = 4500)), Interval = 300))))
+	IfLevel(2, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_RSRCH_1_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH1, Offset = 8000)), Interval = 300))))
+	IfLevel(3, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_RSRCH_2_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH2, Offset = 6000)), Interval = 300))))
+
 	TriggerPeriodic(RemoveStatus(Lvl4), Interval = 3000, Max Triggers = 1)
 	TriggerPeriodic(RemoveStatus(Lvl3), Interval = 2200, Max Triggers = 1)
 	TriggerPeriodic(RemoveStatus(Lvl2), Interval = 1500, Max Triggers = 1)
@@ -37,10 +42,10 @@ Resource: Homeworld
 	AddStatus(Lvl1)
 	ModTileDevelopRate(0.5)
 	RepeatPlanetLevel(AddLaborIncome(10))
-	IfLevel(5, AddRaidRange(-10000000))
-	IfLevel(5, AllowFreeRaiding())
+	IfLevel(5, AddLaborFactor(0.5))
+	IfLevel(5, AddFTLIncome(2))
 	IfLevel(4, ModSupportBuildSpeed(0.5))
-	IfLevel(2, ModTileDevelopRate(2))
+	IfLevel(2, ModTileDevelopRate(5))
 	IfLevel(3, AddFTLIncome(3))
 	IfLevel(3, AddFTLStorage(1500))
 	SetOrbitSpin(120)

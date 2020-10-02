@@ -9,3 +9,5 @@ Trait: LS_TRT_POPDOWNMINOR
 	Order: 3
 	Category: Domestic
 	AddStatusOwnedPlanets(LS_STS_TRT_POPDOWNMINOR)
+	Conflict: LS_TRT_POPUPMAJOR
+	Conflict: LS_TRT_POPUPMINOR

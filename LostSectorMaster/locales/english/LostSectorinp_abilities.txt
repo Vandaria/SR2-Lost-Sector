@@ -9,12 +9,12 @@ LS_ABL_SUB_WMOD_DESC: <<
 	[b]For 30 seconds[/b]: +200% Fleet effectiveness, +4 Acceleration, +10000 shields or auotmatic 25% Max shield regen
 	[b]For 45 seconds afer that[/b]: All systems non functional
 >>
-LS_ABL_MERC_TL: [b]Recruit - [/b]Tyrant Lance
-LS_ABL_MERC_IF: [b]Recruit - [/b]Idria's Flame
+LS_ABL_MERC_TL: Tyrant Lance
+LS_ABL_MERC_IF: Idria's Flame
 LS_ABL_MERC_FB: [b]Recruit - [/b]Fallen Branch
-LS_ABL_MERC_WR: [b]Recruit -[/b] Wild Rapid
-LS_ABL_MERC_CO: [b]Recruit - [/b]Converter
-LS_ABL_MERC_FL: [b]Recruit - [/b]Flayer
+LS_ABL_MERC_WR: Wild Rapid
+LS_ABL_MERC_CO: Converter
+LS_ABL_MERC_FL: Flayer
 LS_ABL_MERC_FL_DESC: <<
 	Hire the Flayer, a good all round ship capable of fighting any threat. Lasts for 240 seconds.
 	[b]Costs[/b]

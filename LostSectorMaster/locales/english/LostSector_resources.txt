@@ -5,13 +5,16 @@ LS_RES_HW_HW_DESC: <<
 
 	Increase Labour per minute by 10 for each level.
 
-	At Level 2: +200% increased tile development rate
+	At Level 2: +400% increased tile development rate, +200% Build Rate
 
 	At Level3: +3 FTL Income, +1500 FTL Storage
 
 	At Level 4: +50% Support ship production rate
 
-	At Level 5: Allows all support ships in orbit to attack throughout the system.
+	At Level 5: +50% Labour production, +2 FTL Income
+
+	At Level 6:
+	+5Million Budget
 >>
 LS_RES_CIV_CIV: Independant Planet
 LS_RES_CIV_CIV_DESC: <<

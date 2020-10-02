@@ -9,3 +9,10 @@ LS_PLT_FIRST_FORGE_DESC: <<
 
 	[b] WARNING[/b] This planet was infected once, who knows if it might happen again or worse, if the ships produced from this might be infected
 >>
+LS_PLT_MONS_INFESTED: Infested
+LS_PLT_MONS_INFESTED_DESC: <<
+	An Infested planet, scoured clean of any useuable resource.
+	DO NOT LET IT SPREAD
+>>
+LS_PLT_MONS_HOME: Infested World
+LS_PLT_MONS_HOME_DESC: An inffsted world that seems to be in a dormant state. Hopefully it never gets released.

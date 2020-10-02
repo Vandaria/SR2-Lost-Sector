@@ -13,8 +13,8 @@ Subsystem: CarpetBomb
 
 	Range := Size + 700
 	BombardStacks := max(floor(Size * 0.015), 1)
-	BombardDuration := Size * 3.0 / BombardStacks
-	Reload := 30.0
+	BombardDuration := Size * 15.0 / BombardStacks
+	Reload := 60
 	BombardCost := Size * 200
 
 	Hex.HP := 3 * HexSize

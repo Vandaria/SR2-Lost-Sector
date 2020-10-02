@@ -1,0 +1,12 @@
+Status: LS_STS_ORBMINE
+	Visible To: Nobody
+	Unique: True
+	TriggerPeriodic(Destroy(Quiet = True), Interval = 3, Max Triggers = 1)
+	AddTurret(Torpedo, Range=150, Damage=3000, Reload=15, Speed=2000, Tracking=600, Radius=250)
+Status: LS_STS_SPAWN_MINE
+	Visible To: Nobody
+	Unique: True
+	LS_Effects::TriggerPeriodicSystem(LS_Effects::SpawnOrbitalRange(LS_ORB_MINE, Free = True, Offset = 50), Interval = 45)
+Status: LS_STS_SPAWN_MINE_ABL
+	Visible To: Nobody
+	LS_Effects::TriggerPeriodicSystem(LS_Effects::SpawnOrbitalRange(LS_ORB_MINE, Free = True, Offset = 50), Interval = 10)

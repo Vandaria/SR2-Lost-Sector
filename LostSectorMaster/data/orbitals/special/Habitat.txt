@@ -29,10 +29,10 @@ Module: Habitat
 
 	AddResistance(25.0)
 
-	AddTurret(Missile, Range=3500, Damage=500, Reload=4, Speed=150, Tracking=6) #version>=115
+	AddTurret(Missile, Range=3500, Damage=500, Reload=15, Speed=150, Tracking=6) #version>=115
 	AddTurret(Laser, Range=1200, DPS=100, Duration=2, Cooldown=4, Tracking=0.4) #version>=115
 
-	RepeatExtended(AddTurret(Missile, Range=3500, Damage=500, Reload=4, Speed=150, Tracking=6), Base = 5, Multiply Attribute = StaticDamageFactor)
+	RepeatExtended(AddTurret(Missile, Range=3500, Damage=500, Reload=15, Speed=150, Tracking=6), Base = 5, Multiply Attribute = StaticDamageFactor)
 	RepeatExtended(AddTurret(Laser, Range=1200, DPS=100, Duration=2, Cooldown=4, Tracking=0.4), Base = 2, Multiply Attribute = StaticDamageFactor)
 
 	RecordBonusDPS(35) #version>=115

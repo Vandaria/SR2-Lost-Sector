@@ -76,3 +76,16 @@ Level: 5
 	NeighbourLoyalty: 5
 	BaseSupport: 0
 	Points: 50000
+	
+Level: 6
+	Icon: PlanetIcon5
+	PopGrowth: 2.8
+	Population: 300
+	RequiredPop: 250
+	BasePressure: 360
+	ExportPressurePenalty: 16
+	BaseIncome: 3500
+	BaseLoyalty: 50
+	NeighbourLoyalty: 5
+	BaseSupport: 0
+	Points: 80000

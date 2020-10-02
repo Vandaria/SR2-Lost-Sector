@@ -1,0 +1,13 @@
+Resource: LS_PLT_MONS_INFESTED
+	Small Icon: Nebulas::11*#6b0aac
+	Icon: Nebulas::11*#6b0aac
+	Native Biome: Space
+	Name: #LS_PLT_MONS_INFESTED
+	Description: #LS_PLT_MONS_INFESTED_DESC
+	Can Be Terraformed: False
+	Distribution: 0
+	Frequency: 0
+	Exportable: False
+	Unique: True
+	Rarity: Unique
+	AllowConstruction(Ships = False, Orbitals = True, Asteroids = True, Supports Only = True)

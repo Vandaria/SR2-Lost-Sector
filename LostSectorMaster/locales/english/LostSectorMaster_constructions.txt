@@ -3,3 +3,5 @@ MECH_BUILD_POPULATION_DESC: <<
 
 	As you construct more population, the labor cost of constructing will increase.
 >>
+LS_CONS_PLANETREPAIR: Planet Repair
+LS_CONS_PLANETREPAIR_DESC: Repair 100Million planet HP

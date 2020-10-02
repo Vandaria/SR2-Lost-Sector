@@ -11,6 +11,9 @@ Subsystem: WROD
 	Tags: Category:Equipment, HighMaint, HasInternals, Ability:WMOD,
 	Hull: Flagship
 	BaseColor: #9423db
+	CombatboosterCount := 1
+	Assert: Sum.CombatboosterCount <= 1
+		Message: Overdrive system can only be one hex
 	Module: Core
 		Sprite: Jumpdrive*#bf2004
 	Assert: Hexes <= 1

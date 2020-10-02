@@ -121,7 +121,7 @@ TEAMS_START_CLOSE: 1
 ALLOW_TEAM_SURRENDER: 0
 
 //Whether the dread pirate should be enabled
-ENABLE_DREAD_PIRATE: 1
+ENABLE_DREAD_PIRATE: 0
 
 //Whether or not to enforce resource scarcity
 RESOURCE_SCARCITY: 1

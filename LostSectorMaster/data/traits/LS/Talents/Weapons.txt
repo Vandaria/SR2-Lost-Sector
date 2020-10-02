@@ -4,18 +4,24 @@ Trait: LS_TRT_SUPPLYUPMINOR
 	Description: #LS_TRT_SUPPLYUPMINOR_DESC
 	Costs Points: 1
 	AddModifier(SupplyCostFactor(0.9))
+	Conflict: LS_TRT_SUPPLYDOWNMINOR
+	Conflict: LS_TRT_SUPPLYDOWNMAJOR
 Trait: LS_TRT_SUPPLYUPMAJ
 	Name: #LS_TRT_SUPPLYUPMAJ
 	Description: #LS_TRT_SUPPLYUPMAJ_DESC
 	Costs Points: 3
 	Category: Military
 	AddModifier(SupplyCostFactor(0.8))
+	Conflict: LS_TRT_SUPPLYDOWNMINOR
+	Conflict: LS_TRT_SUPPLYDOWNMAJOR
 Trait: LS_TRT_SUPPLYDOWNMINOR
 	Name: #LS_TRT_SUPPLYDOWNMINOR
 	Description: #LS_TRT_SUPPLYDOWNMINOR_DESC
 	Gives Points: 1
 	Category: Military
 	AddModifier(SupplyCostFactor(1.2))
+	Conflict: LS_TRT_SUPPLYUPMINOR
+	Conflict: LS_TRT_SUPPLYUPMAJ
 Trait: LS_TRT_SUPPLYDOWNMAJOR
 	Name: #LS_TRT_SUPPLYDOWNMAJOR
 	Description: #LS_TRT_SUPPLYDOWNMAJOR_DESC
@@ -23,6 +29,8 @@ Trait: LS_TRT_SUPPLYDOWNMAJOR
 	Gives Points: 3
 	Category: Military
 	AddModifier(SupplyCostFactor(1.4))
+	Conflict: LS_TRT_SUPPLYUPMINOR
+	Conflict: LS_TRT_SUPPLYUPMAJ
 Trait: LS_TRT_LASERFOCUS
 	Category: Military
 	Name: #LS_TRT_LASERFOCUS
@@ -59,6 +67,8 @@ Trait: LS_TRT_RELOADUPMINOR
 	AddModifier( tag/SpecialWeapon::ReloadFactor(0.9) )
 	AddModifier( tag/BeamBase::CooldownFactor(0.9) )
 	AddModifier( tag/WeaponBase::ReloadFactor(0.9) )
+	Conflict: LS_TRT_RELOADDOWNMINOR
+	Conflict: LS_TRT_RELOADDOWNMAJ
 Trait: LS_TRT_RELOADUPMAJ
 	Category: Military
 	Name: #LS_TRT_RELOADUPMAJ
@@ -67,6 +77,8 @@ Trait: LS_TRT_RELOADUPMAJ
 	AddModifier( tag/SpecialWeapon::ReloadFactor(0.85) )
 	AddModifier( tag/BeamBase::CooldownFactor(0.85) )
 	AddModifier( tag/WeaponBase::ReloadFactor(0.85) )
+	Conflict: LS_TRT_RELOADDOWNMINOR
+	Conflict: LS_TRT_RELOADDOWNMAJ
 Trait: LS_TRT_RELOADDOWNMINOR
 	Category: Military
 	Name: #LS_TRT_RELOADDOWNMINOR
@@ -75,6 +87,8 @@ Trait: LS_TRT_RELOADDOWNMINOR
 	AddModifier( tag/SpecialWeapon::ReloadFactor(1.1) )
 	AddModifier( tag/BeamBase::CooldownFactor(1.1) )
 	AddModifier( tag/WeaponBase::ReloadFactor(1.1) )
+	Conflict: LS_TRT_RELOADUPMINOR
+	Conflict: LS_TRT_RELOADUPMAJ
 Trait: LS_TRT_RELOADDOWNMAJ
 	Category: Military
 	Name: #LS_TRT_RELOADDOWNMAJ
@@ -83,3 +97,5 @@ Trait: LS_TRT_RELOADDOWNMAJ
 	AddModifier( tag/SpecialWeapon::ReloadFactor(1.2) )
 	AddModifier( tag/BeamBase::CooldownFactor(1.2) )
 	AddModifier( tag/WeaponBase::ReloadFactor(1.2) )
+	Conflict: LS_TRT_RELOADUPMINOR
+	Conflict: LS_TRT_RELOADUPMAJ

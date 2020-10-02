@@ -1,0 +1,13 @@
+Ability: LS_ABL_ORB_MINE_ACTV
+	Target: targ = Object
+	Range: 250
+
+	Destroy(Quiet = True)
+	AddStatusSelf(LS_STS_ORBMINE)
+	TargetFilterFlagship(targ)
+	IsToggleTarget(targ, Check Range = False, Range Margin = 1, Channels = False)
+	PersistentBeamEffect(targ, #07f41f, Tractor)
+	TargetFilterNotSelf(targ)
+	TargetFilterWar(targ)
+	AutoCastNearby(Target = targ, Prioritize Strongest = True)
+	SetInCombat()

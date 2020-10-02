@@ -12,8 +12,8 @@ Subsystem: MuonCannon
 	Size := HexSize * Hexes
 
 	Range := (Size/3)  + 1500
-	Damage := Size * 1
-	Reload := 0.33
+	Damage := Size * 3.1
+	Reload := 3.5
 	Speed := 100
 	Spread := 0.06 / max(Range / 600, 1)
 	Tracking := 0.8

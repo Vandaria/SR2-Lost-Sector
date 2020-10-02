@@ -10,7 +10,7 @@ Resource: LS_PLT_FIRST_FORGE
 	Icon: BuildingSprites::5
 	Small Icon: BuildingSprites::5
 	Limitless Level: True
-	Native Biome: Volcanic
+	Native Biome: Space
 	Description: #LS_PLT_FIRST_FORGE_DESC
 	IfLevel(5, TriggerPeriodic(RandomTrigger(0.3, SpawnShip(Type C Battleship, Design From = Creeps,  Offset = 1000)), Interval = 300, Random Margin = 30))
 	IfLevel(5, TriggerPeriodic(RandomTrigger(0.3, SpawnShip(Type B Battleship, Design From = Creeps, ,  Offset = 1000)), Interval = 300, Random Margin = 30))

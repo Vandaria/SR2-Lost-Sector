@@ -129,7 +129,7 @@ void initEmpireDesigns() {
 			//Give the pirates their blueprints
 			pirateDesigns.createFor(emp);
 		}
-		else if(emp is Pirates) {
+		else if(emp is Monstrosity) {
 			//Give the pirates their blueprints
 			monstrosityDesigns.createFor(emp);
 		}

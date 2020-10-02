@@ -9,13 +9,13 @@ Ability: MechanoidColonize
 	TargetFilterNotQuarantined(targ)
 	TargetFilterNotSelf(targ)
 	RequireNotUnderSiege()
-	RequirePopulation(1)
+	RequirePopulation(3)
 	ForClient(Either(TargetFilterSpace(targ), TargetFilterOwned(targ)))
 
 	TriggerIfOwnedOrSpace(targ, TakeControl())
-	TriggerIfOwnedOrSpace(targ, GivePopulation(1))
+	TriggerIfOwnedOrSpace(targ, GivePopulation(3))
 
-	IfTargetOwnedOrSpace(targ, LosePopulation(1))
+	IfTargetOwnedOrSpace(targ, LosePopulation(3))
 	Trigger(targ, GiveMemory())
 
 	ConsumeDistanceFTL(targ, Base Cost = 10, Distance Cost = 0.001, Path Distance = True)

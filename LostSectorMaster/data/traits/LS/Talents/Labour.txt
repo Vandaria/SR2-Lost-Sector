@@ -4,21 +4,29 @@ Trait: LS_TRT_LABOURUPMINOR
 	Costs Points: 1
 	Category: Domestic
 	AddStatusOwnedPlanets(LS_STS_TRT_LABUPMINOR)
+	Conflict: LS_TRT_LABOURDOWNMINOR
+	Conflict: LS_TRT_LABOURDOWNMAJ
 Trait: LS_TRT_LABOURUPMAJ
 	Name: #LS_TRT_LABOURUPMAJ
 	Description: #LS_TRT_LABOURUPMAJ_DESC
 	Costs Points: 3
 	Category: Domestic
 	AddStatusOwnedPlanets(LS_STS_TRT_LABUPMAJOR)
+	Conflict: LS_TRT_LABOURDOWNMINOR
+	Conflict: LS_TRT_LABOURDOWNMAJ
 Trait: LS_TRT_LABOURDOWNMINOR
 	Name: #LS_TRT_LABOURDOWNMINOR
 	Description: #LS_TRT_LABOURDOWNMINOR_DESC
 	Gives Points: 1
 	Category: Domestic
 	AddStatusOwnedPlanets(LS_STS_TRT_LABDOWNMINOR)
+	Conflict: LS_TRT_LABOURUPMAJ
+	Conflict: LS_TRT_LABOURUPMINOR
 Trait: LS_TRT_LABOURDOWNMAJ
 	Name: #LS_TRT_LABOURDOWNMAJ
 	Description: #LS_TRT_LABOURDOWNMAJ_DESC
 	Gives Points: 3
 	Category: Domestic
 	AddStatusOwnedPlanets(LS_STS_TRT_LABDOWNMAJOR)
+	Conflict: LS_TRT_LABOURUPMAJ
+	Conflict: LS_TRT_LABOURUPMINOR

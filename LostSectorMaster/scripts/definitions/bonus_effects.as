@@ -31,6 +31,7 @@ from object_stats import ObjectStatType, getObjectStat;
 from objects.Asteroid import createAsteroid;
 from objects.Anomaly import createAnomaly;
 from empire import Creeps;
+from empire import Monstrosity;
 from objects.Oddity import createSlipstream;
 from objects.Artifact import createArtifact;
 from piracy import spawnPirateShip;

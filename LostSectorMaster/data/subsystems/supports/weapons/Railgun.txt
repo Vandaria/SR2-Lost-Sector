@@ -13,8 +13,8 @@ Subsystem: Railgun
 	Size := HexSize * Hexes
 
 	Range := (Size/3) + 2000
-	Damage := Size * 0.85
-	Reload := 0.2
+	Damage := Size * 3
+	Reload := 3
 	Speed := 100
 	Spread := 0.0435 / max(Range / 600, 1)
 	Tracking := 0.8

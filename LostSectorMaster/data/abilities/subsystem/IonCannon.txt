@@ -8,6 +8,7 @@ Ability: IonCannon
 	Cooldown: 60
 
 	Target: targ = Object
+	Hide Global: True
 	TargetFilterWar(targ)
 	TargetFilterFlagship(targ)
 

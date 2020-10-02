@@ -5,9 +5,9 @@ Module: LS_ORB_ECON_RSRCH2
 	Size: 100
 	Icon Size: 0.0001
 	Icon: GuiOrbitalIcons::17
-	Distant Icon: GuiOrbitalIcons::17
 	Health: 50000
 	Description: #LS_ORB_ECON_RSRCH1_DESC
+	Distant Icon: GuiOrbitalIcons::17
 	OnDisable(RemoveStatusInstance(LS_STS_ECON_RSRCH_2_COUNT))
 	AddRegionStatus(LS_STS_ECON_RSRCH_2_COUNT)
 	SpawnFreighters(Rate = 3, Status = LS_STS_ECON_RSRCH_2)

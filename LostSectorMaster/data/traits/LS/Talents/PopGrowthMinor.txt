@@ -9,3 +9,4 @@ Trait: LS_TRT_POPUPMINOR
 	Conflict: Mechanoid
 	Costs Points: 1
 	AddStatusOwnedPlanets(LS_STS_TRT_POPMINOR)
+	Conflict: LS_TRT_POPDOWNMINOR

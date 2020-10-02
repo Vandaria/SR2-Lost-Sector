@@ -1,6 +1,6 @@
 Subsystem: LS_SYS_InvadwerAmour
 	Name: ?????
-	Tags: BaseCost, Category:Defense,  NoCore, NonContiguous, IsArmor, PassExterior,  ExternalSpace, Control, Disabled
+	Tags: BaseCost, Category:Unknown,  NoCore, NonContiguous, IsArmor, PassExterior,  ExternalSpace, Control
 	Hull: Flagship, Station, Support
 	Size := 0
 	Hex.HP := 35 * HexSize

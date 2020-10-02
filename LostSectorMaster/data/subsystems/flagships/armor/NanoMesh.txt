@@ -14,7 +14,7 @@ Subsystem: NanoMesh
 	Hex.HP := 200 * HexSize
 	Hex.Mass := 2.0 * HexSize
 
-	AddAdjacentModifier: AddHP(Hex.HP / 6.0)
+	AddAdjacentModifier: HpFactor(2.0)
 	AddPostModifier: HpFactor(0.0)
 
 	Module: Default

@@ -69,3 +69,4 @@ Grid: LSInf
 	MissileRange: 8,-8
 	GravitonChanneling: 9,-8
 	InfiniteThrust: 11,-6
+	LS_TST_RESEARCH_TEST: 4,-2

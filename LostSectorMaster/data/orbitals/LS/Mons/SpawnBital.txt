@@ -1,0 +1,19 @@
+Module: LS_ORB_MONS_SPAWN
+	Health: 999999999
+	Size:
+	Armor: 999999999
+	Material: GenericPBR_Outpost
+	Model: Outpost
+	Icon Size:
+	TriggerPeriodic(TriggerRandomSystem(SpawnShip(Infested ArkShip V3, Design From = Creeps, , Add Status = LS_STS_MONS_FLEETSUMMON, Offset = 2500), Fallback Random = True), Interval = 300, Max Triggers = 1)`
+	TriggerPeriodic(TriggerRandomSystem(SpawnShip(Infested ArkShip V3, Design From = Creeps, , Add Status = LS_STS_MONS_FLEETSUMMON, Offset = 2500), Fallback Random = True), Interval = 300, Max Triggers = 1)
+	TriggerPeriodic(TriggerRandomSystem(SpawnShip(Infested ArkShip V2, Design From = Creeps, , Add Status = LS_STS_MONS_FLEETSUMMON, Offset = 2500), Fallback Random = True), Interval = 300, Max Triggers = 1)
+	TriggerPeriodic(TriggerRandomSystem(SpawnShip(Infested ArkShip V2, Design From = Creeps, , Add Status = LS_STS_MONS_FLEETSUMMON, Offset = 2500), Fallback Random = True), Interval = 300, Max Triggers = 1)
+	TriggerPeriodic(TriggerRandomSystem(SpawnShip(Infested Ark Ship  V1, Design From = Creeps, , Add Status = LS_STS_MONS_FLEETSUMMON, Offset = 2500), Fallback Random = True), Interval = 300, Max Triggers = 1)
+	TriggerPeriodic(TriggerRandomSystem(SpawnShip(Infested Ark Ship  V1, Design From = Creeps, , Add Status = LS_STS_MONS_FLEETSUMMON, Offset = 2500), Fallback Random = True), Interval = 300, Max Triggers = 1)
+	TriggerPeriodic(NotifyAll(EMERGENCY, Description = An alien fleet has started attacking multiple systems in the galaxy. They seem to spread an infection. Don#t let the planets fall., Icon = QuickbarIcons::4), Interval = 5400, Max Triggers = 1)
+	TriggerPeriodic(NotifyAll(WARNING, Description = The unknown mass previously deteced is almost upon the galaxy. It has been determined to be a fleet., Icon = QuickbarIcons::4), Interval = 4500, Max Triggers = 1)
+	TriggerPeriodic(NotifyAll(Infection Rumors?, Description = Rumors of a new infection changing individuals has spread. Is this something linked to the unknown mass?, Icon = QuickbarIcons::4), Interval = 3600, Max Triggers = 1)
+	TriggerPeriodic(NotifyAll(Unknown Mass, Description = Our detectors have found a substantial unknown mass heading towards this galaxy. Be warned., Icon = QuickbarIcons::4), Interval = 2700, Max Triggers = 1)
+	CountAsPlanet()
+	RequireNever()

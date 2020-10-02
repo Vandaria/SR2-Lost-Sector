@@ -48,7 +48,7 @@ S_CONSTRUCTION_BAY_DESC: <<
 	[img=$Labor;22]Provides labor to construct new ships with.[/img]
 	Slowly builds support ships for free based on subsystem size
 >>
-ERROR_TOO_SMALL: $1 too small. Msy be at least 25 hexes
+ERROR_TOO_SMALL: $1 too small. Must be at least 20% of ship hexes
 LS_SUB_SS_DESC: <<
 	Used as the framework for ships.
 	No cost
@@ -62,4 +62,28 @@ LS_SYS_SUPPORTSHIELD_FUTURETECH_DESC: <<
 
 	[img=Plus]Creates regenerating barrier against damage.[/img]
 	[img=Minus]Weakened shields allow some damage through.[/img]
+>>
+LS_SYS_SPC_MINELAYER: Minelyaer
+LS_SYS_SPC_MINELAYER_DESC: <<
+	An automatic mine layer subsystem.
+
+	Mines will self-destruct after 15 Minutes and not being activated.
+	1 mine is spawned every 30 seconds
+	Each mine does 3000 damage to a radius of 250.
+
+	MINES CAN BE SHOT DOWN.
+>>
+NANOMESH_DESC: <<
+	A finely weaved mesh of nanobots strengthen the integrity of nearby subsystems.
+
+	[img=Plus]Increases the [b][color=#80ff80]health[/color][/b] of surrounding hexes.[/img]
+	[img=Minus]Always uses internal space.[/img]
+	[img=Minus]The nano mesh itself has no health.[/img]
+>>
+LS_GATE_MODULE_DESC: <<
+	An FTL gate module that can be added to a ship
+
+	[img=Plus]Allows ships to move from any gate to any other gate.[/img]
+	[img=Minus]Must cover at least a third of the entire ship.[/img]
+	[img=$FTL]Costs 1 FTL/s upkeep. Gates get disabled when you run out of FTL.[/img]
 >>

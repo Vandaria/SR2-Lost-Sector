@@ -1,0 +1,16 @@
+Module: LS_ORB_MINE
+	Name: MINE
+	Build Cost: 10
+	Model: FTLStorage
+	Material: GenericPBR_FTLStorage
+	Health: 100000
+	Armor: 100000
+	Can Fling: False
+	Size: 1
+	Description: #LS_ORB_DIS_DESC
+	Combat Repair: False
+	Labor Cost: 1
+	RequireNever()
+	AddTurret(Torpedo, Range=251, Damage=3000, Reload=15, Speed=2000, Tracking=600, Radius=150)
+	TriggerPeriodic(Destroy(Quiet = True), Interval = 900)
+	GrantAbility(LS_ABL_ORB_MINE_ACTV)

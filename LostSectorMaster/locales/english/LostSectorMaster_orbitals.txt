@@ -32,3 +32,4 @@ LS_ORB_ECON_RSRCH1_DESC: <<
 	Part of your empires  Civilian Economy
 	Produces freighters which boost researc  income of recieving planet
 >>
+Mine: Mine

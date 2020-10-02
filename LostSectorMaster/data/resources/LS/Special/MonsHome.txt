@@ -1,0 +1,16 @@
+Resource: LS_PLT_MONS_HOME
+	Unique: True
+	Distribution: 0
+	Frequency: 0
+	Exportable: False
+	Artificial: True
+	Rarity: Unique
+	Can Be Terraformed: False
+	Small Icon: Nebulas::11*#6b0aac
+	Icon: Nebulas::11*#6b0aac
+	Native Biome: Space
+	Display Weight: -1
+	Name: #LS_PLT_MONS_HOME
+	Description: #LS_PLT_MONS_HOME_DESC
+	TriggerPeriodic(RandomTrigger(0.2, SpawnShip(Infested Scout, Design From = Creeps, , Offset = 950)), Interval = 30, Random Margin = 30)
+	AllowConstruction(Asteroids = True, Supports Only = True)

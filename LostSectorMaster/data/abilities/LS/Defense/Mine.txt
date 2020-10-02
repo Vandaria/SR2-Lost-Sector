@@ -1,0 +1,9 @@
+Ability: LS_ABL_SYS_MNEBOOST
+	Name: #LS_ABL_SYS_MNEBOOST
+	Description: #LS_ABL_ORB_DIS_DESC
+	Range: 150
+	Cooldown: 30
+	Icon: techCooling*#db164d
+	Hotkey: M
+	RequireEnergyMaintenance(Amount = 20)
+	IsStatusToggle(LS_STS_SPAWN_MINE_ABL)

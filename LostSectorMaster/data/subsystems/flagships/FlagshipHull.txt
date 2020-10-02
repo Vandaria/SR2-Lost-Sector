@@ -44,6 +44,8 @@ Subsystem: FlagshipHull
 	AddShipModifier: SupplyCapacityFactor(1 + ((0.4)*((ShipSize/1000)^1.5)))
 
 	Ship.FreeHexes := 0
+	IsSwarmerTrait := 0
+	AddShipModifier: MaintCostFactor(if(IsSwarmerTrait> 0, ((ShipSize / 300.0) * (ShipSize / 400.0)), 1))
 	Modifier: IncreaseHexLimit(Hexes)
 		HexLimit := HexLimit + Hexes
 		FreeHexLimit := FreeHexLimit + Hexes
