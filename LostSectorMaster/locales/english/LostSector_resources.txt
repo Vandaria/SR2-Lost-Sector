@@ -2,6 +2,7 @@ ILLINIUM_DESC: Increases loyalty on all planets by 2
 LS_RES_HW_HW: Homeworld
 LS_RES_HW_HW_DESC: <<
 	Your homeworld, protect it, nurture it.
+	Pressure increases per level
 
 	Increase Labour per minute by 10 for each level.
 

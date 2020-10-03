@@ -11,11 +11,11 @@ Resource: Homeworld
 	Native Biome: Artificial
 	Name: #LS_RES_HW_HW
 	Description: #LS_RES_HW_HW_DESC
-	Pressure: 30 Money
-	Pressure: 30 Influence
-	Pressure: 30 Energy
-	Pressure: 30 Labor
-	Pressure: 15 Research
+	Pressure: 5 Money
+	Pressure: 5 Influence
+	Pressure: 5 Energy
+	Pressure: 5 Labor
+	Pressure: 5 Research
 	Level: 1
 	IfLevel(6, AddIncome(5000))
 	SetMaxLevel(6)
@@ -31,6 +31,31 @@ Resource: Homeworld
 	IfLevel(2, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_RSRCH_1_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH1, Offset = 8000)), Interval = 300))))
 	IfLevel(3, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_RSRCH_2_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH2, Offset = 6000)), Interval = 300))))
 
+	IfLevel(2, AddPressure(Research, 6))
+	IfLevel(2, AddPressure(Labor, 6))
+	IfLevel(2, AddPressure(Energy, 6))
+	IfLevel(2, AddPressure(Influence, 6))
+	IfLevel(2, AddPressure(Money, 6))
+	IfLevel(3, AddPressure(Research, 6))
+	IfLevel(3, AddPressure(Labor, 6))
+	IfLevel(3, AddPressure(Energy, 6))
+	IfLevel(3, AddPressure(Influence, 6))
+	IfLevel(3, AddPressure(Money, 6))
+	IfLevel(4, AddPressure(Research, 6))
+	IfLevel(4, AddPressure(Labor, 6))
+	IfLevel(4, AddPressure(Energy, 6))
+	IfLevel(4, AddPressure(Influence, 6))
+	IfLevel(4, AddPressure(Money, 6))
+	IfLevel(5, AddPressure(Research, 6))
+	IfLevel(5, AddPressure(Labor, 6))
+	IfLevel(5, AddPressure(Energy, 6))
+	IfLevel(5, AddPressure(Influence, 6))
+	IfLevel(5, AddPressure(Money, 6))
+	IfLevel(6, AddPressure(Research, 6))
+	IfLevel(6, AddPressure(Labor, 6))
+	IfLevel(6, AddPressure(Energy, 6))
+	IfLevel(6, AddPressure(Influence, 6))
+	IfLevel(6, AddPressure(Money, 6))
 	TriggerPeriodic(RemoveStatus(Lvl4), Interval = 3000, Max Triggers = 1)
 	TriggerPeriodic(RemoveStatus(Lvl3), Interval = 2200, Max Triggers = 1)
 	TriggerPeriodic(RemoveStatus(Lvl2), Interval = 1500, Max Triggers = 1)

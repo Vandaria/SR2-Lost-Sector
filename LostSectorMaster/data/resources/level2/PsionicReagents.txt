@@ -32,4 +32,3 @@ Resource: PsionicReagents
 	IfLevel(4, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_RSRCH_3_COUNT, TriggerPeriodic(RepeatTrigger(1, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH3, Offset = 4500)), Interval = 300))))
 	IfLevel(2, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_RSRCH_1_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH1, Offset = 8000)), Interval = 300))))
 	IfLevel(3, IfNotSiege(IfNotHaveStatus(LS_STS_ECON_RSRCH_2_COUNT, TriggerPeriodic(RepeatTrigger(2, LS_Effects::SpawnOrbitalRange(LS_ORB_ECON_RSRCH2, Offset = 6000)), Interval = 300))))
-	

@@ -30,6 +30,7 @@ Subsystem: MothershipHull
 	Hook: ModSupplyConsumeFactor(-1.0)
 
 	AddPostModifier: AddMaintainCost(max(300-HexSum.MaintainCost, 0))
+	AddShipModifier: IsSwarmerTraitFactor(0.0)
 
 	Assert: ShipSize >= 500
 		Message: #ERROR_MIN_SIZE:$1:500
