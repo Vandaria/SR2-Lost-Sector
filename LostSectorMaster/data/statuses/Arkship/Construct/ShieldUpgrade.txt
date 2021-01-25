@@ -1,4 +1,0 @@
-Status: AS_STS_SHIELDUP_V1
-	Visible To: Nobody
-	AddBonusShield(Amount = 10000)
-	RestoreShieldsOverTime(Amount = 200)

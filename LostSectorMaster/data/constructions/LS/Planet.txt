@@ -1,8 +1,0 @@
-Construction: LS_CONS_PLANETREPAIR
-	Name: #LS_CONS_PLANETREPAIR
-	Description: #LS_CONS_PLANETREPAIR_DESC
-	Category: Infrastructure
-	Build Cost: 1000000
-	Labor Cost: 100
-	Time Cost: 120
-	DealStellarDamage(-1000000)

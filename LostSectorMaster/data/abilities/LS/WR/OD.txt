@@ -1,9 +1,0 @@
-Ability: WMOD
-	Name: #LS_ABL_SUB_WMOD
-	Description: #LS_ABL_SUB_WMOD_DESC
-	Hotkey: E
-	Icon: Jumpdrive*#bf2004
-	Target: targ = Object
-	Cooldown: 240
-	TargetFilterSelf(targ)
-	AddStatusSelf(STSWMODSELF1, Duration = 46)

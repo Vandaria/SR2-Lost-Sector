@@ -1,4 +1,0 @@
-Status: AS_STS_TELESCOPE
-	Visible To: Nobody
-Status: AS_STS_LOCSCAN
-	Visible To: Nobody

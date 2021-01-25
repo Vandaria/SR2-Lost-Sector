@@ -1,5 +1,0 @@
-LS_RE_N_USP: Unstable Land formation
-LS_RE_N_USP_DESC: Recent seismic observation have detected the primary continent on  [target=targ/] is starting to become unstable
-LS_RE_N_USP_DELAY: Take the proposal of only minor reductions in mining operations on the planet, hopefully it might help.
-LS_RE_N_USP_IGNORE: Continental collapse? What a mad theory, ignore these reports and continue mining operations.
-LS_RE_N_USP_DEAL: Halt mining operations and attempt to refill the already mined sections of the continent so as to try and prevent the risk of collapse.

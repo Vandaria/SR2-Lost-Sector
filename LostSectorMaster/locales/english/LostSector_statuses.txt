@@ -1,4 +1,0 @@
-LS_EXP_RES_MINE1: Mine
-LS_EXP_RES_MINE1_DESC: Discovered a huge vein of valuable metals on [target=Location/]
-AS_STS_EXPLORED: Explored
-AS_STS_EXPLORED_DESC: Planet has been explored by an Ark Ship

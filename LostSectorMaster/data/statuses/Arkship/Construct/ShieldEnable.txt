@@ -1,4 +1,0 @@
-Status: AS_STS_SHIELDACT_V1
-	Visible To: Nobody
-	RestoreShieldsOverTime(Amount = 100)
-	AddBonusShield(Amount = 10000)

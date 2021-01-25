@@ -1,4 +1,0 @@
-Status: AS_STS_EXPLORED
-	Name: #AS_STS_EXPLORED
-	Icon: DesignationIcons::24
-	Description: #AS_STS_EXPLORED_DESC

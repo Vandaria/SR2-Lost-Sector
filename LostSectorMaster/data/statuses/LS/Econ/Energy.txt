@@ -1,9 +1,0 @@
-Status: LS_CIV_ENG1
-	Visible To: Nobody
-	AddToNativeResource(AddPressure(Energy, 1))
-Status: LS_CIV_ENG2
-	Visible To: Nobody
-	AddToNativeResource(AddPressure(Energy, 3))
-Status: LS_CIV_ENG3
-	Visible To: Nobody
-	AddToNativeResource(AddPressure(Energy, 5))

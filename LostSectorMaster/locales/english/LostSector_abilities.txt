@@ -1,8 +1,0 @@
-LS_ABL_ORB_DIS: Disintegrator Beam
-AS_ABL_ASTEROID_Telescope: Grants vision to a system for 5 minutes.
-AS_ABL_REP_DESC: Repair any ship of your choosing
-ABL_ION_CANNON_DESC: <<
-	Fire the equipped ion cannon on a target enemy flagship. It will be unable to move or use FTL for a duration after being hit.
-
->>
-AS_ABL_PEXPLORE: Scan Surface

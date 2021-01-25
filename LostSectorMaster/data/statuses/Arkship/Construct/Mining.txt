@@ -1,2 +1,0 @@
-Status: AS_STS_MININGV1
-	Visible To: Nobody

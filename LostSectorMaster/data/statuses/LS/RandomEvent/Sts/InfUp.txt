@@ -1,8 +1,0 @@
-Status: LS_STS_RE_STS_InfUp5
-	Visible To: Nobody
-	Collapses: True
-	ModCivResourceMult(Influence, 0.05)
-Status: LS_STS_RE_STS_InfUp10
-	Visible To: Nobody
-	Collapses: True
-	ModCivResourceMult(Influence, 0.1)

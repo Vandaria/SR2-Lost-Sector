@@ -1,3 +1,0 @@
-Status: AS_STS_NADES
-	Visible To: Nobody
-	IfNotHaveStatus(AS_STS_ASTS, TriggerPeriodic(Destroy(Quiet = True), Interval = 3, Max Triggers = 1))

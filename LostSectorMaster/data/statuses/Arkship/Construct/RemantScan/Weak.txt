@@ -1,8 +1,0 @@
-Status: AS_STS_RCWEAK
-	Visible To: Nobody
-	TriggerPeriodic(Destroy(), Interval = 1.5, Max Triggers = 1)
-	TriggerPeriodic(SpawnCreepCamp(Camp Type = AS_CRP_CMP_WEAK), Interval = 1, Max Triggers = 1)
-Status: AS_STS_RCDEFSYS
-	Visible To: Nobody
-	TriggerPeriodic(SpawnCreepCamp(Camp Type = AS_CRP_CMP_DEFNORM), Interval = 1, Max Triggers = 1)
-	TriggerPeriodic(Destroy(), Interval = 1.5, Max Triggers = 1)

@@ -1,6 +1,0 @@
-Status: DefensiveSTS
-	Name: #LS_STS_DEFENSIVE
-	Description: #LS_STS_DEFENSIVE
-	Visible To: Nobody
-	ModLoyalty(10)
-	ModResourceEfficiencyBonus(-0.2)

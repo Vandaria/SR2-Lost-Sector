@@ -1,3 +1,0 @@
-Camp: AS_CRP_CMP_MED
-	Target Strength: 1500000
-	Frequency: 0

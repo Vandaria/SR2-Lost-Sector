@@ -1,9 +1,0 @@
-Status: LS_CIV_LAB1
-	Visible To: Nobody
-	AddToNativeResource(AddPressure(Labor, 1))
-Status: LS_CIV_LAB2
-	Visible To: Nobody
-	AddToNativeResource(AddPressure(Labor, 3))
-Status: LS_CIV_LAB3
-	Visible To: Nobody
-	AddToNativeResource(AddPressure(Labor, 5))

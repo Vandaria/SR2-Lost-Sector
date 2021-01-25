@@ -1,2 +1,0 @@
-Status: LSORECOREXP
-	Visible To: Nobody

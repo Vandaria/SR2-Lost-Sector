@@ -1,8 +1,0 @@
-Technology: MercBoost
-	Name: MercBoost
-	Icon: SupportYeaIcon
-	Symbol: SupportYeaIcon
-	Point Cost: 100
-	Time Cost: 1
-	Color: #63ff09
-	ModAttribute(MercBoost, Add, 1)

@@ -1,6 +1,0 @@
-Camp: Monstrosity
-	Frequency: 0
-	Ship: Monstrosity [Remnant Monstrosity]
-	Support Occupation: 0
-	Region Status: BlockedColonization
-	Region Status: InterdictFTL

@@ -1,2 +1,0 @@
-Status: LSBSCOREXP
-	Visible To: Nobody

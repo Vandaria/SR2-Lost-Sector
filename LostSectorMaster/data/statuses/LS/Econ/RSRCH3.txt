@@ -1,7 +1,0 @@
-Status: LS_STS_ECON_RSRCH_3
-	Visible To: Nobody
-	Collapses: True
-	AddResearchIncome(1.5)
-Status: LS_STS_ECON_RSRCH_3_COUNT
-	Visible To: Nobody
-	Collapses: True

@@ -1,9 +1,0 @@
-Status: LS_CIV_MON1
-	Visible To: Nobody
-	AddToNativeResource(AddPressure(Money, 1))
-Status: LS_CIV_MON2
-	Visible To: Nobody
-	AddToNativeResource(AddPressure(Money, 3))
-Status: LS_CIV_MON3
-	Visible To: Nobody
-	AddToNativeResource(AddPressure(Money, 5))

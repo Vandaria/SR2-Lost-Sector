@@ -1,6 +1,0 @@
-Camp: QSFAILCAMP
-	Target Strength: 10000000000000
-	Frequency: 0
-	Pickup: GG
-		Name: #LS_QSFAILCMP_LOL
-		GrantExperience(Size Factor = 100)

@@ -1,5 +1,0 @@
-Status: Frugal
-	Visible To: Nobody
-
-
-	ModResourceEfficiencyBonus(0.2)

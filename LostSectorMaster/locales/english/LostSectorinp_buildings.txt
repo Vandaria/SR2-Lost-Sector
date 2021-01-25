@@ -1,7 +1,0 @@
-BLD_ANCIENT_LAB_DESC: <<
-	Increases this planet's research production by 1.
-
-	[bbloc=#TIP_CONSUME_ORE:40/]
->>
-BLD_ANCIENT_COREEXPBM: Core Expansion- Base Materials
-BLD_ANCIENT_COREEXPBM_DESC: Focues on Base Material production at the expense of Ore and resource pressure

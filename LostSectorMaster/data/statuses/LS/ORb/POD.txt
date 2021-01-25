@@ -1,6 +1,0 @@
-Status: POD
-	Name: POD
-	Icon: PointsIcon
-	Collapses: True
-	Visible To: Nobody
-	ProtectsOrbitSiege()

@@ -1,8 +1,0 @@
-Status: AS_STS_SUPENV1
-	Visible To: Nobody
-	AddLocalDefense(10)
-	AddLaborIncome(5)
-	AddFleetCommand(500)
-Status: AS_STS_SUPUPV1
-	Visible To: Nobody
-	AddFleetCommand(500)

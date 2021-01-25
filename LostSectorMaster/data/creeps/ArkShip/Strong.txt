@@ -1,3 +1,0 @@
-Camp: AS_CRP_CMP_STRN
-	Target Strength: 15000000
-	Frequency: 0

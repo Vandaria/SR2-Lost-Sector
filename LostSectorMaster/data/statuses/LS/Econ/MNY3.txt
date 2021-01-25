@@ -1,8 +1,0 @@
-Status: LS_STS_ECON_MNY3
-	Visible To: Nobody
-	Collapses: True
-	AddMaxPopulation(1)
-	AddMoneyIncome(15)
-Status: LS_STS_ECON_MNY3_COUNT
-	Visible To: Nobody
-	Collapses: True

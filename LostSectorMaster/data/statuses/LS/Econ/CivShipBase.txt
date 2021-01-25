@@ -1,5 +1,0 @@
-Status: LS_CIV_CSB
-	Visible To: Nobody
-	EnableModifier(hull/Flagship::MaintCostFactor(0))
-	RepeatExtended(AddBonusShield(Percentage = 0.25))
-	RepeatExtended(AddBonusShield(Percentage = 0.25))

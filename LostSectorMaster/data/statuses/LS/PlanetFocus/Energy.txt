@@ -1,6 +1,0 @@
-Status: LS_STS_PLANETFOCUS_ENERGY_1
-	Visible To: Nobody
-	Unique: True
-	TriggerPeriodic(SpawnOrbital(LS_ORB_PF_RETRIGGER_Energy1), Interval = 1200, Random Margin = 1200)
-	PerIncomeAddResource(Energy, 1.05, Energy)
-	ModPressurePct(Energy, 0.05)

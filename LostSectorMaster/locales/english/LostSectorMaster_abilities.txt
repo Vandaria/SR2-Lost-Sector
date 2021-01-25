@@ -1,5 +1,0 @@
-LS_ABL_SYS_MNEBOOST: Rapid Mine Lay
-LS_ABL_ORB_DIS_DESC: <<
-	Lay an additional mine every 10 seconds.
-	Requires 20 Empire Energy per second
->>
