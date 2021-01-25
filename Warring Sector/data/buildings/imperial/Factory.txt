@@ -1,0 +1,19 @@
+Building: Factory
+	Name: #BLD_FACTORY
+	Description: #BLD_FACTORY_DESC
+	Sprite: Factory
+
+	Category: Production
+
+	Size: 3x3
+	Base Cost: 20
+	Tile Cost: 20
+	Base Maintenance: 150
+	Tile Maintenance: 15
+
+	ActiveWhenCargoConsumed(Ore, 10, 6, AddStatus(WS_STS_FACTORY_LABOUR), Labor Use Linked = True)
+	ShowAttributeValue(#RESOURCE_LABOR, FactoryLaborMod, Base Amount = 4, Icon = ResourceIcon::6, Suffix = #PER_MINUTE)
+	ModConstructionHPBonusAttribute(FactoryHPMod) #version>=147
+
+
+

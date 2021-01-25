@@ -1,0 +1,2 @@
+Name: Warring Sector
+Compatibility: 200

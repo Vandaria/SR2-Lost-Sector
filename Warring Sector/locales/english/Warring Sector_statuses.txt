@@ -1,0 +1,16 @@
+WS_STS_PLANET_FOODMET: Enough Food
+WS_STS_PLANET_FOODNO: Starving
+WS_STS_ECON_ALL_CRIME_COUNT: Crime
+WS_STS_ECON_ALL_CRIME_COUNT_DESC: <<
+	Crime causes various effects
+
+	[img=Minus] Loyalty decrased by 1 per stack[/img]
+	[img=Minus]Income decreased by 30 per stack [/img]
+	[img=Minus]Raiders may spawn, chance and potential volume increasing per stack[/img]
+
+
+	[img=Plus] Labour Storage increased by 5 per stack [/img]
+	[imf=Plus] Labour factor increase by 1.5% per stack [/img]
+>>
+WS_STS_ALL_PLANET_DISLOYAL: Negative Loyalty
+WS_STS_ALL_PLANET_DISLOYAL_DESC: This Planet has negative loyalty and well suffer increasingily severe consequences

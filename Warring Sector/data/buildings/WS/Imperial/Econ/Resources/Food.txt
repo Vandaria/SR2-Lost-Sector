@@ -1,0 +1,4 @@
+Building: WS_BLD_IMP_ECON_RSS_FOOD
+	Name: Food
+	Sprite: Stalk
+	TriggerPeriodic(AddCargo(WS_CARGO_RSS_FOOD, 10), Interval = 6)

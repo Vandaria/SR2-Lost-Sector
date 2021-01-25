@@ -1,0 +1,8 @@
+Resource: AE_RSS_ASTRD_ORERICH
+	Class: Asteroid
+	Name: #AE_RSS_ASTRD_ORERICH
+	Icon: ResourceIconsSmall::65
+	Small Icon: ResourceIconsSmall::65
+	Native Biome: Moon
+	Frequency: 0
+	Distribution: 0

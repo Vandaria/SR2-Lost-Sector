@@ -1,0 +1,7 @@
+System: StandardSystem
+	Inherit: BaseSystem
+	Frequency: 0.50
+
+	MakeStar(Temperature = 4000:12000, Radius = 2000:300)
+	Repeat(2)
+		MakePlanet(RandomType:Asteroid, Radius = 30:100, Conditions = False, Moons = False)

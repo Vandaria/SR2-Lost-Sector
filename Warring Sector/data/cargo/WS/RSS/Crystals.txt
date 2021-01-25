@@ -1,0 +1,3 @@
+Cargo: WS_CARGO_RSS_CRYSTALS
+	Name: #WS_CARGO_RSS_CRYSTALS
+	Icon: ResourceIcons::22

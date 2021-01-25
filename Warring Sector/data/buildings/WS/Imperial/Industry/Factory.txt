@@ -1,0 +1,5 @@
+Building: WS_BLD_IMP_INDUSTRY_FACTORYBOOST
+	Sprite: TechIcons::43
+	Name: #WS_BLD_IMP_INDUSTRY_FACTORYBOOST
+	Description: #WS_BLD_IMP_INDUSTRY_FACTORYBOOST_DESC
+	ActiveWhenCargoConsumed(WS_CARGO_RSS_ALLOYS, 1, 6, AddLaborFactor(0.3))

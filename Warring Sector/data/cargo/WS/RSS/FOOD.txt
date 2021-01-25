@@ -1,0 +1,3 @@
+Cargo: WS_CARGO_RSS_FOOD
+	Name: #WS_CARGO_RSS_FOOD
+	Icon: Plantation

@@ -1,0 +1,52 @@
+Status: WS_STS_ALL_PLANETBASE
+	Visible To: Owner
+	Icon: SupportYeaIcon
+	ModPressurePct(Research, -1)
+	ModPressurePct(Labor, -1)
+	ModPressurePct(Defense, -1)
+	ModPressurePct(Energy, -1)
+	ModPressurePct(Influence, -1)
+	ModPressurePct(Money, -1)
+Status: WS_STS_ALL_PLANET_OUTPOST
+	Visible To: Owner
+	Icon: PointsIcon
+	ModPressurePct(Research, -0.5)
+	ModPressurePct(Labor, +0.2)
+	ModPressurePct(Defense, -1)
+	ModPressurePct(Energy, -0.5)
+	ModPressurePct(Influence, -0.75)
+	ModPressurePct(Money, -0.5)
+Status: WS_STS_ALL_PLANET_COLONY
+	Visible To: Nobody
+	ModPressurePct(Research, 0)
+	ModPressurePct(Labor, +0.5)
+	ModPressurePct(Defense, -1)
+	ModPressurePct(Energy, 0)
+	ModPressurePct(Influence, -0.2)
+	ModPressurePct(Money, +0.5)
+Status: WS_STS_ALL_PLANET_PLANETCAP
+	Visible To: Nobody
+	ModPressurePct(Research, +0.3)
+	ModPressurePct(Labor, +1)
+	ModPressurePct(Defense, -1)
+	ModPressurePct(Energy, +0.5)
+	ModPressurePct(Influence, 0)
+	ModPressurePct(Money, +1)
+Status: WS_STS_ALL_PLANET_ALLPLANETS
+	Visible To: Nobody
+	WS_Hooks::IfLoyaltyBelow(0, TriggerPeriodic(AddStatus(WS_STS_ALL_PLANET_DISLOYAL)))
+Status: WS_STS_ALL_PLANET_DISLOYAL
+	Icon: LoyaltyIcon*#890103
+	Name: #WS_STS_ALL_PLANET_DISLOYAL
+	Description: #WS_STS_ALL_PLANET_DISLOYAL_DESC
+	WS_Hooks::IfLoyaltyBelow(-5, ModPressurePct(Energy, -0.8, Min Amount = -1)) 
+	WS_Hooks::IfLoyaltyBelow(-100, ChangeNativeResourceTo(Microcline)) 
+	WS_Hooks::IfLoyaltyBelow(-15, MakeQuarantined()) 
+	WS_Hooks::IfLoyaltyBelow(-20, ModNeighbourLoyalty(-20)) 
+	WS_Hooks::IfLoyaltyBelow(-15, ModNeighbourLoyalty(-10)) 
+	WS_Hooks::IfLoyaltyBelow(-10, ModNeighbourLoyalty(-3)) 
+	WS_Hooks::IfLoyaltyBelow(-10, AddIncome(-1000)) 
+	WS_Hooks::IfLoyaltyBelow(-5, AddIncome(-200)) 
+	WS_Hooks::IfLoyaltyBelow(-3, ModPopulationGrowth(-1)) 
+	WS_Hooks::IfLoyaltyBelow(0, ModPressurePct(Research, -0.5, Min Amount = -1)) 
+	WS_Hooks::IfLoyaltyBelow(0, ModPressureCapMult(-0.3)) 

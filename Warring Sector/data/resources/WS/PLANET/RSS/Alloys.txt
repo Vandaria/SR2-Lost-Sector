@@ -1,0 +1,8 @@
+Resource: WS_RSS_PLNET_RSS_ALLOYS_V1
+	Frequency: 0
+	Distribution: 0
+	Can Be Terraformed: False
+	Exportable: False
+	Display Requirement: False
+	Mode: Non Requirement
+	TriggerPeriodic(AddCargo(WS_CARGO_RSS_ALLOYS, 1), Interval = 6)

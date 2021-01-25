@@ -1,0 +1,3 @@
+Camp: WS_CREEP_PIRATE_MEDIUM
+	Frequency: 0
+	Flagship Size: 1200

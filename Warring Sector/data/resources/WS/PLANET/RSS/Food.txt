@@ -1,0 +1,5 @@
+Resource: WS_RSS_PLNET_RSS_FOOD
+	Frequency: 0
+	Distribution: 0
+	Can Be Terraformed: False
+	TriggerPeriodic(AddCargo(WS_CARGO_RSS_FOOD, 1), Interval = 1)

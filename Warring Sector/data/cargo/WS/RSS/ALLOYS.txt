@@ -1,0 +1,4 @@
+Cargo: WS_CARGO_RSS_ALLOYS
+	Name: #WS_CARGO_RSS_ALLOYS
+	Description: #WS_CARGO_RSS_ALLOYS_DESC
+	Icon: ResourceIcons::33

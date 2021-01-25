@@ -1,0 +1,8 @@
+Status: WS_STS_ECON_ALL_PM_POPCOUNT_6
+	Collapses: True
+	Visible To: Owner
+	Icon: SupportYeaIcon
+Status: WS_STS_ECON_ALL_PM_POPCOUNT_16
+	Visible To: Global
+Status: WS_STS_ECON_ALL_PM_POPCOUNT_30
+	Visible To: Nobody

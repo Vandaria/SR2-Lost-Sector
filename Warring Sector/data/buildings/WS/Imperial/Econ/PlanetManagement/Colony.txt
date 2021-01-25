@@ -1,0 +1,14 @@
+Building: WS_BLD_IMP_ECON_PM_COLONY
+	Sprite: Megafarm
+	Size: 3x3
+	Name: #WS_BLD_IMP_ECON_PM_COLONY
+	//Enable, must add status, check for old status and remove
+	OnEnable(AddStatus(WS_STS_ALL_PLANET_COLONY))
+	IfHaveStatus(WS_STS_ALL_PLANET_OUTPOST, OnEnable(RemoveStatus(WS_STS_ALL_PLANET_OUTPOST)))
+	//Disable, must remove itself if destroyed
+	IfHaveStatus(WS_STS_ALL_PLANET_COLONY, OnDisable(RemoveStatus(WS_STS_ALL_PLANET_COLONY)))
+	//add pop count stat for next tier of crime and rss use
+	WS_Hooks::IfPopulationAbove(6, AddStatus(WS_STS_ECON_ALL_PM_POPCOUNT_16))
+	//requirements/conflicts
+	CannotRemove()
+	RequireStatusToProgress(WS_STS_ECON_ALL_PM_POPCOUNT_6)

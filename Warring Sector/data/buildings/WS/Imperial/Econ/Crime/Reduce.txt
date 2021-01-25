@@ -1,0 +1,9 @@
+Building: WS_BLD_IMP_ECON_CRIME_STATION
+	Sprite: Barracks
+	Name: #WS_BLD_IMP_ECON_CRIME_STATION
+	Description: #WS_BLD_IMP_ECON_CRIME_STATION_DESC
+	Size: 2x2
+	Build Time: 60
+	Base Maintenance: 100
+	Base Cost: 300
+	TriggerPeriodic(RepeatTrigger(1, RemoveStatusInstance(WS_STS_ECON_ALL_CRIME_COUNT)))

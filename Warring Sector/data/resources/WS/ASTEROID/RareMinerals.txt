@@ -1,0 +1,8 @@
+Resource: AE_RSS_ASTRD_RARE
+	Class: Asteroid
+	Name: #AE_RSS_ASTRD_RARE
+	Native Biome: Moon
+	Small Icon: ResourceIcons::12
+	Icon: ResourceIcons::12
+	Frequency: 0
+	Distribution: 0

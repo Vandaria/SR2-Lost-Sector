@@ -1,0 +1,7 @@
+Building: WS_BLD_IMP_ECON_PM_CAPITAL
+	Sprite: FTLStorage
+	Size: 6x4
+	Name: #WS_BLD_IMP_ECON_PM_CAPITAL
+	CannotRemove()
+	RequireStatusToProgress(WS_STS_ECON_ALL_PM_POPCOUNT_16)
+	WS_Hooks::IfPopulationAbove(6, AddStatus(WS_STS_ECON_ALL_PM_POPCOUNT_30))

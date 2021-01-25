@@ -1,0 +1,32 @@
+Building: WS_BLD_IMP_ECON_RSS_ALLOY_V1
+	Name: #WS_BLD_IMP_ECON_RSS_ALLOY_V1
+	Description: #WS_BLD_IMP_ECON_RSS_ALLOY_V1_DESC
+	Sprite: Refinery
+	Size: 2x4
+	Build Time: 60
+	Base Maintenance: 200
+	Base Cost: 500
+	ActiveWhenCargoConsumed(Ore, 10, 6, TriggerPeriodic(AddCargo(WS_CARGO_RSS_ALLOYS, 1), Interval = 6, Trigger Immediate = True))
+Building: WS_BLD_IMP_ECON_RSS_ALLOY_V2
+	Name: #WS_BLD_IMP_ECON_RSS_ALLOY_V2
+	Description: #WS_BLD_IMP_ECON_RSS_ALLOY_V2_DESC
+	Size: 2x4
+	Sprite: Refinery*#8bb800
+	Base Cost: 1000
+	Base Maintenance: 200
+	Build Time: 60
+	RequireUnlockTag(AlloyRefinery2)
+	ConsumeCargo(WS_CARGO_RSS_ALLOYS, 100)
+	ActiveWhenCargoConsumed(Ore, 10, 6, TriggerPeriodic(AddCargo(WS_CARGO_RSS_ALLOYS, 2), Interval = 6, Trigger Immediate = True))
+Building: WS_BLD_IMP_ECON_RSS_ALLOY_V3
+	Name: #WS_BLD_IMP_ECON_RSS_ALLOY_V3
+	Description: ##WS_BLD_IMP_ECON_RSS_ALLOY_V3_DESC
+	Size: 4x6
+	Sprite: Refinery*#f67bed
+	Build Time: 60
+	Base Cost: 5000
+	Base Maintenance: 500
+	ActiveWhenCargoConsumed(Ore, 10, 6, TriggerPeriodic(AddCargo(WS_CARGO_RSS_ALLOYS, 4), Interval = 6, Trigger Immediate = True))
+	RequireUnlockTag(AlloyRefinery3)
+	ConsumeCargo(WS_CARGO_RSS_ALLOYS, 1000)
+	ConsumeCargo(WS_CARGO_RSS_CRYSTALS, 100)

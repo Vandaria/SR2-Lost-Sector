@@ -1,0 +1,44 @@
+WS_BLD_IMP_ECON_PM_OUTPOST: Outpost
+WS_BLD_IMP_ECON_PM_COLONY: Colony
+WS_BLD_IMP_ECON_PM_CAPITAL: Capital
+WS_BLD_IMP_ECON_RSS_ALLOY_V1: Foundary
+WS_BLD_IMP_ECON_RSS_ALLOY_V1_DESC: <<
+	Turns Ore into Alloys.
+
+	Consumes 100 Ore per minute.
+	Produces 10 Alloys per minute
+>>
+WS_BLD_IMP_INDUSTRY_FACTORYBOOST: Processing Plant
+WS_BLD_IMP_INDUSTRY_FACTORYBOOST_DESC: <<
+	Consumes 10 Alloys per minute
+
+	Increases Labour by 20%
+>>
+BLD_FACTORY_DESC: <<
+	Adds labor generation to the planet.
+
+	Consumes 100 Ore every minute
+>>
+WS_BLD_IMP_ECON_RSS_ALLOY_V2: Advanced Refinery
+WS_BLD_IMP_ECON_RSS_ALLOY_V3: Refinery District
+#WS_BLD_IMP_ECON_RSS_ALLOY_V3_DESC: <<
+	Turns Ore into Alloys.
+
+	Consumes 100 Ore per minute.
+	Produces 40 Alloys per minute
+>>
+WS_BLD_IMP_ECON_PM_OUTPOST_DESC: <<
+	Upgrades the planet to an official outpost of your empire.
+
+	[img=Plus] Allows for more population and higher planet level[/img]
+	[img=Plus] Unlocks more advanced buildings [/img]
+	[img=Plus] Able to sustain a large economy [/img]
+
+	[img=Minus] Planet well start to consume and require food [/img]
+	[offset=30][img=MenuIcons::3;20] Planets without food well starve and suffer negative effects[/img][/offset]
+	[offset=30][img=MenuIcons::3;20] Planets requires at least 50 food per minute[/img][/offset]
+
+	[img=Minus] Planet well start to experience some minor levels of crime[/img]
+	[offset=30][img=MenuIcons::3;20] Crime is determined by total pop. This can be offset by certain imperial buildings Crime  carries negative effects[/img][/offset]
+
+>>

@@ -1,0 +1,7 @@
+Trait: WS_TRAITS_BASE_ALL_STANDARD
+	Available: False
+	TriggerHomeworld(SpawnBuilding(Factory, (4,3), Develop = True))
+	AddStatusOwnedPlanets(WS_STS_ECON_ALL_CRIME_BASE)
+	TriggerHomeworld(SpawnBuilding(WS_BLD_IMP_ECON_PM_OUTPOST, (1,1), Develop = True))
+	TriggerHomeworld(DestroyBuildingAt((4, 3), Undevelop = True))
+	AddStatusOwnedPlanets(WS_STS_ALL_PLANETBASE)

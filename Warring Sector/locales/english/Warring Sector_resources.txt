@@ -1,0 +1,5 @@
+WS_CARGO_RSS_FOOD: Food
+WS_CARGO_RSS_FOOD_DESC: Processed Ore ready for use
+WS_CARGO_RSS_CRYSTALS: Energised Crystals
+WS_CARGO_RSS_ALLOYS: Alloys
+WS_CARGO_RSS_ALLOYS_DESC: Processed Ore ready for use

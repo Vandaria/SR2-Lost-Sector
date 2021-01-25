@@ -1,0 +1,9 @@
+Construction: test
+	Target: targ = Object
+	Name: test
+	Category: Cargo Move
+	Time Cost: 0.1
+	Trigger(targ, AddCargo(Ore, 1000 ))
+	TargetFilterHasCargoStored(targ)
+	TargetFilterFlagship(targ)
+	ConsumeCargo(Ore, 1000, Hide = True)
