@@ -1,1 +1,21 @@
 Building: WS_BLD_IMP_ECON_RSS_ORE_BASIC
+	Sprite: StripMiner
+	Size: 2x2
+	Name: #WS_BLD_IMP_ECON_RSS_ORE_BASIC
+	Description: #WS_BLD_IMP_ECON_RSS_ORE_BASIC_DESC
+	Base Maintenance: 150
+	Base Cost: 300
+	Build Time: 60
+	TriggerPeriodic(AddCargo(Ore, 1), Interval = 6)
+Building: WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V1
+	Name: #WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V1
+	Description: #WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V1_DESC
+	IfNativeClass(Barren, TriggerPeriodic(AddCargo(Ore, 7.5), Interval = 6))
+	IfNativeClass(Barren, TriggerPeriodic(AddCargo(Ore, 15), Interval = 6))
+	IfNativeClass(Volcanic, TriggerPeriodic(AddCargo(Ore, 20), Interval = 6))
+	IfNativeClass(Terrestial, TriggerPeriodic(RandomTrigger(0.55, AddCargo(Ore, 150))))
+	IfNativeClass(Terrestial, ModPopulationGrowth(-0.5))
+	IfNativeClass(Terrestial, AddMaxPopulation(-2))
+	IfNativeClass(Terrestial, ModLoyalty(-1))
+Building: WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V2
+Building: WS_BLD_IMP_ECON_RSS_ORE_COREMINE

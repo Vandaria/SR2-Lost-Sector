@@ -1,0 +1,3 @@
+Resource: WS_RSS_PLNT_MOON
+	Class: Moon
+	OnExportMoveLocalCargo(Ore)

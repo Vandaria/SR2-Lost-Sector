@@ -12,7 +12,7 @@ Building: WS_BLD_IMP_ECON_PM_OUTPOST
 	//add pop count stat for next tier of crime and rss use
 	WS_Hooks::IfPopulationAbove(6, AddStatus(WS_STS_ECON_ALL_PM_POPCOUNT_6))
 	//requirements/conflicts
-	IfNotHaveStatus(WS_STS_PLANET_FOODNO_lvl1, TriggerPeriodic(AddStatus(WS_STS_PLANET_FOODNO_lvl1, Duration = 60, Max Stacks = 10), Interval = 10, Trigger Immediate = True))
+	IfNotHaveStatus(WS_STS_PLANET_FOODMET, TriggerPeriodic(AddStatus(WS_STS_PLANET_FOODNO_lvl1, Duration = 60, Max Stacks = 10), Interval = 10, Trigger Immediate = True))
 	WhileConsumingCargo(WS_CARGO_RSS_FOOD, 5, 6, AddStatus(WS_STS_PLANET_FOODMET))
 	CannotRemove()
 	ConflictBuilding(WS_BLD_IMP_ECON_PM_OUTPOST)

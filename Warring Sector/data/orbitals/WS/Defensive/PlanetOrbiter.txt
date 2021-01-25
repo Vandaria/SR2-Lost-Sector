@@ -1,0 +1,23 @@
+Module: LS_PLANETORBDEF
+	Name: #LS_ORB_DEF_POD
+	Description: #LS_ORB_DEF_POD_DESC
+	Health: 25000
+	Armor: 25000
+	Size: 30
+	Model: DefenseStation
+	Material: VolkurGenericPBR
+	Icon: GuiOrbitalIcons::0
+	Strategic Icon: OrbitalIcons::0
+	Spin: 10
+	Combat Repair: False
+	Can Fling: False
+	Icon Size: 0.015
+	planet_effects::ModLoyalty(1)
+	Repeat(2, AddTurret(Laser, Range=1500, DPS=100, Duration=2, Cooldown=2, Tracking=0.4))
+	RepeatExtended(AddTurret(Laser, Range=1500, DPS=200, Duration=2, Cooldown=2, Tracking=0.4), Base Attribute = OutpostBoost, Base = 3)
+	AddArmorEmpireAttribute(OutpostBoost, Multiplier = 25000)
+	AddHealthEmpireAttribute(OutpostBoost, Multiplier = 25000)
+	RequireNever()
+	OnDisable(RemoveStatusInstance(POD))
+	DestroyIfNotAroundOwnedPlanet(Destroy No Orbit = True)
+	AddStatusToOrbitingPlanet(POD)

@@ -42,3 +42,34 @@ WS_BLD_IMP_ECON_PM_OUTPOST_DESC: <<
 	[offset=30][img=MenuIcons::3;20] Crime is determined by total pop. This can be offset by certain imperial buildings Crime  carries negative effects[/img][/offset]
 
 >>
+WS_BLD_IMP_ECON_RSS_ORE_BASIC: Simple Mine
+WS_BLD_IMP_ECON_RSS_ORE_BASIC_DESC: <<
+	A simple mine. No advanced tech incorperated.
+	Produces 10 Ore per minute.
+
+>>
+WS_BLD_IMP_INDUSTRY_ORE2BUDGET: Ore Market
+WS_BLD_IMP_ECON_RSS_FOOD: Planet Greenhouse
+WS_BLD_IMP_ECON_RSS_FOOD_DESC: <<
+	Produces enough food for 1 Outpost
+
+	50 Food per Minute
+>>
+LS_BLD_DEF_SENT: Orbital Defense Platform
+LS_BLD_DEF_SENT_DEF: <<
+	Launches orbitals into orbit which prevent planet capture while alive.
+
+	Well respawn for free if not seiged once all are destroyed
+>>
+WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V1: StripMine
+WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V1_DESC: <<
+	Produces ore at varying rates depending on planet type.
+
+	[img=Plus] If Volcanic World, reliably produce 200 Ore per minute[/img]
+
+	[img=Plus] If Barren World, reliably produce 100 Ore per minute [/img]
+
+	[img=Plus] If Moon, reliably produce 75 ore per minute[/img]
+
+	[img=Minus] If Terrestial Planet, reduce loyalty by 1, reduce max Population by 2, reduce population growth by 50%, [b]Unreliably[/b] produce 150 Ore per minute [/img]
+>>

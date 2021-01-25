@@ -1,9 +1,6 @@
 System: HomeSystem
-	MakeStar(Temperature = 400:13000, Radius = 65:85)
-		BonusHealth(20000000000)
-
 	RepeatHomeworlds()
-		MakePlanet(RandomType:Food:Common, Radius = 10, Grid Size = (18, 11), Conditions = False, Moons = False)
+		MakePlanet(WS_RSS_PLNT_HOME, Grid Size = (18, 11), Conditions = False, Moons = False)
 			BonusHealth(5000000000)
 			AddPlanetResource(Water)
 			AddResource(Labor, +1)
@@ -14,14 +11,9 @@ System: HomeSystem
 			NoNeedPopulationForLevel()
 			ForceUsefulSurface(0.8, Forest)
 
-	MakePlanet(RandomType:Food:Common, Conditions = False, Moons = False)
-	MakePlanet(Water, Conditions = False, Moons = False)
-	MakePlanet(RandomLevel:1:Common, Conditions = False, Moons = False)
-		MakeMoon()
-	ExpandSystem(-50:100)
+	MakePlanet(WS_RSS_PLNT_VOLCANIC, Conditions = False, Moons = False)
+	MakePlanet(WS_RSS_PLNT_VOLCANIC, Conditions = False, Moons = False)
+	MakePlanet(WS_RSS_PLNT_VOLCANIC, Conditions = False, Moons = False)
 
 	MakeAsteroid(Cargo = Ore, Cargo Amount = 6000)
-	MakeAsteroid(Resource = Distributed)
 
-	AddAdjacentArtifacts(2)
-	MakeAdjacentCreepCamp(SmallCamp, Place Far = True)

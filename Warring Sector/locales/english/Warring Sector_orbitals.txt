@@ -1,0 +1,2 @@
+LS_ORB_DEF_POD: Orbital Defense Platform
+LS_ORB_DEF_POD_DESC: Prevents planet Capture while alive

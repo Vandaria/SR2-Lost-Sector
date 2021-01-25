@@ -1,5 +1,9 @@
 Building: WS_BLD_IMP_INDUSTRY_FACTORYBOOST
-	Sprite: TechIcons::43
+	Sprite: Forge
 	Name: #WS_BLD_IMP_INDUSTRY_FACTORYBOOST
 	Description: #WS_BLD_IMP_INDUSTRY_FACTORYBOOST_DESC
+	Size: 3x3
+	Base Cost: 500
+	Base Maintenance: 100
+	RequireStatus(WS_STS_ALL_PLANET_OUTPOST)
 	ActiveWhenCargoConsumed(WS_CARGO_RSS_ALLOYS, 1, 6, AddLaborFactor(0.3))

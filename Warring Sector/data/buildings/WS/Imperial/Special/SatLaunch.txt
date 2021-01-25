@@ -1,0 +1,15 @@
+Building: LS_SATDEFBLD
+	Name: #LS_BLD_DEF_SENT
+	Description: #LS_BLD_DEF_SENT_DEF
+	Size: 3x5
+	Sprite: SpaceElevator
+	Category: Military
+	Base Cost: 500
+	Tile Cost: 25
+	Base Maintenance: 250
+	Tile Maintenance: 10
+	Build Time: 60
+	In Queue: True
+	RequireNotTrait(Ancient)
+	ConflictBuilding(LS_SATDEFBLD)
+	IfNotSiege(IfNotHaveStatus(POD, TriggerPeriodic(RepeatTrigger(12, SpawnOrbital(LS_PLANETORBDEF, Free = True, In Orbit = True)), Interval = 90)))

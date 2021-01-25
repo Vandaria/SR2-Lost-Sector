@@ -1,4 +1,6 @@
 Building: WS_BLD_IMP_ECON_RSS_FOOD
-	Name: Food
-	Sprite: Stalk
-	TriggerPeriodic(AddCargo(WS_CARGO_RSS_FOOD, 10), Interval = 6)
+	Name: #WS_BLD_IMP_ECON_RSS_FOOD
+	Sprite: Megafarm
+	Description: #WS_BLD_IMP_ECON_RSS_FOOD_DESC
+	Size: 2x2
+	TriggerPeriodic(AddCargo(WS_CARGO_RSS_FOOD, 5), Interval = 6)
