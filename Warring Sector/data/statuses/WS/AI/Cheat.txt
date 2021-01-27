@@ -1,0 +1,11 @@
+Status: WS_STS_AI_CHEAT
+	Visible To: Nobody
+	TriggerPeriodic(AddCargo(WS_CARGO_RSS_ALLOYS, 200), Interval = 120)
+	TriggerPeriodic(AddCargo(Ore, 2000), Interval = 120)
+	TriggerPeriodic(RemoveStatus(WS_STS_ECON_ALL_CRIME_COUNT), Interval = 1, Max Triggers = 100)
+	TriggerPeriodic(RemoveStatus(WS_STS_ECON_ALL_CRIME_BASE), Interval = 5, Max Triggers = 2)
+	AddResearchIncome(2)
+	AddLaborIncome(50)
+	AddIncome(300)
+	AddFTLIncome(2)
+	AddEnergyIncome(1)

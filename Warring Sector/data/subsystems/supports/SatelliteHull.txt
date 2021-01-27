@@ -1,14 +1,19 @@
-Subsystem: SupportHull
+Subsystem: SatelliteHull
+	Name: Satellites
 	Tags: DefaultUnlock, NoCore, HullSystem
-	Tags: IsSupport, SupportShip
-	Hull: Support
+	Tags: HeraldsDLC
+	Tags: IsSupport
+
+	Hull: Satellite
 	EvaluationOrder: -100
 
-	HexLimit := 126
+	HexLimit := 70
 	FreeHexLimit := 0
 
 	GridWidth := 32
 	GridHeight := 25
+
+	TurnThrust = 0.5 * Size
 
 	Ship.ExternalHexes := 0
 	Ship.HexSize := ShipSize / (HexLimit - FreeHexLimit)
@@ -18,6 +23,14 @@ Subsystem: SupportHull
 	Hex.LaborCost := 0.07 * ShipSize
 	Hex.BuildCost := 0.75 * ShipSize
 
+	AddShipModifier: BuildCostFactor(0.75)
+	AddShipModifier: LaborCostFactor(0.5)
+	AddShipModifier: tag/Weapon::RangeFactor(2.0)
+	AddShipModifier: tag/MissileBase::RangeFactor(0.65)
+	AddShipModifier: tag/MissileBase::DamageFactor(0.65)
+	AddShipModifier: tag/Weapon::DamageFactor(1.5)
+	AddShipModifier: HpFactor(2.0)
+
 	Hex.Mass := 0
 	AddPostModifier: AddMass(ShipSize * (1.0 - max((ShipTotalHexes - Ship.ExternalHexes) / HexLimit, 0.0)))
 
@@ -25,13 +38,8 @@ Subsystem: SupportHull
 		Message: #ERROR_HEX_COUNT
 
 	OnCheckErrors: designs::checkGlobalDesign
+	AddShipModifier: MaintCostFactor(0)
 
-	Hex.OreCost := 0
-	Hex.WS_CARGO_RSS_ALLOYSCost := 0
-	AddPostModifier: AddWS_CARGO_RSS_ALLOYSCost(HexSum.MaintainCost * 0.1)
-	AddPostModifier: AddOreCost(HexSum.LaborCost*0.1)
-	AddPostModifier: AddOreCost(HexSum.BuildCost*0.1)
-	Hex.MaintainCost := (((ShipSize)/(ShipSize^0.5))*(3*(ShipSize/500)))
 	Assert: Ship.Command > 0
 		Message: #ERROR_NEED_CONTROL
 

@@ -1,0 +1,10 @@
+WS_SUB_SUP_WEP_FGHT_BOMBER: Fighter Hanger
+WS_SUB_SUP_WEP_FGHT_BOMBER_DESC: <<
+	Launches a squadron of bombers to attack the enemy fleet.
+
+>>
+WS_SUB_SUP_WEP_FGHT_FIGHTER: Fighter Hanger
+WS_SUB_SUP_WEP_FGHT_FIGHTER_DESC: <<
+	Launches a squadron of fighters to attack the enemy fleet.
+
+>>

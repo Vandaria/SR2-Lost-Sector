@@ -2,7 +2,7 @@ import planet_types;
 
 from planets.PlanetSurface import preparePlanetShader;
 
-const double PLANET_DIST_MAX = 25000;
+const double PLANET_DIST_MAX = 120000;//edit changes planet physical model
 
 enum PlanetSpecial {
 	PS_None,

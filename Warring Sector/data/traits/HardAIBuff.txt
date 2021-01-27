@@ -1,0 +1,17 @@
+Trait: HardAIBuff
+	Name: #LSTRAITS_AI_HARDBUFF
+	Description: #LSTRAITS_AI_HARDBUFF_DESC
+	Category: HardAIBuff
+	Available: False
+	Color: #41ff24
+	AddStatusOwnedPlanets(WS_STS_AI_CHEAT)
+	AddModifier(hull/Support::ThrustFactor(1.5))
+	AddModifier(hull/Support::TurnThrustFactor(1.8))
+	AddModifier(hull/Flagship::TurnThrustFactor(1.8))
+	AddModifier(hull/Flagship::ThrustFactor(1.5))
+	AddModifier(hull/Flagship::MaintCostFactor(0.5))
+	AddModifier(hull/Flagship::HpFactor(1.5))
+	AddModifier(hull/Flagship::RepairFactor(1.5))
+	ModEmpireAttribute(PopulationGrowthFactor, Multiply, 1.2)
+	AddResearchIncome(2)
+	AddModifier(hull/Flagship::LaborCostFactor(0.75))

@@ -5,10 +5,10 @@ import nodes.StrategicIcon;
 import planet_levels;
 
 const double APPROACH_EPSILON = 0.002;
-const double OUTSIDE_DISTANCE = 150000.0;
-const double OUTSIDE_SIZE_MAX = 200000.0;
+const double OUTSIDE_DISTANCE = 200000.0;
+const double OUTSIDE_SIZE_MAX = 250000.0;
 const double ANIMATE_TIME = 0.45;
-const double GRAVITY_DISC_MAX_DIST = 6000.0;
+const double GRAVITY_DISC_MAX_DIST = 10000.0;
 
 const double FADE_DIST_MIN = 2000;
 const double FADE_DIST_MAX = 3000;

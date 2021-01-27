@@ -10,6 +10,8 @@ Building: LS_SATDEFBLD
 	Tile Maintenance: 10
 	Build Time: 60
 	In Queue: True
+	AI: RegisterForUse(LaborStorage)
+	AI: RegisterForUse(Factory)
 	RequireNotTrait(Ancient)
 	ConflictBuilding(LS_SATDEFBLD)
 	IfNotSiege(IfNotHaveStatus(POD, TriggerPeriodic(RepeatTrigger(12, SpawnOrbital(LS_PLANETORBDEF, Free = True, In Orbit = True)), Interval = 90)))

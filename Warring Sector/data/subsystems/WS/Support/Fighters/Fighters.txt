@@ -1,0 +1,63 @@
+Subsystem: DUPLICATE_WS_SUB_SUP_WEP_FGHT_FIGHTERS
+	Name: #WS_SUB_SUP_WEP_FGHT_FIGHTER
+	Description: #WS_SUB_SUP_WEP_FGHT_FIGHTER_DESC
+	BaseColor: #3700ff
+	TypeColor: #3700ff
+	Picture: SubsystemButtonArt::4
+	Elevation: 2
+
+	Tags: BaseCost, HeraldsDLC
+	Tags: WeaponBase, MissileBase, Category:Weapons, Homing
+	Tags: ExteriorCore, Weapon, DefaultUnlock, IsProjWeapon, IsRailgun, HasInternals, MainDPS
+	Hull: Support, Satellite
+
+	Size := HexSize * Hexes
+	Range := Size + 2500
+	Speed := 250
+	Tracking := 15
+	SupplyCost := Size * 3.0
+
+	Lifetime := 30
+
+	DroneCount := 2 * Hexes
+	Damage := (Size *  2.0)
+	FireDelay := 0.01
+
+	Assert: Size >= 1
+		Message: #ERROR_TOO_SMALL
+
+	//DPS is an estimation
+	out DPS := Damage * 10 * DroneCount / Lifetime
+
+	Hex.HP := 18 * HexSize
+	Hex.Resistance := 0.2
+	Hex.Mass := HexSize
+
+	Pierce := 0.6
+	Requires:
+		Command = Hexes / 2
+
+	Module: Default
+
+	Module: Core
+		Hex.HP := Hex.HP * 3
+		Hex.BuildCost := 5.0 * Hex.BuildCost
+		Hex.Mass := 5.0 * Hex.Mass
+
+		Sprite: AncientComputerCore
+		DrawMode: 1
+
+		Hex.DamageResist := ShipSize / 64.0
+		Effect: DamageResist
+			Resist = Hex.DamageResist
+
+	Effector: WS_EFF_FGHT_FGHT
+		Range = Range
+		Damage = Damage
+		Speed = Speed
+		Tracking = Tracking
+		SupplyCost = (SupplyCost * Lifetime) / DroneCount
+		Lifetime = Lifetime
+		DroneCount = DroneCount
+		FireDelay = FireDelay
+		Pierce = Pierce

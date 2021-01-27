@@ -5,7 +5,7 @@ System: HomeSystem
 			SetupOrbit(Radius = 0, Orbit Pct = 0.9)
 			OnPlanet( AddIncome(300) )
 			SpawnBuilding(Factory, (5, 5), Develop = True)
-			AddPopulation(3.0)
+			AddPopulation(10.0)
 	ExpandSystem(10000)
 	
 		MakePlanet(WS_RSS_PLNT_MOON, Radius = 250, Conditions = False, Moons = False, Grid Size = (12,6))
