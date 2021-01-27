@@ -3,4 +3,5 @@ Resource: WS_RSS_PLNT_MOON
 	Native Biome: Artificial
 	Small Icon: PlanetType::4
 	Icon: PlanetType::4
+	OnExportMoveLocalCargo(WS_CARGO_RSS_ALLOYS)
 	OnExportMoveLocalCargo(Ore)

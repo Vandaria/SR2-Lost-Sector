@@ -3,4 +3,5 @@ Resource: WS_RSS_PLNT_TERRESTIAL
 	Native Biome: Forest
 	Small Icon: PlanetType::2
 	Icon: PlanetType::2
+	OnExportMoveLocalCargo(WS_CARGO_RSS_ALLOYS)
 	OnExportMoveLocalCargo(Ore)

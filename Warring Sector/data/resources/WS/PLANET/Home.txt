@@ -4,4 +4,5 @@ Resource: WS_RSS_PLNT_HOME
 	Icon: LeaderIcon
 	Name: Homeworld
 	Native Biome: Forest
+	OnExportMoveLocalCargo(WS_CARGO_RSS_ALLOYS)
 	OnExportMoveLocalCargo(Ore)
