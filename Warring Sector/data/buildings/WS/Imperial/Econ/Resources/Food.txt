@@ -3,4 +3,5 @@ Building: WS_BLD_IMP_ECON_RSS_FOOD
 	Sprite: Megafarm
 	Description: #WS_BLD_IMP_ECON_RSS_FOOD_DESC
 	Size: 2x2
+	RequireNever()
 	TriggerPeriodic(AddCargo(WS_CARGO_RSS_FOOD, 5), Interval = 6)

@@ -1,0 +1,9 @@
+Resource: WS_RSS_PLNT_SPEC_MINING
+	Icon: ResourceIconsSmall::65
+	Small Icon: ResourceIconsSmall::65
+	Name: #WS_RSS_PLNT_SPEC_MINING
+	Description: #WS_RSS_PLNT_SPEC_MINING_DESC
+	Class: Mining
+	Distribution: 0
+	Frequency: 0
+	Can Be Terraformed: False

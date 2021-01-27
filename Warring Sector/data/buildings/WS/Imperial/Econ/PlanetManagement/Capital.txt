@@ -2,7 +2,17 @@ Building: WS_BLD_IMP_ECON_PM_CAPITAL
 	Sprite: FTLStorage
 	Size: 6x4
 	Name: #WS_BLD_IMP_ECON_PM_CAPITAL
-	RequireStatus(WS_STS_ALL_PLANET_COLONY)
+	Category: Planet Management
+	Base Cost: 1500
+	Build Time: 60
+	Description: #WS_BLD_IMP_ECON_PM_CAPITAL_DESC
+	TriggerPeriodic(RepeatTrigger(1, RemoveStatusInstance(WS_STS_ECON_ALL_CRIME_COUNT)))
+	ConsumeCargo(Ore, 3000)
+	ConsumeCargo(WS_CARGO_RSS_ALLOYS, 1000)
 	CannotRemove()
-	RequireStatusToProgress(WS_STS_ECON_ALL_PM_POPCOUNT_16)
-	WS_Hooks::IfPopulationAbove(6, AddStatus(WS_STS_ECON_ALL_PM_POPCOUNT_30))
+	IfHaveStatus(WS_STS_ALL_PLANET_COLONY, OnEnable(RemoveStatus(WS_STS_ALL_PLANET_COLONY)))
+	IfHaveStatus(WS_STS_ALL_PLANET_PLANETCAP, OnDisable(RemoveStatus(WS_STS_ALL_PLANET_PLANETCAP)))
+	OnEnable(AddStatus(WS_STS_ALL_PLANET_PLANETCAP))
+	OnDisable(RemoveStatusInstance(WS_STS_PLANET_Tier1))
+	OnEnable(AddStatus(WS_STS_PLANET_Tier1))
+	RequireStatus(WS_STS_ALL_PLANET_COLONY)

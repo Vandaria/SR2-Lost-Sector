@@ -1,6 +1,6 @@
 System: StandardSystem
 	Inherit: BaseSystem
-	Frequency: 0.50
+	Frequency: 0
 
 	MakeStar(Temperature = 4000:12000, Radius = 2000:300)
 	Repeat(2)

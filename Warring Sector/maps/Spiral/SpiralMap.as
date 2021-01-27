@@ -55,7 +55,7 @@ class SpiralMap : Map {
 		const double spiralCurve = 0.5;
 		
 		int coreSysType = -1;
-		if(systemCount > 50) {
+		if(systemCount > 1) {
 			auto@ bh = getSystemType("CoreBlackhole");
 			if(bh !is null)
 				coreSysType = bh.id;

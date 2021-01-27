@@ -6,7 +6,8 @@ Building: WS_BLD_IMP_ECON_RSS_ALLOY_V1
 	Build Time: 60
 	Base Maintenance: 200
 	Base Cost: 500
-	RequireStatus(WS_STS_ALL_PLANET_OUTPOST)
+	Category: Alloys
+	RequireStatus(WS_STS_PLANET_Tier1)
 	ActiveWhenCargoConsumed(Ore, 10, 6, TriggerPeriodic(AddCargo(WS_CARGO_RSS_ALLOYS, 1), Interval = 6, Trigger Immediate = True))
 Building: WS_BLD_IMP_ECON_RSS_ALLOY_V2
 	Name: #WS_BLD_IMP_ECON_RSS_ALLOY_V2
@@ -16,8 +17,9 @@ Building: WS_BLD_IMP_ECON_RSS_ALLOY_V2
 	Base Cost: 1000
 	Base Maintenance: 200
 	Build Time: 60
-	RequireStatus(WS_STS_ALL_PLANET_OUTPOST)
+	Category: Alloys
 	RequireUnlockTag(AlloyRefinery2)
+	RequireStatus(WS_STS_PLANET_Tier1)
 	ConsumeCargo(WS_CARGO_RSS_ALLOYS, 100)
 	ActiveWhenCargoConsumed(Ore, 10, 6, TriggerPeriodic(AddCargo(WS_CARGO_RSS_ALLOYS, 2), Interval = 6, Trigger Immediate = True))
 Building: WS_BLD_IMP_ECON_RSS_ALLOY_V3
@@ -28,8 +30,10 @@ Building: WS_BLD_IMP_ECON_RSS_ALLOY_V3
 	Build Time: 60
 	Base Cost: 5000
 	Base Maintenance: 500
-	RequireStatus(WS_STS_ALL_PLANET_COLONY)
-	ActiveWhenCargoConsumed(Ore, 10, 6, TriggerPeriodic(AddCargo(WS_CARGO_RSS_ALLOYS, 4), Interval = 6, Trigger Immediate = True))
+	Category: Alloys
+	ActiveWhenCargoConsumed(Ore, 0.1, 6, AddEnergyIncome(-0.25))
+	RequireStatus(WS_STS_PLANET_Tier1)
+	ActiveWhenCargoConsumed(Ore, 9.9, 6, TriggerPeriodic(AddCargo(WS_CARGO_RSS_ALLOYS, 4), Interval = 6, Trigger Immediate = True))
 	RequireUnlockTag(AlloyRefinery3)
 	ConsumeCargo(WS_CARGO_RSS_ALLOYS, 1000)
 	ConsumeCargo(WS_CARGO_RSS_CRYSTALS, 100)

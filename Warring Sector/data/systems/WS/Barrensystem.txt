@@ -1,0 +1,11 @@
+System: VolcanicSystem
+	Inherit: BaseSystem
+	Frequency: 0.3
+	
+	MakeStar(Temperature = 1000:9500, Radius = 1)
+		MakePlanet(WS_RSS_PLNT_BARREN, Radius = 1000, Conditions = False, Moons = False, Grid Size = (15, 9))
+			SetupOrbit(Radius = 0, Orbit Pct = 0.9)
+	ExpandSystem(10000)
+	Repeat(1:4)
+		MakePlanet(WS_RSS_PLNT_MOON, Radius = 250, Conditions = False, Moons = False, Grid Size = (12,6))
+			SetupOrbit(Radius = 4000:12000)

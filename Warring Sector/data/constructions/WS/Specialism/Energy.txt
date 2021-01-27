@@ -1,0 +1,12 @@
+Construction: WS_CONST_PLNT_SPEC_ENERGY
+	Name: #WS_CONST_PLNT_SPEC_ENERGY
+	Description: #WS_CONST_PLNT_SPEC_ENERGY_DESC
+	Category: Specialism
+	Time Cost: 120
+	Build Cost: 2000
+	ConsumeCargo(Ore, 1000)
+	ConsumeCargo(WS_CARGO_RSS_ALLOYS, 200)
+	RequireStatus(WS_STS_ALL_PLANET_COLONY)
+	RequireNotStatus(WS_STS_SPEC_BASE)
+	AddStatus(WS_STS_SPEC_ENERGY)
+	AddStatus(WS_STS_SPEC_BASE)

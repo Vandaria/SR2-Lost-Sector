@@ -1,0 +1,9 @@
+Status: WS_STS_REGION_STAR_BASE
+	Visible To: Nobody
+	AddShipEffectiveness(-0.3)
+	TriggerPeriodic(AddStatus(WS_STS_REGION_STAR_BURN, Duration = 60), Interval = 3)
+Status: WS_STS_REGION_STAR_BURN
+	Collapses: True
+	Name: #WS_STS_REGION_STAR_BURN
+	Icon: ResourceIconsSmall::13
+	TriggerPeriodic(DealDamage(500), Interval = 1)

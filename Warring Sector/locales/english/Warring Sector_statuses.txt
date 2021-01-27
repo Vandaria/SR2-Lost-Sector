@@ -14,3 +14,5 @@ WS_STS_ECON_ALL_CRIME_COUNT_DESC: <<
 >>
 WS_STS_ALL_PLANET_DISLOYAL: Negative Loyalty
 WS_STS_ALL_PLANET_DISLOYAL_DESC: This Planet has negative loyalty and well suffer increasingily severe consequences
+WS_STS_REGION_STAR_BURN: Burning
+WS_STS_PLNT_POPCNTRL_BASE: Currently under Population Controls

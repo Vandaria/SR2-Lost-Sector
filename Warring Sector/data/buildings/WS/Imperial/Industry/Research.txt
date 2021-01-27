@@ -1,0 +1,32 @@
+Building: WS_BLD_IMP_INDUSTRY_RESEARCH_V1
+	Sprite: ResearchComplex
+	Build Time: 60
+	Name: #WS_BLD_IMP_INDUSTRY_RESEARCH_V1
+	Description: #WS_BLD_IMP_INDUSTRY_RESEARCH_V1_DESC
+	Size: 2x2
+	Category: Research
+	Base Maintenance: 150
+	Base Cost: 300
+	RequireStatus(WS_STS_PLANET_Tier1)
+	IfNativeClass(Research, AddResearchIncome(1))
+	ActiveWhenCargoConsumed(Ore, 10, 6, AddResearchIncome(1))
+Building: WS_BLD_IMP_INDUSTRY_RESEARCH_V2
+	Name: #WS_BLD_IMP_INDUSTRY_RESEARCH_V2
+	Sprite: ResearchComplex*#8bb800
+	Size: 2x2
+	Description: #WS_BLD_IMP_INDUSTRY_RESEARCH_V2_DESC
+	Category: Research
+	RequireUnlockTag(Research2)
+	RequireStatus(WS_STS_PLANET_Tier1)
+	ActiveWhenCargoConsumed(Ore, 15, 6, AddResearchIncome(2))
+	IfNativeClass(Research, AddResearchIncome(2))
+Building: WS_BLD_IMP_INDUSTRY_RESEARCH_V3
+	Name: #WS_BLD_IMP_INDUSTRY_RESEARCH_V3
+	Sprite: ResearchComplex*#f67bed
+	Size: 2x2
+	Category: Research
+	Description: #WS_BLD_IMP_INDUSTRY_RESEARCH_V3_DESC
+	RequireUnlockTag(Research3)
+	RequireStatus(WS_STS_PLANET_Tier1)
+	IfNativeClass(Research, AddResearchIncome(3))
+	ActiveWhenCargoConsumed(Ore, 25, 6, AddResearchIncome(4.5))

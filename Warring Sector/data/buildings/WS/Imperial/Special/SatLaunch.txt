@@ -3,7 +3,7 @@ Building: LS_SATDEFBLD
 	Description: #LS_BLD_DEF_SENT_DEF
 	Size: 3x5
 	Sprite: SpaceElevator
-	Category: Military
+	Category: Misc
 	Base Cost: 500
 	Tile Cost: 25
 	Base Maintenance: 250

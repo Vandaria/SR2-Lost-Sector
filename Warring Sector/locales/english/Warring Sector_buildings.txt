@@ -25,7 +25,9 @@ WS_BLD_IMP_ECON_RSS_ALLOY_V3: Refinery District
 	Turns Ore into Alloys.
 
 	Consumes 100 Ore per minute.
+	0.25 Energy Maint
 	Produces 40 Alloys per minute
+
 >>
 WS_BLD_IMP_ECON_PM_OUTPOST_DESC: <<
 	Upgrades the planet to an official outpost of your empire.
@@ -33,13 +35,9 @@ WS_BLD_IMP_ECON_PM_OUTPOST_DESC: <<
 	[img=Plus] Allows for more population and higher planet level[/img]
 	[img=Plus] Unlocks more advanced buildings [/img]
 	[img=Plus] Able to sustain a large economy [/img]
-
-	[img=Minus] Planet well start to consume and require food [/img]
-	[offset=30][img=MenuIcons::3;20] Planets without food well starve and suffer negative effects[/img][/offset]
-	[offset=30][img=MenuIcons::3;20] Planets requires at least 50 food per minute[/img][/offset]
-
 	[img=Minus] Planet well start to experience some minor levels of crime[/img]
 	[offset=30][img=MenuIcons::3;20] Crime is determined by total pop. This can be offset by certain imperial buildings Crime  carries negative effects[/img][/offset]
+	[offset=30][img=MenuIcons::3;20] At Max Population(before modifers) you require 1 police station to maintain levels of crime [/img][/offset]
 
 >>
 WS_BLD_IMP_ECON_RSS_ORE_BASIC: Simple Mine
@@ -72,4 +70,84 @@ WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V1_DESC: <<
 	[img=Plus] If Moon, reliably produce 75 ore per minute[/img]
 
 	[img=Minus] If Terrestial Planet, reduce loyalty by 1, reduce max Population by 2, reduce population growth by 50%, [b]Unreliably[/b] produce 150 Ore per minute [/img]
+>>
+WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V2: Advance Stripmine
+WS_BLD_IMP_ECON_RSS_ORE_COREMINE: Core Mine
+WS_BLD_IMP_INDUSTRY_RESEARCH_V1: Research Lab
+#WS_BLD_IMP_INDUSTRY_RESEARCH_V1_DESC: Provides 1 Research Income base.
+WS_BLD_IMP_INDUSTRY_RESEARCH_V2: Research Complex
+WS_BLD_IMP_INDUSTRY_RESEARCH_V3: Research Centre
+WS_BLD_IMP_INDUSTRY_RESEARCH_V1_DESC: <<
+	Produces Research Income
+
+	[img=Plus] Adds 1 Income[/img]
+
+	[img=Minus] Costs 100 ore per minute[/img]
+>>
+WS_BLD_IMP_INDUSTRY_RESEARCH_V2_DESC: <<
+	Produces Research Income
+
+	[img=Plus] Adds 2 Income[/img]
+
+	[img=Minus] Costs 150 ore per minute[/img]
+>>
+WS_BLD_IMP_INDUSTRY_RESEARCH_V3_DESC: <<
+	Produces Research Income
+
+	[img=Plus] Adds 4.5 Income[/img]
+
+	[img=Minus] Costs 250 ore per minute[/img]
+>>
+WS_BLD_IMP_INDUSTRY_Energy_V3_DESC: <<
+	Produces Energy Income
+
+	[img=Plus] Adds 4.5 Income[/img]
+
+	[img=Minus] Costs 250 ore per minute[/img]
+>>
+WS_BLD_IMP_INDUSTRY_Energy_V1_DESC: <<
+	Produces Research Income
+
+	[img=Plus] Adds 1 Income[/img]
+
+	[img=Minus] Costs 100 ore per minute[/img]
+>>
+WS_BLD_IMP_INDUSTRY_Energy_V2_DESC: <<
+	Produces Research Income
+
+	[img=Plus] Adds 2 Income[/img]
+
+	[img=Minus] Costs 150 ore per minute[/img]
+>>
+WS_BLD_IMP_INDUSTRY_Energy_V1: Generator
+WS_BLD_IMP_INDUSTRY_Energy_V2: Power Plant
+WS_BLD_IMP_INDUSTRY_Energy_V3: Energy Extractor
+WS_BLD_IMP_ECON_CRIME_STATION: Police Station
+WS_BLD_IMP_ECON_CRIME_STATION_DESC: Reduces Crime by 1 Stack per Minute
+WS_BLD_IMP_ECON_PM_COLONY_DESC: <<
+	Upgrades the planet to an official outpost of your empire.
+
+	[img=Plus] Allows for more population and higher planet level[/img]
+	[img=Plus] Unlocks more advanced buildings [/img]
+	[img=Plus] Able to sustain a large economy [/img]
+	[img=Minus] Planet well start to experience some medium levels of crime[/img]
+	[offset=30][img=MenuIcons::3;20] Crime is determined by total pop. This can be offset by certain imperial buildings Crime  carries negative effects[/img][/offset]
+
+	[offset=30][img=MenuIcons::3;20] At Max Population(before modifers) you require 4 police station to maintain levels of crime [/img][/offset]
+
+
+>>
+WS_BLD_IMP_ECON_PM_CAPITAL_DESC: <<
+	Upgrades the planet to an official outpost of your empire.
+
+	[img=Plus] Allows for more population and higher planet level[/img]
+	[img=Plus] Unlocks more advanced buildings [/img]
+	[img=Plus] Able to sustain a large economy [/img]
+	[img=Plus] Helps to reduce Crime [/img]
+	[img=Minus] Planet well start to experience some High levels of crime[/img]
+	[offset=30][img=MenuIcons::3;20] Crime is determined by total pop. This can be offset by certain imperial buildings Crime  carries negative effects[/img][/offset]
+
+	[offset=30][img=MenuIcons::3;20] At Max Population(before modifers) you require 6 police station to maintain levels of crime [/img][/offset]
+
+
 >>

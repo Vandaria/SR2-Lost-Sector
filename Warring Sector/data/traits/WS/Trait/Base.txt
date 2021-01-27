@@ -1,12 +1,11 @@
 Trait: WS_TRAITS_BASE_ALL_STANDARD
 	Available: False
 	Unique: BaseOrganic
-	TriggerHomeworld(SpawnBuilding(WS_BLD_IMP_ECON_RSS_FOOD, (1,5), Develop = True))
-	TriggerHomeworld(AddCargo(WS_CARGO_RSS_FOOD, 500))
+	TriggerHomeworld(SpawnBuilding(WS_BLD_IMP_ECON_CRIME_STATION, (0,3), Develop = True))
+	TriggerHomeworld(SpawnOrbital(Shipyard, Free = True, In Orbit = True))
 	TriggerHomeworld(AddCargo(WS_CARGO_RSS_ALLOYS, 50))
 	TriggerHomeworld(AddCargo(Ore, 300))
 	TriggerHomeworld(SpawnBuilding(WS_BLD_IMP_ECON_RSS_ORE_BASIC, (10,10), Develop = True))
-	TriggerHomeworld(SpawnBuilding(Factory, (5,5), Develop = True))
 	AddStatusOwnedPlanets(WS_STS_ECON_ALL_CRIME_BASE)
 	TriggerHomeworld(SpawnBuilding(WS_BLD_IMP_ECON_PM_OUTPOST, (1,1), Develop = True))
 	TriggerHomeworld(DestroyBuildingAt((4, 3), Undevelop = True))

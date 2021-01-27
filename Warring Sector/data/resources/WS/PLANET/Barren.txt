@@ -1,3 +1,4 @@
 Resource: WS_RSS_PLNT_BARREN
 	Class: Barren
+	Native Biome: Desert
 	OnExportMoveLocalCargo(Ore)

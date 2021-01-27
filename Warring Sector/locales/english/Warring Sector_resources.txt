@@ -3,3 +3,9 @@ WS_CARGO_RSS_FOOD_DESC: Processed Ore ready for use
 WS_CARGO_RSS_CRYSTALS: Energised Crystals
 WS_CARGO_RSS_ALLOYS: Alloys
 WS_CARGO_RSS_ALLOYS_DESC: Processed Ore ready for use
+WS_RSS_PLNT_SPEC_MINING: Mining World
+WS_RSS_PLNT_SPEC_MINING_DESC: A planet specialised for mining
+WS_RSS_PLNT_SPEC_RESEARCH: Research Planet
+WS_RSS_PLNT_SPEC_RESEARCH_DESC: A planet specialised for research.
+WS_RSS_PLNT_SPEC_ENERGY_DESC: A planet specialised for energy
+WS_RSS_PLNT_SPEC_ENERGY: Energy Planet

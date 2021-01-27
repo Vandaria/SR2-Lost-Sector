@@ -1,0 +1,9 @@
+Resource: WS_RSS_PLNT_SPEC_RESEARCH
+	Small Icon: TabResearch
+	Icon: TabResearch
+	Name: #WS_RSS_PLNT_SPEC_RESEARCH
+	Description: #WS_RSS_PLNT_SPEC_RESEARCH_DESC
+	Class: Research
+	Distribution: 0
+	Frequency: 0
+	Can Be Terraformed: False

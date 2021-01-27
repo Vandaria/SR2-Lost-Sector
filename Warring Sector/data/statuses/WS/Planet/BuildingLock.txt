@@ -1,0 +1,3 @@
+Status: WS_STS_PLANET_Tier1
+	Visible To: Nobody
+	Collapses: True

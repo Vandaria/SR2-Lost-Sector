@@ -1,0 +1,11 @@
+Status: WS_STS_SPEC_BASE
+	Visible To: Nobody
+Status: WS_STS_SPEC_RESERCH
+	Visible To: Nobody
+	AddPlanetResource(WS_RSS_PLNT_SPEC_RESEARCH)
+Status: WS_STS_SPEC_MINING
+	Visible To: Nobody
+	AddPlanetResource(WS_RSS_PLNT_SPEC_MINING)
+Status: WS_STS_SPEC_ENERGY
+	Visible To: Nobody
+	AddPlanetResource(WS_RSS_PLNT_SPEC_ENERGY)

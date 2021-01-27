@@ -3,14 +3,24 @@ Building: WS_BLD_IMP_ECON_RSS_ORE_BASIC
 	Size: 2x2
 	Name: #WS_BLD_IMP_ECON_RSS_ORE_BASIC
 	Description: #WS_BLD_IMP_ECON_RSS_ORE_BASIC_DESC
-	Base Maintenance: 150
+	Base Maintenance:
 	Base Cost: 300
 	Build Time: 60
+	Category: Ore
+	RequireNever()
+	IfNativeClass(Mining, TriggerPeriodic(AddCargo(Ore, 1), Interval = 6))
 	TriggerPeriodic(AddCargo(Ore, 1), Interval = 6)
 Building: WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V1
 	Name: #WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V1
 	Description: #WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V1_DESC
-	IfNativeClass(Barren, TriggerPeriodic(AddCargo(Ore, 7.5), Interval = 6))
+	Sprite: StripMiner
+	Size: 5x3
+	Build Time: 60
+	Category: Ore
+	Base Cost: 300
+	Base Maintenance: 150
+	IfNativeClass(Mining, TriggerPeriodic(AddCargo(Ore, 15), Interval = 6))
+	IfNativeClass(Moon, TriggerPeriodic(AddCargo(Ore, 7.5), Interval = 6))
 	IfNativeClass(Barren, TriggerPeriodic(AddCargo(Ore, 15), Interval = 6))
 	IfNativeClass(Volcanic, TriggerPeriodic(AddCargo(Ore, 20), Interval = 6))
 	IfNativeClass(Terrestial, TriggerPeriodic(RandomTrigger(0.55, AddCargo(Ore, 150))))
@@ -18,4 +28,22 @@ Building: WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V1
 	IfNativeClass(Terrestial, AddMaxPopulation(-2))
 	IfNativeClass(Terrestial, ModLoyalty(-1))
 Building: WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V2
+	Name: #WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V2
+	Description: #WS_BLD_IMP_ECON_RSS_ORE_STRIPMINE_V2_DESC
+	Sprite: StripMiner*#8bb800
+	Size: 5x3
+	Category: Ore
+	Base Cost: 300
+	Base Maintenance: 150
+	Build Time: 60
+	RequireUnlockTag(Mine2)
 Building: WS_BLD_IMP_ECON_RSS_ORE_COREMINE
+	Sprite: PlanetThruster*#df123d
+	Name: #WS_BLD_IMP_ECON_RSS_ORE_COREMINE
+	Size: 5x5
+	Build Time: 60
+	Category: Ore
+	RequireUnlockTag(CoreMiner)
+	TriggerPeriodic(DealStellarDamage(15000000), Interval = 1)
+	TriggerPeriodic(AddCargo(Ore, 100), Interval = 6)
+	RequireNativeClass(Moon)

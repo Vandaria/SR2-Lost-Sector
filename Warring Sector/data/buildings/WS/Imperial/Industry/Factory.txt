@@ -5,5 +5,6 @@ Building: WS_BLD_IMP_INDUSTRY_FACTORYBOOST
 	Size: 3x3
 	Base Cost: 500
 	Base Maintenance: 100
-	RequireStatus(WS_STS_ALL_PLANET_OUTPOST)
+	Category: Production
+	RequireStatus(WS_STS_PLANET_Tier1)
 	ActiveWhenCargoConsumed(WS_CARGO_RSS_ALLOYS, 1, 6, AddLaborFactor(0.3))

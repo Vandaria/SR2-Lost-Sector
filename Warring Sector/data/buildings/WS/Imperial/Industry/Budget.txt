@@ -2,5 +2,8 @@ Building: WS_BLD_IMP_INDUSTRY_ORE2BUDGET
 	Name: #WS_BLD_IMP_INDUSTRY_ORE2BUDGET
 	Sprite: TechIcons::43
 	Size: 2x2
-	RequireStatus(WS_STS_ALL_PLANET_OUTPOST)
-	ActiveWhenCargoConsumed(Ore, 100, 60, AddMoneyIncome(300))
+	Category: Misc
+	Build Time: 120
+	Base Cost: 1000
+	RequireStatus(WS_STS_PLANET_Tier1)
+	ActiveWhenCargoConsumed(Ore, 100, 60, AddMoneyIncome(200))

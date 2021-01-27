@@ -1,3 +1,6 @@
 Resource: WS_RSS_PLNT_TERRESTIAL
 	Class: Terrestial
+	Native Biome: Forest
+	Small Icon: PlanetType::2
+	Icon: PlanetType::2
 	OnExportMoveLocalCargo(Ore)

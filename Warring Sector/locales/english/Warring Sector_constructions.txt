@@ -1,0 +1,8 @@
+WS_CONST_PLNT_SPEC_RESEARCH: Planet Specialise - Research
+WS_CONST_PLNT_SPEC_ENERGY: Planet Specialise - Energy
+WS_CONST_PLNT_SPEC_ENERGY_DESC: Boosts the income of Energy Buildings.
+WS_CONST_PLNT_SPEC_RESEARCH_DESC: Boosts the income of Research Buildings.
+WS_CONST_PLNT_SPEC_MINING: Planet Specialise - Mining
+WS_CONST_PLNT_SPEC_MINING_DESC: Boosts the income of Mining Buildings.
+WS_CONST_PLNT_SPEC_CLEAR: Remove Specialism
+WS_CONST_PLNT_SPEC_CLEAR_DESC: Remove a Planets Specialism

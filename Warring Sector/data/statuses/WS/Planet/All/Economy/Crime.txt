@@ -2,12 +2,38 @@ Status: WS_STS_ECON_ALL_CRIME_BASE
 	Icon: SupportNayIcon
 	Collapses: True
 	Visible To: Nobody
-	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 5))
-	WS_Hooks::IfPopulationAbove(80, IfPopulationBelow(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 10)))
-	WS_Hooks::IfPopulationAbove(50, IfPopulationBelow(80, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 25)))
-	WS_Hooks::IfPopulationAbove(30, IfPopulationBelow(50, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 20), Interval = 30)))
-	WS_Hooks::IfPopulationAbove(16, IfPopulationBelow(30, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 15), Interval = 45)))
-	WS_Hooks::IfPopulationAbove(3, IfPopulationBelow(16, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 10))))
+	//10
+	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 60))
+	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 60))
+	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 60))
+	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 60))
+	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 60))
+	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 60))
+	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 60))
+	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 60))
+	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 60))
+	WS_Hooks::IfPopulationAbove(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 100), Interval = 60))
+	//6
+	WS_Hooks::IfPopulationAbove(80, IfPopulationBelow(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(80, IfPopulationBelow(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(80, IfPopulationBelow(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(80, IfPopulationBelow(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(80, IfPopulationBelow(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(80, IfPopulationBelow(110, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 60)))
+	//4
+	WS_Hooks::IfPopulationAbove(50, IfPopulationBelow(80, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(50, IfPopulationBelow(80, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(50, IfPopulationBelow(80, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(50, IfPopulationBelow(80, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 30), Interval = 60)))
+	//3
+	WS_Hooks::IfPopulationAbove(30, IfPopulationBelow(50, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 20), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(30, IfPopulationBelow(50, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 20), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(30, IfPopulationBelow(50, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 20), Interval = 60)))
+	//2
+	WS_Hooks::IfPopulationAbove(16, IfPopulationBelow(30, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 15), Interval = 60)))
+	WS_Hooks::IfPopulationAbove(16, IfPopulationBelow(30, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 15), Interval = 60)))
+	//1
+	WS_Hooks::IfPopulationAbove(8, IfPopulationBelow(16, TriggerPeriodic(AddStatus(WS_STS_ECON_ALL_CRIME_COUNT, Max Stacks = 10))))
 Status: WS_STS_ECON_ALL_CRIME_COUNT
 	Collapses: True
 	Icon: ResourceIcons::38
@@ -15,6 +41,6 @@ Status: WS_STS_ECON_ALL_CRIME_COUNT
 	Description: #WS_STS_ECON_ALL_CRIME_COUNT_DESC
 	AddLaborFactor(0.015)
 	AddLaborStorage(5)
-	TriggerPeriodic(RandomTrigger(0.05, SpawnCreepCamp(Camp Type = WS_CREEP_PIRATE_MEDIUM)))
+	TriggerPeriodic(RandomTrigger(0.02, SpawnCreepCamp(Camp Type = WS_CREEP_PIRATE_MEDIUM)))
 	ModLoyalty(-1)
 	AddMoneyIncome(-30)

@@ -1,6 +1,6 @@
 Resource: WS_RSS_PLNT_VOLCANIC
 	Class: Volcanic
-	AddPressure(Labor, 8)
-	AddPressure(Energy, 8)
-	AddPressure(Money, 8)
+	Native Biome: Crystallic
+	Small Icon: PlanetType::0
+	Icon: PlanetType::0
 	OnExportMoveLocalCargo(Ore)

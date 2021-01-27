@@ -2,8 +2,8 @@
 import maps;
 
 const int DEFAULT_SYSTEM_COUNT = 25;
-const double DEFAULT_SPACING = 55000.0;//6500
-const double MIN_SPACING = 55000.0;//6500
+const double DEFAULT_SPACING = 105000.0;//6500
+const double MIN_SPACING = 105000.0;//6500
 
 void init() {
 	auto@ mapClass = getClass("Map");

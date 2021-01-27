@@ -1,3 +1,7 @@
 Resource: WS_RSS_PLNT_HOME
 	Class: Terrestial
+	Small Icon: LeaderIcon
+	Icon: LeaderIcon
+	Name: Homeworld
+	Native Biome: Forest
 	OnExportMoveLocalCargo(Ore)

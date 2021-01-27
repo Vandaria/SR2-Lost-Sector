@@ -1,19 +1,18 @@
 System: HomeSystem
 	RepeatHomeworlds()
-		MakePlanet(WS_RSS_PLNT_HOME, Grid Size = (18, 11), Conditions = False, Moons = False)
-			BonusHealth(5000000000)
-			AddPlanetResource(Water)
-			AddResource(Labor, +1)
-			OnPlanet( AddIncome(130) )
+
+		MakePlanet(WS_RSS_PLNT_HOME, Radius = 1000, Conditions = False, Moons = False, Grid Size = (15, 11))
+			SetupOrbit(Radius = 0, Orbit Pct = 0.9)
+			OnPlanet( AddIncome(300) )
+			SpawnBuilding(Factory, (5, 5), Develop = True)
 			AddPopulation(3.0)
-			SpawnBuilding(Factory, (4, 3), Develop = True)
-			OnPlanet( AddPressureCap(2) )
-			NoNeedPopulationForLevel()
-			ForceUsefulSurface(0.8, Forest)
-
-	MakePlanet(WS_RSS_PLNT_VOLCANIC, Conditions = False, Moons = False)
-	MakePlanet(WS_RSS_PLNT_VOLCANIC, Conditions = False, Moons = False)
-	MakePlanet(WS_RSS_PLNT_VOLCANIC, Conditions = False, Moons = False)
-
-	MakeAsteroid(Cargo = Ore, Cargo Amount = 6000)
+	ExpandSystem(10000)
+	
+		MakePlanet(WS_RSS_PLNT_MOON, Radius = 250, Conditions = False, Moons = False, Grid Size = (12,6))
+			SetupOrbit(Radius = 6000, Orbit Pct = 0.9)
+			
+		MakePlanet(WS_RSS_PLNT_MOON, Radius = 250, Conditions = False, Moons = False, Grid Size = (12,6))
+			SetupOrbit(Radius = 10000, Orbit Pct = 0.4)
+		
+		
 

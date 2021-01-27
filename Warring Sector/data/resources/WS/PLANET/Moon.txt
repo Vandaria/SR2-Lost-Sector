@@ -1,3 +1,6 @@
 Resource: WS_RSS_PLNT_MOON
 	Class: Moon
+	Native Biome: Artificial
+	Small Icon: PlanetType::4
+	Icon: PlanetType::4
 	OnExportMoveLocalCargo(Ore)

@@ -1,0 +1,5 @@
+Status: WS_STS_PLNT_POPCNTRL_BASE
+	Name: #WS_STS_PLNT_POPCNTRL_BASE
+	Icon: MaskNeutral
+Status: WS_STS_PLNT_POPCNTRL_15
+	Visible To: Nobody

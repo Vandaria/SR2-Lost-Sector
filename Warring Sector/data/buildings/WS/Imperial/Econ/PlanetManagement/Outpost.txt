@@ -3,6 +3,9 @@ Building: WS_BLD_IMP_ECON_PM_OUTPOST
 	Name: #WS_BLD_IMP_ECON_PM_OUTPOST
 	Description: #WS_BLD_IMP_ECON_PM_OUTPOST_DESC
 	Size: 2x2
+	Category: Planet Management
+	Build Time: 60
+	Base Cost: 300
 	//Enable, must add status, check for old status and remove
 	OnEnable(AddStatus(WS_STS_ALL_PLANET_OUTPOST))
 	IfHaveStatus(WS_STS_ALL_PLANETBASE, OnEnable(RemoveStatus(WS_STS_ALL_PLANETBASE)))
@@ -10,9 +13,8 @@ Building: WS_BLD_IMP_ECON_PM_OUTPOST
 	IfHaveStatus(WS_STS_ALL_PLANET_OUTPOST, OnDisable(RemoveStatus(WS_STS_ALL_PLANET_OUTPOST)))
 	IfNotHaveStatus(WS_STS_ALL_PLANET_COLONY, IfNotHaveStatus(WS_STS_ALL_PLANET_PLANETCAP, OnDisable(AddStatus(WS_STS_ALL_PLANETBASE))))
 	//add pop count stat for next tier of crime and rss use
-	WS_Hooks::IfPopulationAbove(6, AddStatus(WS_STS_ECON_ALL_PM_POPCOUNT_6))
 	//requirements/conflicts
-	IfNotHaveStatus(WS_STS_PLANET_FOODMET, TriggerPeriodic(AddStatus(WS_STS_PLANET_FOODNO_lvl1, Duration = 60, Max Stacks = 10), Interval = 10, Trigger Immediate = True))
-	WhileConsumingCargo(WS_CARGO_RSS_FOOD, 5, 6, AddStatus(WS_STS_PLANET_FOODMET))
-	CannotRemove()
+	OnDisable(RemoveStatusInstance(WS_STS_PLANET_Tier1))
+	OnEnable(AddStatus(WS_STS_PLANET_Tier1))
+	OnDisable(AddStatus(WS_STS_ALL_PLANETBASE))
 	ConflictBuilding(WS_BLD_IMP_ECON_PM_OUTPOST)

@@ -1,0 +1,9 @@
+Resource: WS_RSS_PLNT_SPEC_ENERGY
+	Small Icon: ResourceIcons::29
+	Icon: ResourceIcons::29
+	Name: #WS_RSS_PLNT_SPEC_ENERGY
+	Description: #WS_RSS_PLNT_SPEC_ENERGY_DESC
+	Class: Research
+	Frequency: 0
+	Distribution: 0
+	Can Be Terraformed: False
