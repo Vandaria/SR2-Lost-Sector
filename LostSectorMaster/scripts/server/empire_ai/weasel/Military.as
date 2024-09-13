@@ -485,9 +485,9 @@ class Military : AIComponent {
 		int supHave = obj.SupplyUsed - obj.SupplyGhost;
 
 		//Build some supports
-		int supSize = pow(2, round(::log(double(supCap) * randomd(0.005, 0.03))/::log(2.0)));
+		//int supSize = pow(2, round(::log(double(supCap) * randomd(0.005, 0.03))/::log(2.0)));
+		int supSize = ((supCap/100) * randomd(1, 5));
 		supSize = max(min(supSize, supCap - supHave), 1);
-
 		SupportOrder ord;
 		@ord.onObject = obj;
 		@ord.design = designs.design(DP_Support, supSize);
@@ -504,7 +504,7 @@ class Military : AIComponent {
 		//See if we should retrofit anything
 		if(mainWait is null && !spentMoney && gameTime > ai.behavior.flagshipBuildMinGameTime) {
 			int availMoney = budget.spendable(BT_Military);
-			int moneyTargetSize = floor(double(availMoney) * ai.behavior.shipSizePerMoney);
+			int moneyTargetSize = floor((double(availMoney) / 2) * ai.behavior.shipSizePerMoney);
 
 			//See if one of our fleets is old enough that we can retrofit it
 			for(uint i = 0, cnt = fleets.fleets.length; i < cnt; ++i) {

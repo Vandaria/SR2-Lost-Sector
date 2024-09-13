@@ -13,6 +13,9 @@ Module: OrbitalHanger
 	Description: #LS_ORB_DEF_OH_DESC
 	Icon Size: 0.005
 	Maintenance: 1000
+	AllowConstruction(Supports Only = True, Enable Fill From = True)
+	OnDisable(RemoveStatusInstance(LS_STS_AI_SupOrbcount))
+	AddStatusToOrbitingPlanet(LS_STS_AI_SupOrbcount)
 	LimitOncePerSystem(LSDEFOH)
 	AddLocalDefense(90)
 	AllowFreeRaiding()

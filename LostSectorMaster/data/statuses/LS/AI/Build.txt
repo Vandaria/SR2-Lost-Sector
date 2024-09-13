@@ -1,0 +1,10 @@
+Status: LS_STS_AI_BUILD
+	Visible To: Nobody
+	IfHaveTrait(HardAIBuff, IfLevel(3, IfNotHaveStatus(LS_STS_AI_ShipOrbCount, TriggerPeriodic(SpawnOrbital(Shipyard, Free = True, In Orbit = True), Interval = 300))))
+	IfHaveTrait(NormalAIBuff, IfLevel(3, IfNotHaveStatus(LS_STS_AI_ShipOrbCount, TriggerPeriodic(SpawnOrbital(Shipyard, Free = True, In Orbit = True), Interval = 300))))
+	IfHaveTrait(HardAIBuff, IfLevel(3, IfNotHaveStatus(LS_STS_AI_SupOrbcount, TriggerPeriodic(SpawnOrbital(OrbitalHanger, Free = True, In Orbit = True), Interval = 300))))
+	IfHaveTrait(NormalAIBuff, IfLevel(3, IfNotHaveStatus(LS_STS_AI_SupOrbcount, TriggerPeriodic(SpawnOrbital(OrbitalHanger, Free = True, In Orbit = True), Interval = 300))))
+Status: LS_STS_AI_SupOrbcount
+	Visible To: Nobody
+Status: LS_STS_AI_ShipOrbCount
+	Visible To: Nobody

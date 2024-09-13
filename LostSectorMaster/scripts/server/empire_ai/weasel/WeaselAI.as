@@ -117,7 +117,7 @@ class ProfileData {
 
 final class AIBehavior {
 	//How many focuses we can manage in a tick
-	uint focusPerTick = 2;
+	uint focusPerTick = 5;
 
 	//The maximum colonizations this AI can do in one turn
 	uint maxColonizations = UINT_MAX;
@@ -193,19 +193,19 @@ final class AIBehavior {
 	//Maximum combat fleets we can have in service at once (counts starting fleet(s))
 	uint maxActiveFleets = UINT_MAX;
 	//How much flagship size we try to make per available money
-	double shipSizePerMoney = 1.0 / 3.5;
+	double shipSizePerMoney = 1.0 / 5;
 	//How much flagship size we try to make per available labor
 	double shipSizePerLabor = 1.0 / 0.33;
 	//How much maintenance we expect per ship size
-	double maintenancePerShipSize = 2.0;
+	double maintenancePerShipSize = 0.5;
 	//Minimum percentage increase in size before we decide to retrofit a flagship to be bigger
 	double shipRetrofitThreshold = 0.5;
 	//Whether to retrofit our free starting fleet if appropriate
 	bool retrofitFreeFleets = false;
 	//Minimum percentage of average current flagship size new fleets should be
-	double flagshipBuildMinAvgSize = 1.00;
+	double flagshipBuildMinAvgSize = 0.8;
 	//Minimum game time before we consider constructing new flagships
-	double flagshipBuildMinGameTime = 4.0 * 60.0;
+	double flagshipBuildMinGameTime = 40;
 	//Whether to build factories when we need labor
 	bool buildFactoryForLabor = true;
 	//Whether to build warehouses when we're not using labor

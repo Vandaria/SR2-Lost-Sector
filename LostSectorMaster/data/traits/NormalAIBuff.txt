@@ -4,6 +4,7 @@ Trait: NormalAIBuff
 	Category: NormalAIBuff
 	Available: False
 	Color: #41ff24
+	OnHomeworld(AddStatus(LS_STS_AI_BUILD))
 	AddModifier(hull/Flagship::MaintCostFactor(0.75))
 	AddModifier(hull/Flagship::HpFactor(1.25))
 	AddModifier(hull/Flagship::RepairFactor(1.25))
