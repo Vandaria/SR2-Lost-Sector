@@ -133,11 +133,11 @@ final class AIBehavior {
 	//How much this AI values claiming new systems instead of colonizing stuff in its existing ones
 	double weightOutwardExpand = 2.0;
 	//How much money this AI considers a colonization event to cost out of the budget
-	int colonizeBudgetCost = 80;
+	int colonizeBudgetCost = 90;
 	//Whether to do any generic expansion beyond any requests
 	bool colonizeGenericExpand = true;
 	//Latest percentage into a budget cycle that we still allow colonization
-	double colonizeMaxBudgetProgress = 0.66;
+	double colonizeMaxBudgetProgress = 0.75;
 	//Time after initial ownership change that an incomplete colonization is canceled
 	double colonizeFailGraceTime = 100.0;
 	//Time a planet that we failed to colonize is disregarded for colonization
@@ -152,7 +152,7 @@ final class AIBehavior {
 	//How long we consider all fleets viable for scouting with
 	double scoutAllTimer = 3.0 * 60.0;
 	//How many scouts we want to have active
-	uint scoutsActive = 2;
+	uint scoutsActive = 3;
 	//How many scanning missions we can do at once
 	uint maxScanningMissions = 1;
 	//Whether to prioritize scouting over scanning if we only have one scout
@@ -167,7 +167,7 @@ final class AIBehavior {
 	double focusColonizeHighTierWeight = 1.0;
 
 	//How many potential designs are evaluated before choosing the best one
-	uint designEvaluateCount = 10;
+	uint designEvaluateCount = 30;
 	//How long a fleet has to be fully idle before it returns to its stationed system
 	double fleetIdleReturnStationedTime = 60.0;
 	//How long we try to have a fleet be capable of firing before running out of supplies
@@ -197,7 +197,7 @@ final class AIBehavior {
 	//How much flagship size we try to make per available labor
 	double shipSizePerLabor = 1.0 / 0.33;
 	//How much maintenance we expect per ship size
-	double maintenancePerShipSize = 0.5;
+	double maintenancePerShipSize = 0.3;
 	//Minimum percentage increase in size before we decide to retrofit a flagship to be bigger
 	double shipRetrofitThreshold = 0.5;
 	//Whether to retrofit our free starting fleet if appropriate
@@ -224,7 +224,7 @@ final class AIBehavior {
 	bool remnantAllowArbitraryClear = true;
 
 	//Whether we should aggressively try to take out enemies
-	bool aggressive = false;
+	bool aggressive = true;
 	//Whether to become aggressive after we get boxed in and can no longer expand anywhere
 	bool aggressiveWhenBoxedIn = false;
 	//Whether we should never declare war ourselves
@@ -238,7 +238,7 @@ final class AIBehavior {
 	//How much stronger we want to be before we attack a system
 	double attackStrengthOverkill = 0.8;
 	//How many battles we can be performing at once
-	uint maxBattles = UINT_MAX;
+	uint maxBattles = 999;
 	//How much we try to overkill while fighting
 	double battleStrengthOverkill = 0.8;
 	//How many fleets we don't commit to attacks when we're already currently fighting

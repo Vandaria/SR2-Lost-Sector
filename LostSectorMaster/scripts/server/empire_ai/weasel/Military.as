@@ -220,7 +220,7 @@ class StagingBase {
 			}
 		}
 
-		if((idleTime >= 10.0 * 60.0 || region.PlanetsMask & ai.mask == 0) && (shipyardBuild is null || shipyard !is null) && (factory is null || (shipyard !is null && factory.obj is shipyard.obj)) && military.stagingBases.length >= 2) {
+		if((idleTime >= 3.0 * 60.0 || region.PlanetsMask & ai.mask == 0) && (shipyardBuild is null || shipyard !is null) && (factory is null || (shipyard !is null && factory.obj is shipyard.obj)) && military.stagingBases.length >= 2) {
 			if(shipyard !is null) {
 				cast<Orbital>(shipyard.obj).scuttle();
 			}
@@ -502,7 +502,7 @@ class Military : AIComponent {
 
 	void findSomethingToDo() {
 		//See if we should retrofit anything
-		if(mainWait is null && !spentMoney && gameTime > ai.behavior.flagshipBuildMinGameTime) {
+		if(mainWait is null && gameTime > ai.behavior.flagshipBuildMinGameTime) {
 			int availMoney = budget.spendable(BT_Military);
 			int moneyTargetSize = floor((double(availMoney) / 2) * ai.behavior.shipSizePerMoney);
 
@@ -522,6 +522,9 @@ class Military : AIComponent {
 
 				//Don't retrofit free fleets
 				if(ship.isFree && !ai.behavior.retrofitFreeFleets)
+					continue;
+					//Don't retrofit 
+				if(!ship.isFree && !ai.behavior.retrofitFreeFleets)
 					continue;
 
 				//Find the factory assigned to this
